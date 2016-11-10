@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "LeccionIngles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/LeccionesIngles.js"></script>
+
+<p id="nivelActual">@ViewBag.NivelIngles</p>
+
+<div ng-app="inglesApp" ng-controller="inglesController">
+    <div style="margin-top: 50px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <aside style="margin: 1% 0 0 0;" class="panelesPublicitarios col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="/imagenes/anunciateAqui.png" style="width: 100%; height: auto;">
+        </aside>
+    </div>
+
+    <div style="margin-top: 1%;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+        <div style="float: left; text-align: center;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <a id="unoBTN" class="btn btn-info" href="#/inglesUno">1</a>
+            <a id="dosBTN" class="btn btn-info" href="#/inglesDos">2</a>
+            <a id="tresBTN" class="btn btn-info" href="#/inglesTres">3</a>
+            <a id="cuatroBTN" class="btn btn-info" href="#/inglesCuatro">4</a>
+            <a id="cincoBTN" class="btn btn-info" href="#/inglesCinco">5</a>
+            <a id="seisBTN" class="btn btn-info" href="#/inglesSeis">6</a>
+            <a id="sieteBTN" class="btn btn-info" href="#/inglesSiete">7</a>
+        </div>
+
+        <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div id="divTabla">
+            </div>
+        </section>
+
+        <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <p></p>
+        </section>
+    </div>
+</div>

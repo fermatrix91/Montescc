@@ -1,0 +1,114 @@
+﻿<div>
+
+    <section id="carouselut" style="background: #f9f4f4; padding: 0;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <!-- Menu -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Items -->
+            <div class="carousel-inner">
+                <div class="item active" style="height: auto;">
+                    <img src="imagenes/englishClass.png" alt="Slide 1" />
+                </div>
+                <div class="item" style="height: auto;">
+                    <img src="imagenes/chessClass.png" alt="Slide 2" />
+                </div>
+                <div class="item" style="height: auto;">
+                    <img src="imagenes/webClass.png" alt="Slide 3" />
+                </div>
+                <div class="item" style="height: auto;">
+                    <img src="imagenes/accountClass.png" alt="Slide 4" />
+                </div>
+            </div>
+            <!-- <a href="#carousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="#carousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>  -->
+        </div>
+    </section>
+    <section class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+        <article style="text-align: center;">
+            <div style="margin-top: 3%;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <a style="text-decoration:none; color: black;" href="#/ingles">
+                    <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img src="imagenes/worldImage.png" style="height: 90px; margin-top: 3%; max-width: 90px;" />
+                        <p>Esta es la descripción del contenido de la sección Actual. Esta es la descripción del contenido de la sección Actual</p>
+                    </div>
+                </a>
+
+                <a style="text-decoration:none; color: black;" href="#/ajedrez">
+                    <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img src="imagenes/chess.png" style="height: 90px; background-color:white; margin-top: 3%; max-width: 90px;" />
+                        <p>Esta es la descripción del contenido de la sección Actual. Esta es la descripción del contenido de la sección Actual</p>
+                    </div>
+                </a>
+
+                <a style="text-decoration:none; color: black;" href="#/web">
+                    <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img src="imagenes/asp.png" style="height: 90px; margin-top: 3%; max-width: 90px;" />
+                        <p>Esta es la descripción del contenido de la sección Actual. Esta es la descripción del contenido de la sección Actual</p>
+                    </div>
+                </a>
+
+                <a style="text-decoration:none; color: black;" href="#/contabilidad">
+                    <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img src="imagenes/calculator.png" style="height: 90px; margin-top: 3%; max-width: 90px;" />
+                        <p>Esta es la descripción del contenido de la sección Actual. Esta es la descripción del contenido de la sección Actual</p>
+                    </div>
+                </a>
+
+            </div>
+
+        </article>
+    </section>
+
+    <section style="margin-top: 3%; border: solid 1px beige;" class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <aside style="margin: 3% 0 0 0;" class="panelesPublicitarios col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="imagenes/anunciateAqui.png" style="width: 100%; height: auto;">
+        </aside>
+
+        <aside style="margin: 3% 0 3% 0;" class="panelesPublicitarios col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="imagenes/anunciateAqui.png" style="width: 100%; height: auto;">
+        </aside>
+
+        <aside style="margin: 3% 0 3% 0;" class="panelesPublicitarios col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="imagenes/anunciateAqui.png" style="width: 100%; height: auto;">
+        </aside>
+
+        <aside style="margin: 3% 0 3% 0;" class="panelesPublicitarios col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="imagenes/anunciateAqui.png" style="width: 100%; height: auto;">
+        </aside>
+    </section>
+
+    <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="excedente" style="height: 48px; margin: 0; padding:0;">
+        <footer id="piePagina">
+            <h4 style="color:white; text-align: center;">
+                montes.cc Managua, Nicaragua 2016
+            </h4>
+        </footer>
+    </section>
+
+</div>
+<script>
+
+	$(document).keydown(function(event){
+		if(event.ctrlKey == true && (event.which == '61' || event.which == '107' || event.which == '173' || event.which == '109'))
+		{
+			event.preventDefault();
+		}
+	});
+
+	$(window).bind('mousewheel DOMMouseScroll', function (event) {
+       if (event.ctrlKey == true) {
+			event.preventDefault();
+       }
+	});
+</script>

@@ -1,0 +1,53 @@
+﻿@model List<Montescc.Models.DAL.Seccion>
+
+@{
+    ViewBag.Title = "Secciones";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <section style="text-align: center; margin-top: 48px;">
+        <article>
+            <div style="margin-top: 3%;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2>@ViewBag.TituloModulo</h2>
+
+                    @foreach (Montescc.Models.DAL.Seccion seccion in Model)
+                    {
+                        if (!string.IsNullOrWhiteSpace(seccion.Titulo))
+                        {
+                            <h3 style="float: left;">@seccion.Titulo</h3>
+                        }
+                        if (!string.IsNullOrWhiteSpace(seccion.Contenido))
+                        {
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <p style="white-space: pre-line;">@seccion.Contenido</p>
+                            </div>
+                        }
+                        if (!string.IsNullOrWhiteSpace(seccion.UrlImagen))
+                        {
+                            <div class="bs-callout bs-callout-danger col-xs-12 col-sm-12 col-md-12 col-lg-12" style="display: block; margin: auto;">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="col-xs-0 col-sm-0 col-md-3 col-lg-3">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                        <div style="display: block; margin: auto;">
+                                            <img class="pop" src="@seccion.UrlImagen" style="height: auto; width:100%" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-0 col-sm-0 col-md-3 col-lg-3">
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        <br />
+                    }
+                </section>
+                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2></h2>
+                </section>
+            </div>
+        </article>
+    </section>
+    <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="excedente" style="height: 48px;"></section>
+</div>

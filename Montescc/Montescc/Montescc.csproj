@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{774DE0A0-5A6A-4E71-BD0D-77C8E0E583D7}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Montescc</RootNamespace>
+    <AssemblyName>Montescc</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Abstractions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.0\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.30506.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.2.0.30506.0\lib\net40\WebMatrix.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.OAuth.2.0.30506.0\lib\net40\Microsoft.Web.WebPages.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.WebData.2.0.30506.0\lib\net40\WebMatrix.WebData.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.1.4.12333\lib\net45-full\DotNetOpenAuth.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.OData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.OData.4.0.30506\lib\net40\System.Web.Http.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.Edm.5.2.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.OData.5.2.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Spatial, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\System.Spatial.5.2.0\lib\net40\System.Spatial.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.3.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.3.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\AuthConfig.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CursoController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\DAL\Curso.cs">
+      <DependentUpon>ModeloMontes.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DAL\ModeloMontes.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloMontes.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DAL\ModeloMontes.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloMontes.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DAL\ModeloMontes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloMontes.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DAL\Modulo.cs">
+      <DependentUpon>ModeloMontes.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DAL\Seccion.cs">
+      <DependentUpon>ModeloMontes.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="audio\nivelUno\adios.mp3" />
+    <Content Include="audio\nivelUno\aqui.mp3" />
+    <Content Include="audio\nivelUno\ayer.mp3" />
+    <Content Include="audio\nivelUno\bienvenido.mp3" />
+    <Content Include="audio\nivelUno\buenaidea.mp3" />
+    <Content Include="audio\nivelUno\buenasnoches.mp3" />
+    <Content Include="audio\nivelUno\buenastardes1.mp3" />
+    <Content Include="audio\nivelUno\buenastardes2.mp3" />
+    <Content Include="audio\nivelUno\buenasuerte.mp3" />
+    <Content Include="audio\nivelUno\buendia.mp3" />
+    <Content Include="audio\nivelUno\buentrabajo.mp3" />
+    <Content Include="audio\nivelUno\creoqueno.mp3" />
+    <Content Include="audio\nivelUno\creoquesi.mp3" />
+    <Content Include="audio\nivelUno\cuantotiempo.mp3" />
+    <Content Include="audio\nivelUno\denada.mp3" />
+    <Content Include="audio\nivelUno\despuesestarel.mp3" />
+    <Content Include="audio\nivelUno\despuesestareo.mp3" />
+    <Content Include="audio\nivelUno\despuestengo.mp3" />
+    <Content Include="audio\nivelUno\dia.mp3" />
+    <Content Include="audio\nivelUno\entiendo.mp3" />
+    <Content Include="audio\nivelUno\entra.mp3" />
+    <Content Include="audio\nivelUno\enviameunmensaje.mp3" />
+    <Content Include="audio\nivelUno\erestanamable.mp3" />
+    <Content Include="audio\nivelUno\esaburrido.mp3" />
+    <Content Include="audio\nivelUno\esdelicioso.mp3" />
+    <Content Include="audio\nivelUno\esdificil.mp3" />
+    <Content Include="audio\nivelUno\esfacil.mp3" />
+    <Content Include="audio\nivelUno\estabien.mp3" />
+    <Content Include="audio\nivelUno\estalloviendo.mp3" />
+    <Content Include="audio\nivelUno\estanevando.mp3" />
+    <Content Include="audio\nivelUno\estanublado.mp3" />
+    <Content Include="audio\nivelUno\estasoleado.mp3" />
+    <Content Include="audio\nivelUno\estoybien.mp3" />
+    <Content Include="audio\nivelUno\estoybuscandotrabajo.mp3" />
+    <Content Include="audio\nivelUno\estoycansado.mp3" />
+    <Content Include="audio\nivelUno\estoyconfundido.mp3" />
+    <Content Include="audio\nivelUno\estoyconmifamilia.mp3" />
+    <Content Include="audio\nivelUno\estoyconmisamigos.mp3" />
+    <Content Include="audio\nivelUno\estoyesperando.mp3" />
+    <Content Include="audio\nivelUno\estoyperdido.mp3" />
+    <Content Include="audio\nivelUno\estoypreparandolacena.mp3" />
+    <Content Include="audio\nivelUno\esundialluvioso.mp3" />
+    <Content Include="audio\nivelUno\esunhermosodia.mp3" />
+    <Content Include="audio\nivelUno\esunplacer.mp3" />
+    <Content Include="audio\nivelUno\fecha.mp3" />
+    <Content Include="audio\nivelUno\felizanonuevo.mp3" />
+    <Content Include="audio\nivelUno\felizcumpleanos.mp3" />
+    <Content Include="audio\nivelUno\feliznavidad.mp3" />
+    <Content Include="audio\nivelUno\gracias.mp3" />
+    <Content Include="audio\nivelUno\graciasporlacomida.mp3" />
+    <Content Include="audio\nivelUno\graciasporpreguntar.mp3" />
+    <Content Include="audio\nivelUno\graciasportuayuda.mp3" />
+    <Content Include="audio\nivelUno\hastaluego.mp3" />
+    <Content Include="audio\nivelUno\hastamanana.mp3" />
+    <Content Include="audio\nivelUno\hastapronto.mp3" />
+    <Content Include="audio\nivelUno\hola.mp3" />
+    <Content Include="audio\nivelUno\hoy.mp3" />
+    <Content Include="audio\nivelUno\intentalootravez.mp3" />
+    <Content Include="audio\nivelUno\lamanana.mp3" />
+    <Content Include="audio\nivelUno\latarde1.mp3" />
+    <Content Include="audio\nivelUno\llamame.mp3" />
+    <Content Include="audio\nivelUno\lleguetarde.mp3" />
+    <Content Include="audio\nivelUno\lleguetemprano.mp3" />
+    <Content Include="audio\nivelUno\losiento.mp3" />
+    <Content Include="audio\nivelUno\manana.mp3" />
+    <Content Include="audio\nivelUno\meencantaescuchar.mp3" />
+    <Content Include="audio\nivelUno\megusta.mp3" />
+    <Content Include="audio\nivelUno\megustaleer.mp3" />
+    <Content Include="audio\nivelUno\megustas.mp3" />
+    <Content Include="audio\nivelUno\megustatucamisa.mp3" />
+    <Content Include="audio\nivelUno\megustaverp.mp3" />
+    <Content Include="audio\nivelUno\megustavert.mp3" />
+    <Content Include="audio\nivelUno\mejoratepronto.mp3" />
+    <Content Include="audio\nivelUno\mesientobien.mp3" />
+    <Content Include="audio\nivelUno\mesientoenfermo.mp3" />
+    <Content Include="audio\nivelUno\mesientoperezoso.mp3" />
+    <Content Include="audio\nivelUno\mesientoraro.mp3" />
+    <Content Include="audio\nivelUno\midiafuebueno.mp3" />
+    <Content Include="audio\nivelUno\midiafuemalo.mp3" />
+    <Content Include="audio\nivelUno\minombrees.mp3" />
+    <Content Include="audio\nivelUno\muchogusto.mp3" />
+    <Content Include="audio\nivelUno\muybien.mp3" />
+    <Content Include="audio\nivelUno\muymal.mp3" />
+    <Content Include="audio\nivelUno\necesitoayuda.mp3" />
+    <Content Include="audio\nivelUno\nada.mp3" />
+    <Content Include="audio\nivelUno\necesitopracticar.mp3" />
+    <Content Include="audio\nivelUno\no.mp3" />
+    <Content Include="audio\nivelUno\noche.mp3" />
+    <Content Include="audio\nivelUno\noentiendo.mp3" />
+    <Content Include="audio\nivelUno\nogracias.mp3" />
+    <Content Include="audio\nivelUno\nolopuedocreer.mp3" />
+    <Content Include="audio\nivelUno\nopuedoesperarqueacabelae.mp3" />
+    <Content Include="audio\nivelUno\nopuedoesperarqueseav.mp3" />
+    <Content Include="audio\nivelUno\notengoempleo.mp3" />
+    <Content Include="audio\nivelUno\otravez.mp3" />
+    <Content Include="audio\nivelUno\porahi.mp3" />
+    <Content Include="audio\nivelUno\porfavorhablamasdespacio.mp3" />
+    <Content Include="audio\nivelUno\porfavorsientate.mp3" />
+    <Content Include="audio\nivelUno\quegenial.mp3" />
+    <Content Include="audio\nivelUno\quehermoso.mp3" />
+    <Content Include="audio\nivelUno\quesorpresa.mp3" />
+    <Content Include="audio\nivelUno\quesuerte.mp3" />
+    <Content Include="audio\nivelUno\quetengasunbuendia.mp3" />
+    <Content Include="audio\nivelUno\quetriste.mp3" />
+    <Content Include="audio\nivelUno\quieroirahi.mp3" />
+    <Content Include="audio\nivelUno\quieromas.mp3" />
+    <Content Include="audio\nivelUno\quieromenos.mp3" />
+    <Content Include="audio\nivelUno\salgamos.mp3" />
+    <Content Include="audio\nivelUno\si.mp3" />
+    <Content Include="audio\nivelUno\siestoylibre.mp3" />
+    <Content Include="audio\nivelUno\siestoyocupado.mp3" />
+    <Content Include="audio\nivelUno\sihabloespanol.mp3" />
+    <Content Include="audio\nivelUno\sihabloingles.mp3" />
+    <Content Include="audio\nivelUno\siporfavor.mp3" />
+    <Content Include="audio\nivelUno\siunpoco.mp3" />
+    <Content Include="audio\nivelUno\soyde.mp3" />
+    <Content Include="audio\nivelUno\tarde.mp3" />
+    <Content Include="audio\nivelUno\teayudare.mp3" />
+    <Content Include="audio\nivelUno\teestabaesperando.mp3" />
+    <Content Include="audio\nivelUno\teextrano.mp3" />
+    <Content Include="audio\nivelUno\tellamare.mp3" />
+    <Content Include="audio\nivelUno\temprano.mp3" />
+    <Content Include="audio\nivelUno\tengohambre.mp3" />
+    <Content Include="audio\nivelUno\tengoqueir.mp3" />
+    <Content Include="audio\nivelUno\tengosed.mp3" />
+    <Content Include="audio\nivelUno\tengosueno.mp3" />
+    <Content Include="audio\nivelUno\tengotarea.mp3" />
+    <Content Include="audio\nivelUno\tengounapregunta.mp3" />
+    <Content Include="audio\nivelUno\tutambien.mp3" />
+    <Content Include="audio\nivelUno\tuveundiaincreible.mp3" />
+    <Content Include="audio\nivelUno\tuveundiaocupado.mp3" />
+    <Content Include="audio\nivelUno\vamosacomer.mp3" />
+    <Content Include="audio\nivelUno\venaqui.mp3" />
+    <Content Include="audio\nivelUno\voyadormir.mp3" />
+    <Content Include="audio\nivelUno\yoestabapreocupado.mp3" />
+    <Content Include="audio\nivelUno\yotambien.mp3" />
+    <Content Include="audio\nivelUno\_como.mp3" />
+    <Content Include="audio\nivelUno\_comodiceseningles.mp3" />
+    <Content Include="audio\nivelUno\_comoestas.mp3" />
+    <Content Include="audio\nivelUno\_comoestatufamilia.mp3" />
+    <Content Include="audio\nivelUno\_comoestuvotudia.mp3" />
+    <Content Include="audio\nivelUno\_comotesientes.mp3" />
+    <Content Include="audio\nivelUno\_cualestumateria.mp3" />
+    <Content Include="audio\nivelUno\_cualestunombre.mp3" />
+    <Content Include="audio\nivelUno\_cualestunumero.mp3" />
+    <Content Include="audio\nivelUno\_cuando.mp3" />
+    <Content Include="audio\nivelUno\_cuandoestaslibre.mp3" />
+    <Content Include="audio\nivelUno\_cuandoestucumple.mp3" />
+    <Content Include="audio\nivelUno\_cuantocuesta.mp3" />
+    <Content Include="audio\nivelUno\_cuantoshermanostienes.mp3" />
+    <Content Include="audio\nivelUno\_dedondeeres.mp3" />
+    <Content Include="audio\nivelUno\_donde.mp3" />
+    <Content Include="audio\nivelUno\_dondeesestelugar.mp3" />
+    <Content Include="audio\nivelUno\_dondeestaelbano.mp3" />
+    <Content Include="audio\nivelUno\_dondeloconseguiste.mp3" />
+    <Content Include="audio\nivelUno\_dondetrabajas.mp3" />
+    <Content Include="audio\nivelUno\_dondevives.mp3" />
+    <Content Include="audio\nivelUno\_dormistebien.mp3" />
+    <Content Include="audio\nivelUno\_enquepuedoayudarte.mp3" />
+    <Content Include="audio\nivelUno\_entiendes.mp3" />
+    <Content Include="audio\nivelUno\_esdificil.mp3" />
+    <Content Include="audio\nivelUno\_esfacil.mp3" />
+    <Content Include="audio\nivelUno\_estasencasa.mp3" />
+    <Content Include="audio\nivelUno\_estaslibre.mp3" />
+    <Content Include="audio\nivelUno\_estasocupado.mp3" />
+    <Content Include="audio\nivelUno\_hablasespanol.mp3" />
+    <Content Include="audio\nivelUno\_hablasingles.mp3" />
+    <Content Include="audio\nivelUno\_mepuedesayudar.mp3" />
+    <Content Include="audio\nivelUno\_porque.mp3" />
+    <Content Include="audio\nivelUno\_puedescreerlo.mp3" />
+    <Content Include="audio\nivelUno\_puedesescribirloporfavor.mp3" />
+    <Content Include="audio\nivelUno\_puedollamartemastarde.mp3" />
+    <Content Include="audio\nivelUno\_que.mp3" />
+    <Content Include="audio\nivelUno\_queestapasando.mp3" />
+    <Content Include="audio\nivelUno\_queestasdiciendo.mp3" />
+    <Content Include="audio\nivelUno\_queestasestudiando.mp3" />
+    <Content Include="audio\nivelUno\_queestashaciendo.mp3" />
+    <Content Include="audio\nivelUno\_queestaspensando.mp3" />
+    <Content Include="audio\nivelUno\_queharasdespues.mp3" />
+    <Content Include="audio\nivelUno\_quehayparabeber.mp3" />
+    <Content Include="audio\nivelUno\_quehayparacomer.mp3" />
+    <Content Include="audio\nivelUno\_quehicisteayer.mp3" />
+    <Content Include="audio\nivelUno\_quehicisteestamanana.mp3" />
+    <Content Include="audio\nivelUno\_quehicistehoy.mp3" />
+    <Content Include="audio\nivelUno\_quepaso.mp3" />
+    <Content Include="audio\nivelUno\_quequiereshacer.mp3" />
+    <Content Include="audio\nivelUno\_quetegustahacer.mp3" />
+    <Content Include="audio\nivelUno\_quetipodemusica.mp3" />
+    <Content Include="audio\nivelUno\_quien.mp3" />
+    <Content Include="audio\nivelUno\_quientegusta.mp3" />
+    <Content Include="audio\nivelUno\_quieresalgodebeber.mp3" />
+    <Content Include="audio\nivelUno\_quieresalgodecomer.mp3" />
+    <Content Include="audio\nivelUno\_quierescomer.mp3" />
+    <Content Include="audio\nivelUno\_quieresunpoco.mp3" />
+    <Content Include="audio\nivelUno\_seacabo.mp3" />
+    <Content Include="audio\nivelUno\_tegusto.mp3" />
+    <Content Include="audio\nivelUno\_tepuedoayudar.mp3" />
+    <Content Include="audio\nivelUno\_tienesunapregunta.mp3" />
+    <Content Include="audio\nivelUno\_ytu.mp3" />
+    <Content Include="audio\videoDos\ambusywithschool.mp3" />
+    <Content Include="audio\videoDos\amconfident.mp3" />
+    <Content Include="audio\videoDos\amconfused.mp3" />
+    <Content Include="audio\videoDos\amcookingdinner.mp3" />
+    <Content Include="audio\videoDos\amdoingthesame.mp3" />
+    <Content Include="audio\videoDos\amfreethisweekend.mp3" />
+    <Content Include="audio\videoDos\amhappyforyou.mp3" />
+    <Content Include="audio\videoDos\amhere.mp3" />
+    <Content Include="audio\videoDos\amheretohelp.mp3" />
+    <Content Include="audio\videoDos\amhomealone.mp3" />
+    <Content Include="audio\videoDos\amintrouble.mp3" />
+    <Content Include="audio\videoDos\amlookingforajob.mp3" />
+    <Content Include="audio\videoDos\amlost.mp3" />
+    <Content Include="audio\videoDos\ammakingplans.mp3" />
+    <Content Include="audio\videoDos\amready.mp3" />
+    <Content Include="audio\videoDos\amstudyingrightnow.mp3" />
+    <Content Include="audio\videoDos\amsure.mp3" />
+    <Content Include="audio\videoDos\amunemployeed.mp3" />
+    <Content Include="audio\videoDos\amwaiting.mp3" />
+    <Content Include="audio\videoDos\amwithmyfamily.mp3" />
+    <Content Include="audio\videoDos\amwithmyfriends.mp3" />
+    <Content Include="audio\videoDos\areuhome.mp3" />
+    <Content Include="audio\videoDos\areulearningenglishtoo.mp3" />
+    <Content Include="audio\videoDos\areulookingforsomething.mp3" />
+    <Content Include="audio\videoDos\areuready.mp3" />
+    <Content Include="audio\videoDos\areusure.mp3" />
+    <Content Include="audio\videoDos\canicallulater.mp3" />
+    <Content Include="audio\videoDos\canihaveone.mp3" />
+    <Content Include="audio\videoDos\congratulations.mp3" />
+    <Content Include="audio\videoDos\diduhearaboutwhathappen.mp3" />
+    <Content Include="audio\videoDos\diduhearthenews.mp3" />
+    <Content Include="audio\videoDos\didulearnsomething.mp3" />
+    <Content Include="audio\videoDos\didusleepwell.mp3" />
+    <Content Include="audio\videoDos\douhaveaquestion.mp3" />
+    <Content Include="audio\videoDos\douhavemoney.mp3" />
+    <Content Include="audio\videoDos\douhaveskype.mp3" />
+    <Content Include="audio\videoDos\douwanttotalk.mp3" />
+    <Content Include="audio\videoDos\englishisdifficult.mp3" />
+    <Content Include="audio\videoDos\englishiseasy.mp3" />
+    <Content Include="audio\videoDos\explainthis.mp3" />
+    <Content Include="audio\videoDos\howdidithappen.mp3" />
+    <Content Include="audio\videoDos\howdoufeel.mp3" />
+    <Content Include="audio\videoDos\howdoulearn.mp3" />
+    <Content Include="audio\videoDos\howdoyoudoit.mp3" />
+    <Content Include="audio\videoDos\howisitpossible.mp3" />
+    <Content Include="audio\videoDos\howlucky.mp3" />
+    <Content Include="audio\videoDos\howsad.mp3" />
+    <Content Include="audio\videoDos\howwasit.mp3" />
+    <Content Include="audio\videoDos\howwasyourweekend.mp3" />
+    <Content Include="audio\videoDos\icanexplain.mp3" />
+    <Content Include="audio\videoDos\icanhearyou.mp3" />
+    <Content Include="audio\videoDos\icanseeyou.mp3" />
+    <Content Include="audio\videoDos\icantrightnow.mp3" />
+    <Content Include="audio\videoDos\icantwaitforschooltoend.mp3" />
+    <Content Include="audio\videoDos\icantwaitforsummer.mp3" />
+    <Content Include="audio\videoDos\idonthavemoney.mp3" />
+    <Content Include="audio\videoDos\idonthavetime.mp3" />
+    <Content Include="audio\videoDos\ifeellazy.mp3" />
+    <Content Include="audio\videoDos\ifeelok.mp3" />
+    <Content Include="audio\videoDos\ifeelsick.mp3" />
+    <Content Include="audio\videoDos\ifeelweird.mp3" />
+    <Content Include="audio\videoDos\ihadabusyday.mp3" />
+    <Content Include="audio\videoDos\ihadadream.mp3" />
+    <Content Include="audio\videoDos\ihadafunday.mp3" />
+    <Content Include="audio\videoDos\ihaveanexamlater.mp3" />
+    <Content Include="audio\videoDos\ihaveaquestion.mp3" />
+    <Content Include="audio\videoDos\ihavegoodnews.mp3" />
+    <Content Include="audio\videoDos\ihavemoney.mp3" />
+    <Content Include="audio\videoDos\ihaveproblemswiththepronunciation.mp3" />
+    <Content Include="audio\videoDos\ihavetime.mp3" />
+    <Content Include="audio\videoDos\ihopetoseeyousoon.mp3" />
+    <Content Include="audio\videoDos\ijustgothome.mp3" />
+    <Content Include="audio\videoDos\ilikehowuthink.mp3" />
+    <Content Include="audio\videoDos\ilikelearningaboutdifferentcultures.mp3" />
+    <Content Include="audio\videoDos\ilikelisteningtomusic.mp3" />
+    <Content Include="audio\videoDos\ilikereadingbooks.mp3" />
+    <Content Include="audio\videoDos\ilikewatchingmovies.mp3" />
+    <Content Include="audio\videoDos\ilikewatchingtelevision.mp3" />
+    <Content Include="audio\videoDos\ilikeyourshirt.mp3" />
+    <Content Include="audio\videoDos\illbebusylater.mp3" />
+    <Content Include="audio\videoDos\illbefreelater.mp3" />
+    <Content Include="audio\videoDos\illtakeashower.mp3" />
+    <Content Include="audio\videoDos\illtellyoulater.mp3" />
+    <Content Include="audio\videoDos\illwaitforu.mp3" />
+    <Content Include="audio\videoDos\illwriteitdown.mp3" />
+    <Content Include="audio\videoDos\ineedtopracticemyenglish.mp3" />
+    <Content Include="audio\videoDos\ineedtorest.mp3" />
+    <Content Include="audio\videoDos\ipracticebylistening.mp3" />
+    <Content Include="audio\videoDos\ipracticewhenamfree.mp3" />
+    <Content Include="audio\videoDos\isitdifficult.mp3" />
+    <Content Include="audio\videoDos\isiteasy.mp3" />
+    <Content Include="audio\videoDos\isitfinished.mp3" />
+    <Content Include="audio\videoDos\isleptlikeababy.mp3" />
+    <Content Include="audio\videoDos\ithappentoeveryone.mp3" />
+    <Content Include="audio\videoDos\itsamiracle.mp3" />
+    <Content Include="audio\videoDos\itsamistake.mp3" />
+    <Content Include="audio\videoDos\itsasecret.mp3" />
+    <Content Include="audio\videoDos\itsawesome.mp3" />
+    <Content Include="audio\videoDos\itsbetter.mp3" />
+    <Content Include="audio\videoDos\itsboring.mp3" />
+    <Content Include="audio\videoDos\itsexciting.mp3" />
+    <Content Include="audio\videoDos\itsfunnybecauseitstrue.mp3" />
+    <Content Include="audio\videoDos\itsinspiring.mp3" />
+    <Content Include="audio\videoDos\itsinteresting.mp3" />
+    <Content Include="audio\videoDos\itsnoisy.mp3" />
+    <Content Include="audio\videoDos\itsnormal.mp3" />
+    <Content Include="audio\videoDos\itsnotworking.mp3" />
+    <Content Include="audio\videoDos\itsquiet.mp3" />
+    <Content Include="audio\videoDos\itsterrible.mp3" />
+    <Content Include="audio\videoDos\itstrue.mp3" />
+    <Content Include="audio\videoDos\itsveryhelpful.mp3" />
+    <Content Include="audio\videoDos\itsworking.mp3" />
+    <Content Include="audio\videoDos\itsworse.mp3" />
+    <Content Include="audio\videoDos\iwasthinkingofyou.mp3" />
+    <Content Include="audio\videoDos\iwaswaitingforu.mp3" />
+    <Content Include="audio\videoDos\iwasworried.mp3" />
+    <Content Include="audio\videoDos\makeyourselfcomfortable.mp3" />
+    <Content Include="audio\videoDos\messagemewhenurefree.mp3" />
+    <Content Include="audio\videoDos\myfavoritebandis.mp3" />
+    <Content Include="audio\videoDos\myfavoritesingeris.mp3" />
+    <Content Include="audio\videoDos\mypronunciationneedpractice.mp3" />
+    <Content Include="audio\videoDos\nothingmuch.mp3" />
+    <Content Include="audio\videoDos\takeyourtime.mp3" />
+    <Content Include="audio\videoDos\tellmemore.mp3" />
+    <Content Include="audio\videoDos\tellmewhenureready.mp3" />
+    <Content Include="audio\videoDos\thanksforasking.mp3" />
+    <Content Include="audio\videoDos\thanksforyourhospitality.mp3" />
+    <Content Include="audio\videoDos\thanksforyoursupport.mp3" />
+    <Content Include="audio\videoDos\timetocelebrate.mp3" />
+    <Content Include="audio\videoDos\todaywasacrazyday.mp3" />
+    <Content Include="audio\videoDos\turnthevolumedown.mp3" />
+    <Content Include="audio\videoDos\turnthevolumeup.mp3" />
+    <Content Include="audio\videoDos\uhavemysupport.mp3" />
+    <Content Include="audio\videoDos\videoDos.mp3" />
+    <Content Include="audio\videoDos\waitforme.mp3" />
+    <Content Include="audio\videoDos\whataregoodforeignfilmstowatch.mp3" />
+    <Content Include="audio\videoDos\whataretheoptions.mp3" />
+    <Content Include="audio\videoDos\whatdouliketodoinurfreetime.mp3" />
+    <Content Include="audio\videoDos\whatdouneed.mp3" />
+    <Content Include="audio\videoDos\whatsnew.mp3" />
+    <Content Include="audio\videoDos\whatsyourfavoritesubject.mp3" />
+    <Content Include="audio\videoDos\whattimeareyoufree.mp3" />
+    <Content Include="audio\videoDos\whatwilludolater.mp3" />
+    <Content Include="audio\videoDos\whenareufree.mp3" />
+    <Content Include="audio\videoDos\whenisyourbirthday.mp3" />
+    <Content Include="audio\videoDos\wheredidugetit.mp3" />
+    <Content Include="audio\videoDos\wheredouwork.mp3" />
+    <Content Include="audio\videoDos\whereisthisplace.mp3" />
+    <Content Include="audio\videoDos\whoneedshelp.mp3" />
+    <Content Include="audio\videoDos\whosyourfavoritesinger.mp3" />
+    <Content Include="audio\videoDos\whosyourfavorteband.mp3" />
+    <Content Include="audio\videoDos\youaresonice.mp3" />
+    <Content Include="audio\videoDos\youhaveabeautifulhouse.mp3" />
+    <Content Include="audio\videoUno\afternoon.mp3" />
+    <Content Include="audio\videoUno\again.mp3" />
+    <Content Include="audio\videoUno\amfine.mp3" />
+    <Content Include="audio\videoUno\amfrom.mp3" />
+    <Content Include="audio\videoUno\amgoingtosleep.mp3" />
+    <Content Include="audio\videoUno\amhungry.mp3" />
+    <Content Include="audio\videoUno\amsleepy.mp3" />
+    <Content Include="audio\videoUno\amsorry.mp3" />
+    <Content Include="audio\videoUno\amthirsty.mp3" />
+    <Content Include="audio\videoUno\amtired.mp3" />
+    <Content Include="audio\videoUno\andyou.mp3" />
+    <Content Include="audio\videoUno\areyoubusy.mp3" />
+    <Content Include="audio\videoUno\areyoufree.mp3" />
+    <Content Include="audio\videoUno\callme.mp3" />
+    <Content Include="audio\videoUno\canubelieveit.mp3" />
+    <Content Include="audio\videoUno\canuwritedownplease.mp3" />
+    <Content Include="audio\videoUno\canyouhelpme.mp3" />
+    <Content Include="audio\videoUno\comehere.mp3" />
+    <Content Include="audio\videoUno\comein.mp3" />
+    <Content Include="audio\videoUno\date.mp3" />
+    <Content Include="audio\videoUno\day.mp3" />
+    <Content Include="audio\videoUno\didulikeit.mp3" />
+    <Content Include="audio\videoUno\douspeakenglish.mp3" />
+    <Content Include="audio\videoUno\douspeakspanish.mp3" />
+    <Content Include="audio\videoUno\douunderstand.mp3" />
+    <Content Include="audio\videoUno\douwantsome.mp3" />
+    <Content Include="audio\videoUno\douwantsomethingtodrink.mp3" />
+    <Content Include="audio\videoUno\douwantsomethingtoeat.mp3" />
+    <Content Include="audio\videoUno\doyouwanttoeat.mp3" />
+    <Content Include="audio\videoUno\early.mp3" />
+    <Content Include="audio\videoUno\evening.mp3" />
+    <Content Include="audio\videoUno\getwellsoon.mp3" />
+    <Content Include="audio\videoUno\goodafternoon.mp3" />
+    <Content Include="audio\videoUno\goodbye.mp3" />
+    <Content Include="audio\videoUno\goodday.mp3" />
+    <Content Include="audio\videoUno\goodevening.mp3" />
+    <Content Include="audio\videoUno\goodidea.mp3" />
+    <Content Include="audio\videoUno\goodjob.mp3" />
+    <Content Include="audio\videoUno\goodluck.mp3" />
+    <Content Include="audio\videoUno\goodnight.mp3" />
+    <Content Include="audio\videoUno\happybirthday.mp3" />
+    <Content Include="audio\videoUno\happynewyear.mp3" />
+    <Content Include="audio\videoUno\haveaniceday.mp3" />
+    <Content Include="audio\videoUno\hello.mp3" />
+    <Content Include="audio\videoUno\here.mp3" />
+    <Content Include="audio\videoUno\how.mp3" />
+    <Content Include="audio\videoUno\howareyou.mp3" />
+    <Content Include="audio\videoUno\howbeautiful.mp3" />
+    <Content Include="audio\videoUno\howcool.mp3" />
+    <Content Include="audio\videoUno\howmanysiblingsuhave.mp3" />
+    <Content Include="audio\videoUno\howmayihelpu.mp3" />
+    <Content Include="audio\videoUno\howmuchisit.mp3" />
+    <Content Include="audio\videoUno\howsyourfamily.mp3" />
+    <Content Include="audio\videoUno\howusayinenglish.mp3" />
+    <Content Include="audio\videoUno\howwasyourday.mp3" />
+    <Content Include="audio\videoUno\iarrivedearly.mp3" />
+    <Content Include="audio\videoUno\iarrivedlate.mp3" />
+    <Content Include="audio\videoUno\icantbelieveit.mp3" />
+    <Content Include="audio\videoUno\idontthinkso.mp3" />
+    <Content Include="audio\videoUno\idontunderstand.mp3" />
+    <Content Include="audio\videoUno\ihavehomework.mp3" />
+    <Content Include="audio\videoUno\ilikeit.mp3" />
+    <Content Include="audio\videoUno\ilikeu.mp3" />
+    <Content Include="audio\videoUno\illcallyou.mp3" />
+    <Content Include="audio\videoUno\illhelpyou.mp3" />
+    <Content Include="audio\videoUno\imissyou.mp3" />
+    <Content Include="audio\videoUno\ineedhelp.mp3" />
+    <Content Include="audio\videoUno\ineedtogo.mp3" />
+    <Content Include="audio\videoUno\ithinkso.mp3" />
+    <Content Include="audio\videoUno\itsabeautifulday.mp3" />
+    <Content Include="audio\videoUno\itsapleasure.mp3" />
+    <Content Include="audio\videoUno\itsarainyday.mp3" />
+    <Content Include="audio\videoUno\itscloudy.mp3" />
+    <Content Include="audio\videoUno\itsdelicious.mp3" />
+    <Content Include="audio\videoUno\itsdifficult.mp3" />
+    <Content Include="audio\videoUno\itseasy.mp3" />
+    <Content Include="audio\videoUno\itsfine.mp3" />
+    <Content Include="audio\videoUno\itsraining.mp3" />
+    <Content Include="audio\videoUno\itssnowing.mp3" />
+    <Content Include="audio\videoUno\itssunny.mp3" />
+    <Content Include="audio\videoUno\iunderstand.mp3" />
+    <Content Include="audio\videoUno\iwantless.mp3" />
+    <Content Include="audio\videoUno\iwantmore.mp3" />
+    <Content Include="audio\videoUno\iwanttogothere.mp3" />
+    <Content Include="audio\videoUno\late.mp3" />
+    <Content Include="audio\videoUno\letseat.mp3" />
+    <Content Include="audio\videoUno\letsgoout.mp3" />
+    <Content Include="audio\videoUno\longtimenosee.mp3" />
+    <Content Include="audio\videoUno\mayihelpyou.mp3" />
+    <Content Include="audio\videoUno\meetoo.mp3" />
+    <Content Include="audio\videoUno\merryChristmas.mp3" />
+    <Content Include="audio\videoUno\morning.mp3" />
+    <Content Include="audio\videoUno\mydaywasbad.mp3" />
+    <Content Include="audio\videoUno\mydaywasgood.mp3" />
+    <Content Include="audio\videoUno\mynameis.mp3" />
+    <Content Include="audio\videoUno\nicetomeetyou.mp3" />
+    <Content Include="audio\videoUno\night.mp3" />
+    <Content Include="audio\videoUno\no.mp3" />
+    <Content Include="audio\videoUno\nothanks.mp3" />
+    <Content Include="audio\videoUno\nothing.mp3" />
+    <Content Include="audio\videoUno\overthere.mp3" />
+    <Content Include="audio\videoUno\pleasesitdown.mp3" />
+    <Content Include="audio\videoUno\pleasespeakmoreslowly.mp3" />
+    <Content Include="audio\videoUno\seeyoulater.mp3" />
+    <Content Include="audio\videoUno\seeyousoon.mp3" />
+    <Content Include="audio\videoUno\seeyoutomorrow.mp3" />
+    <Content Include="audio\videoUno\thanksforthefood.mp3" />
+    <Content Include="audio\videoUno\thanksforyourhelp.mp3" />
+    <Content Include="audio\videoUno\thankyou.mp3" />
+    <Content Include="audio\videoUno\today.mp3" />
+    <Content Include="audio\videoUno\tomorrow.mp3" />
+    <Content Include="audio\videoUno\tryagain.mp3" />
+    <Content Include="audio\videoUno\verybad.mp3" />
+    <Content Include="audio\videoUno\verygood.mp3" />
+    <Content Include="audio\videoUno\videoUno.mp3" />
+    <Content Include="audio\videoUno\welcome.mp3" />
+    <Content Include="audio\videoUno\what.mp3" />
+    <Content Include="audio\videoUno\whatareusaying.mp3" />
+    <Content Include="audio\videoUno\whatareyoudoing.mp3" />
+    <Content Include="audio\videoUno\whatareyoustudying.mp3" />
+    <Content Include="audio\videoUno\whatasurprise.mp3" />
+    <Content Include="audio\videoUno\whatdidudotoday.mp3" />
+    <Content Include="audio\videoUno\whatdidudoyesterday.mp3" />
+    <Content Include="audio\videoUno\whatdiduduthismorning.mp3" />
+    <Content Include="audio\videoUno\whathappend.mp3" />
+    <Content Include="audio\videoUno\whatshappening.mp3" />
+    <Content Include="audio\videoUno\whatstheretodrink.mp3" />
+    <Content Include="audio\videoUno\whatstheretoeat.mp3" />
+    <Content Include="audio\videoUno\whatsyourname.mp3" />
+    <Content Include="audio\videoUno\whatsyourphonenumber.mp3" />
+    <Content Include="audio\videoUno\whattypeofmusicdoulike.mp3" />
+    <Content Include="audio\videoUno\whatuthinkingabout.mp3" />
+    <Content Include="audio\videoUno\whatuwantodo.mp3" />
+    <Content Include="audio\videoUno\when.mp3" />
+    <Content Include="audio\videoUno\where.mp3" />
+    <Content Include="audio\videoUno\whereareyoufrom.mp3" />
+    <Content Include="audio\videoUno\wheredoyoulive.mp3" />
+    <Content Include="audio\videoUno\wherestherestroom.mp3" />
+    <Content Include="audio\videoUno\who.mp3" />
+    <Content Include="audio\videoUno\whodoulike.mp3" />
+    <Content Include="audio\videoUno\why.mp3" />
+    <Content Include="audio\videoUno\yes.mp3" />
+    <Content Include="audio\videoUno\yesalittle.mp3" />
+    <Content Include="audio\videoUno\yesambusy.mp3" />
+    <Content Include="audio\videoUno\yesamfree.mp3" />
+    <Content Include="audio\videoUno\yesispeakenglish.mp3" />
+    <Content Include="audio\videoUno\yesispeakspanish.mp3" />
+    <Content Include="audio\videoUno\yesplease.mp3" />
+    <Content Include="audio\videoUno\yesterday.mp3" />
+    <Content Include="audio\videoUno\yourewelcome.mp3" />
+    <Content Include="audio\videoUno\youtoo.mp3" />
+    <Content Include="Content\app.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap\css\bootstrap.css" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\bootstrap\js\bootstrap.js" />
+    <Content Include="Content\menu\scriptMenu.js" />
+    <Content Include="Content\menu\stylesMenu.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <EntityDeploy Include="Models\DAL\ModeloMontes.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModeloMontes.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="imagenes\accountClass.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0001.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0101.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0102.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0103.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0104.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0105.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0106.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0107.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0108.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0109.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0110.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0111.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0112.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0113.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0114.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0115.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0116.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0117.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0118.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0119.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0120.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0121.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0122.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0123.png" />
+    <Content Include="imagenes\AjedrezImagenes\ajedrez0124.png" />
+    <Content Include="imagenes\AjedrezImagenes\tablaTrigos.png" />
+    <Content Include="imagenes\alerta.png" />
+    <Content Include="imagenes\anunciateAqui.png" />
+    <Content Include="imagenes\asp.png" />
+    <Content Include="imagenes\calculator.png" />
+    <Content Include="imagenes\chess.png" />
+    <Content Include="imagenes\chessClass.png" />
+    <Content Include="imagenes\cSharp.png" />
+    <Content Include="imagenes\descargaJquery.png" />
+    <Content Include="imagenes\documentReady.PNG" />
+    <Content Include="imagenes\englishClass.png" />
+    <Content Include="imagenes\html.png" />
+    <Content Include="imagenes\html\absoluteHtml.PNG" />
+    <Content Include="imagenes\html\divHtml.PNG" />
+    <Content Include="imagenes\html\estiloExternalHtml.png" />
+    <Content Include="imagenes\html\estiloInlineHtml.PNG" />
+    <Content Include="imagenes\html\estiloInternalHtml.PNG" />
+    <Content Include="imagenes\html\estructuraBasica.png" />
+    <Content Include="imagenes\html\leftabsoluteHtml.PNG" />
+    <Content Include="imagenes\html\listasHtml.PNG" />
+    <Content Include="imagenes\html\meiHtml.PNG" />
+    <Content Include="imagenes\html\resultabsoluteHtml.PNG" />
+    <Content Include="imagenes\html\resultdivHtml.PNG" />
+    <Content Include="imagenes\html\resultleftabsoluteHtml.PNG" />
+    <Content Include="imagenes\html\resultListasHtml.PNG" />
+    <Content Include="imagenes\html\resultmeiHtml.PNG" />
+    <Content Include="imagenes\html\resultStyleInline.PNG" />
+    <Content Include="imagenes\html\resultSubListasHtml.PNG" />
+    <Content Include="imagenes\html\resultTablaHtml.PNG" />
+    <Content Include="imagenes\html\resultTextosHtml.PNG" />
+    <Content Include="imagenes\html\resultTitulosHtml.PNG" />
+    <Content Include="imagenes\html\resulttodosabsoluteHtml.PNG" />
+    <Content Include="imagenes\html\subListasHtml.PNG" />
+    <Content Include="imagenes\html\tablaHtml.PNG" />
+    <Content Include="imagenes\html\textosHtml.PNG" />
+    <Content Include="imagenes\html\titulosHtml.PNG" />
+    <Content Include="imagenes\html\todosabsoluteHtml.PNG" />
+    <Content Include="imagenes\icon_top.png" />
+    <Content Include="imagenes\jquery.png" />
+    <Content Include="imagenes\levelFive.png" />
+    <Content Include="imagenes\levelFour.png" />
+    <Content Include="imagenes\levelOne.png" />
+    <Content Include="imagenes\levelSeven.png" />
+    <Content Include="imagenes\levelSix.png" />
+    <Content Include="imagenes\levelThree.png" />
+    <Content Include="imagenes\levelTwo.png" />
+    <Content Include="imagenes\mvc.png" />
+    <Content Include="imagenes\resultAlerta.PNG" />
+    <Content Include="imagenes\webClass.png" />
+    <Content Include="imagenes\worldImage.png" />
+    <Content Include="Models\DAL\ModeloMontes.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModeloMontes.edmx</DependentUpon>
+      <LastGenOutput>ModeloMontes.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\DAL\ModeloMontes.edmx.diagram">
+      <DependentUpon>ModeloMontes.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\DAL\ModeloMontes.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModeloMontes.edmx</DependentUpon>
+      <LastGenOutput>ModeloMontes.cs</LastGenOutput>
+    </Content>
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\angular-animate.js" />
+    <Content Include="Scripts\angular-route.js" />
+    <Content Include="Scripts\angular-touch.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-2.2.3.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\knockout-2.2.0.debug.js" />
+    <Content Include="Scripts\knockout-2.2.0.js" />
+    <Content Include="Scripts\LeccionesIngles.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Images\accent.png" />
+    <Content Include="Images\bullet.png" />
+    <Content Include="Images\heroAccent.png" />
+    <Content Include="Images\orderedList0.png" />
+    <Content Include="Images\orderedList1.png" />
+    <Content Include="Images\orderedList2.png" />
+    <Content Include="Images\orderedList3.png" />
+    <Content Include="Images\orderedList4.png" />
+    <Content Include="Images\orderedList5.png" />
+    <Content Include="Images\orderedList6.png" />
+    <Content Include="Images\orderedList7.png" />
+    <Content Include="Images\orderedList8.png" />
+    <Content Include="Images\orderedList9.png" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\_RemoveExternalLoginsPartial.cshtml" />
+    <Content Include="Views\Account\_SetPasswordPartial.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Manage.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\Curso\Ingles.cshtml" />
+    <Content Include="Views\Curso\LeccionIngles.cshtml" />
+    <Content Include="Views\Curso\Modulos.cshtml" />
+    <Content Include="Views\Curso\Secciones.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="audio\videoCuatro\" />
+    <Folder Include="audio\videoTres\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>21750</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:21750/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

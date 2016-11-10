@@ -1,0 +1,148 @@
+﻿<!DOCTYPE HTML STYLE="zoom: reset;">
+
+<html lang="es">
+<!-- oncontextmenu="return false">  -->
+<head>
+    <title>Montes Navarrete</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="~/Scripts/jquery-2.2.3.js"></script>
+    <link href="~/Content/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/menu/stylesMenu.css" rel="stylesheet" />
+    <link href="~/Content/app.css" rel="stylesheet" />
+    <script src="~/Content/menu/scriptMenu.js"></script>
+</head>
+
+<body onkeydown="checkKey(event)">
+    <!-- oncontextmenu="return false"> -->
+
+    <div id="contenedorSitio" class="anchuraContenedor bordeSitio" style="background:white; position: absolute;">
+        <header id="menuSuperior" class="anchuraContenedor navbar-fixed-top" style="border-bottom: 2px solid rgb(212, 81, 81);">
+            <article>
+                <div id='cssmenu'>
+                    <ul>
+                        <li><a href='#inicio'>Inicio</a></li>
+                        <li style="z-index:1000;"><a href='/Curso/Ingles'>English - Español</a></li>
+                        <li><a href='#ajedrez'>Ajedrez</a></li>
+                        <li><a href='#web'>Web</a></li>
+                        <li><a href='#inicio'>Contabilidad</a></li>
+                    </ul>
+                </div>
+            </article>
+        </header>
+
+        <section>
+            <!-- oncontextmenu="return false"> -->
+            <a href="#" class="scrollup">Scroll</a>
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </section>
+
+    </div>
+    <script src="~/Content/bootstrap/js/bootstrap.js"></script>
+    <script>
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+
+        $('.scrollup').click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+
+        function checkKey(evt) {
+            if (evt.ctrlKey) {
+                switch (String.fromCharCode(evt.which).toLowerCase()) {
+                    case 's':
+                        //alert('sape')
+                        evt.preventDefault();
+                        evt.stopPropagation();
+                        return false;
+
+                        // aqui puede poner todas las tecla de combinacion que tiene programado el ie, para anularlo.
+
+                    default:
+                        break;
+                }
+            }
+        }
+
+        /*Reproducción de Audios*/
+        function playAudioGo(urlAudio) {
+            document.getElementById(urlAudio).play();
+            $("button").attr("disabled", "disable");
+        }
+
+        function habilitaPlayButton() {
+            $("button").removeAttr("disabled");
+        }
+
+    </script>
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+
+
+
+
+
+
+@*<!DOCTYPE HTML>
+    <html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - Mi aplicación ASP.NET MVC</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <header>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p class="site-title">@Html.ActionLink("su logotipo aquí", "Index", "Home")</p>
+                </div>
+                <div class="float-right">
+                    <section id="login">
+                        @Html.Partial("_LoginPartial")
+                    </section>
+                    <nav>
+                        <ul id="menu">
+                            <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET MVC</p>
+                </div>
+            </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+    </html>*@

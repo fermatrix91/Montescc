@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MontesccModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MontesccEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Curso" EntityType="MontesccModel.Curso" />
+    <EntitySet Name="Modulo" EntityType="MontesccModel.Modulo" />
+    <EntitySet Name="Seccion" EntityType="MontesccModel.Seccion" />
+    <AssociationSet Name="FK_Modulo_Curso" Association="MontesccModel.FK_Modulo_Curso">
+      <End Role="Curso" EntitySet="Curso" />
+      <End Role="Modulo" EntitySet="Modulo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Seccion_Modulo" Association="MontesccModel.FK_Seccion_Modulo">
+      <End Role="Modulo" EntitySet="Modulo" />
+      <End Role="Seccion" EntitySet="Seccion" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Curso">
+    <Key>
+      <PropertyRef Name="IdCurso" />
+    </Key>
+    <Property Name="IdCurso" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Modulo" Relationship="MontesccModel.FK_Modulo_Curso" FromRole="Curso" ToRole="Modulo" />
+  </EntityType>
+  <EntityType Name="Modulo">
+    <Key>
+      <PropertyRef Name="IdModulo" />
+    </Key>
+    <Property Name="IdModulo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdCurso" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UrlImagen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Curso" Relationship="MontesccModel.FK_Modulo_Curso" FromRole="Modulo" ToRole="Curso" />
+    <NavigationProperty Name="Seccion" Relationship="MontesccModel.FK_Seccion_Modulo" FromRole="Modulo" ToRole="Seccion" />
+  </EntityType>
+  <EntityType Name="Seccion">
+    <Key>
+      <PropertyRef Name="IdSeccion" />
+    </Key>
+    <Property Name="IdSeccion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdModulo" Type="Int32" Nullable="false" />
+    <Property Name="Titulo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Contenido" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UrlImagen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Modulo" Relationship="MontesccModel.FK_Seccion_Modulo" FromRole="Seccion" ToRole="Modulo" />
+  </EntityType>
+  <Association Name="FK_Modulo_Curso">
+    <End Type="MontesccModel.Curso" Role="Curso" Multiplicity="1" />
+    <End Type="MontesccModel.Modulo" Role="Modulo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Curso">
+        <PropertyRef Name="IdCurso" />
+      </Principal>
+      <Dependent Role="Modulo">
+        <PropertyRef Name="IdCurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Seccion_Modulo">
+    <End Type="MontesccModel.Modulo" Role="Modulo" Multiplicity="1" />
+    <End Type="MontesccModel.Seccion" Role="Seccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Modulo">
+        <PropertyRef Name="IdModulo" />
+      </Principal>
+      <Dependent Role="Seccion">
+        <PropertyRef Name="IdModulo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

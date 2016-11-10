@@ -1,0 +1,27 @@
+﻿@model List<Montescc.Models.DAL.Modulo>
+
+@{
+    ViewBag.Title = "Modulos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+
+    <section style="text-align: center; margin-top: 48px;">
+        <article>
+            <div style="margin-top: 3%;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                @foreach (Montescc.Models.DAL.Modulo modulo in Model)
+                {
+                    <a style="text-decoration:none; color: black;" href="/Curso/SeccionesAjedrez?idModulo=@modulo.IdModulo">
+                        <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <img src="@modulo.UrlImagen" style="height: auto; width: 40%; margin-top: 3%; max-width: 90px;" />
+                            <p>@modulo.Nombre</p>
+                        </div>
+                    </a>
+                }
+            </div>
+        </article>
+    </section>
+</div>
+
