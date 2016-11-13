@@ -13,6 +13,7 @@
     </Key>
     <Property Name="IdModulo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="IdCurso" Type="int" Nullable="false" />
+    <Property Name="Posicion" Type="int" />
     <Property Name="Nombre" Type="nvarchar(max)" />
     <Property Name="UrlImagen" Type="nvarchar(max)" />
   </EntityType>
@@ -22,6 +23,7 @@
     </Key>
     <Property Name="IdSeccion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="IdModulo" Type="int" Nullable="false" />
+    <Property Name="Posicion" Type="int" />
     <Property Name="Titulo" Type="nvarchar(max)" />
     <Property Name="Contenido" Type="nvarchar(max)" />
     <Property Name="UrlImagen" Type="nvarchar(max)" />

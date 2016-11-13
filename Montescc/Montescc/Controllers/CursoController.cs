@@ -32,6 +32,24 @@ namespace Montescc.Controllers
             return View("Secciones", listaDeSecciones);
         }
 
+        public ActionResult Contabilidad()
+        {
+            List<Modulo> listaDeModulos = new List<Modulo>();
+            listaDeModulos = modeloMontes.Modulo.Where(x => x.IdCurso == (int)Cursos.Contabilidad).ToList();
+
+            return View("Modulos", listaDeModulos);
+        }
+
+        public ActionResult SeccionesContabilidad(int idModulo)
+        {
+            List<Seccion> listaDeSecciones = new List<Seccion>();
+            listaDeSecciones = modeloMontes.Seccion.Where(x => x.IdModulo == idModulo).ToList();
+
+            ViewBag.TituloModulo = listaDeSecciones.Select(y => y.Modulo.Nombre).FirstOrDefault();
+
+            return View("Secciones", listaDeSecciones);
+        }
+
         public ActionResult Ingles()
         {
             return View();

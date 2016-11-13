@@ -1,0 +1,200 @@
+﻿@model List<Montescc.Models.DAL.Modulo>
+@{
+    ViewBag.Title = "Mcursos";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+    <p class="letraTitulos">Curso: @ViewBag.NombreCurso</p>
+    <p id="idDeCursoActualP" style="display: none;">@ViewBag.IdCurso</p>
+</div>
+
+<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+    @Html.ActionLink("<- Regresar", "Mcursos", "Mconfigsite", null, new { @Class = "btn btn-default" })
+</div>
+<br />
+
+<table id="tablaModulos" class="display table table-striped table-responsive" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>
+                Posición
+            </th>
+            <th>
+                Nombre del Módulo
+            </th>
+            <th></th>
+            <th><button id="agregaModulo" style="float: right;" class="btn btn-info" data-toggle="modal" data-target="#modalModulo">Nuevo Modulo</button></th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>
+                Posición
+            </th>
+            <th>
+                Nombre
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+    </tfoot>
+    <tbody style="white-space:nowrap !important;">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Posicion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td style="white-space:nowrap !important; width: 1%;">
+                    <form action="SeccionesPorModulo" method="post">
+                        <input type="hidden" value="@item.IdModulo" name="idModuloSecciones" />
+                        <button class="btn btn-warning" type="submit">Secciones</button>
+                    </form>
+                </td>
+                <td style="white-space:nowrap !important; width: 1%;">
+                    <button class="editarModulo btn btn-primary" data-idcursoactual="@item.IdCurso" data-idmoduloactual="@item.IdModulo">Editar</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+<!-- Modal -->
+<div id="modalModulo" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" id="idOperacion"></h4>
+            </div>
+            @using (Html.BeginForm("GuardarModulo", "Mconfigsite", FormMethod.Post, new { enctype = "multipart/form-data", id = "FormGuardarModulo" }))
+            {
+                <div class="modal-body">
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                        <label for="imagenActual">Imagen actual: </label>
+                        <br />
+                        <img id="imagenServer" name="imagenActual" class="img img-responsive" style="margin: 0 auto; display:block; max-height: 100px; max-width: 100px" src="" />
+                        <br />
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                        <p class="letraContenido" style="font-weight: bold !important;">Seleccionar nueva imagen:</p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                        <input type="file" name="nombreImagen" id="nombreImagenEditar">
+                    </div>
+                    <br />
+
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                        <p class="letraContenido" style="font-weight: bold !important;">Posición:</p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                        <input type="text" style="max-width: 100%;" placeholder="Posición del Módulo" class="letraContenido form-control" id="posicion" name="posicion" />
+                    </div>
+
+                    <br />
+
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                        <p class="letraContenido" style="font-weight: bold !important;">Nombre del Módulo:</p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                        @*<form id="FormGuardarModulo" action="GuardarModulo" method="post">*@
+                        <input style="max-width: 100%;" placeholder="Nombre del Módulo" class="letraContenido form-control" type="text" id="nombreModulo" name="nombreModulo" />
+                        <input type="hidden" id="idDeModuloActual" name="idDeModuloActual" />
+                        <input type="hidden" id="idDeCursoActual" name="idDeCursoActual" />
+                        <input type="hidden" name="esEdicion" id="esEdicion" />
+                        @*</form>*@
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="guardaModulo" type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+                </div>
+            }
+        </div>
+
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+
+        $('#cuadroCursos').addClass("fondoNaranga");
+
+        $('#agregaModulo').click(function () {
+            $("#imagenServer").attr("src", "");
+            $('#idOperacion').text("Nuevo Módulo");
+            $('#nombreModulo').val("");
+            $('#posicion').val("");
+            $('#idDeModuloActual').val(0);
+            $('#idDeCursoActual').val($('#idDeCursoActualP').text())
+            $('#esEdicion').val(false);
+        });
+
+        $('#guardaModulo').click(function () {
+            $('#FormGuardarModulo').submit();
+        });
+
+        $('.editarModulo').click(function () {
+            $('#idOperacion').text("Editar Módulo");
+            var idModulo = $(this).attr("data-idmoduloActual");
+            var idCurso = $(this).attr("data-idCursoActual");
+            $("#imagenServer").attr("src", "");
+
+            $.ajax({
+                type: "POST",
+                async: true,
+                cache: false,
+                url: '/Mconfigsite/DetalleModulo',
+                context: document.body,
+                data: { idModuloActual: idModulo, idCursoActual: idCurso },
+                beforeSend: function (objeto) {
+                    //ventanaBloquear2();
+                },
+                complete: function () {
+                    //$.unblockUI();
+                },
+                success: function (Modulo) {
+                    $('#modalModulo').modal("show");
+                    $("#imagenServer").attr("src", "" + Modulo.Imagen);
+                    $('#nombreModulo').val(Modulo.Nombre);
+                    $('#posicion').val(Modulo.Posicion);
+                    $('#idDeModuloActual').val(Modulo.IdModulo);
+                    $('#idDeCursoActual').val(idCurso);
+                    $('#esEdicion').val(true);
+                    //alert(curso.IdCurso + " - " + curso.Nombre)
+                }
+            });
+        });
+
+
+        $('#tablaModulos').DataTable({
+            "order": [[0, "asc"]],
+            "language": {
+                "sProcessing": "Procesando...",
+                "sLengthMenu": "Mostrar _MENU_ registros",
+                "sZeroRecords": "No se encontraron resultados",
+                "sEmptyTable": "Ningún dato disponible en esta tabla",
+                "sInfo": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+                "sInfoEmpty": "Mostrando registros encontrados: 0",
+                "sInfoFiltered": "(filtrado de un total de _MAX_ registros)",
+                "sInfoPostFix": "",
+                "sSearch": "Buscar:",
+                "sUrl": "",
+                "sInfoThousands": ",",
+                "sLoadingRecords": "Cargando...",
+                "oPaginate": {
+                    "sFirst": "Primero",
+                    "sLast": "Último",
+                    "sNext": "Siguiente",
+                    "sPrevious": "Anterior"
+                }
+            }
+        });
+    });
+</script>

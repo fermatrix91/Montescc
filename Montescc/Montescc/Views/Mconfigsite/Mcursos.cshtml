@@ -1,0 +1,14 @@
+﻿@model List<Montescc.Models.DAL.Curso>
+@{
+    ViewBag.Title = "Mcursos";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<br />
+@foreach (Montescc.Models.DAL.Curso curso in Model)
+{
+    <form action="DetalleCurso" method="post">
+        <input type="hidden" name="idCurso" value="@curso.IdCurso"/>
+        <button type="submit" class="btn btn-default">@curso.Nombre</button>
+    </form>
+    <br />
+}

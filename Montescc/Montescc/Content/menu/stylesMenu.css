@@ -57,6 +57,17 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+
+#cssmenu > ul > li > button {
+  padding: 17px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #dddddd;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 #cssmenu > ul > li:hover > a {
   color: #ffffff;
 }

@@ -14,7 +14,7 @@ using Montescc.Models;
 namespace Montescc.Controllers
 {
     [Authorize]
-    [InitializeSimpleMembership]
+    //[InitializeSimpleMembership]
     public class AccountController : Controller
     {
         //

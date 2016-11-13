@@ -18,6 +18,7 @@
           </Key>
           <Property Name="IdModulo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="IdCurso" Type="int" Nullable="false" />
+          <Property Name="Posicion" Type="int" />
           <Property Name="Nombre" Type="nvarchar(max)" />
           <Property Name="UrlImagen" Type="nvarchar(max)" />
         </EntityType>
@@ -27,6 +28,7 @@
           </Key>
           <Property Name="IdSeccion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="IdModulo" Type="int" Nullable="false" />
+          <Property Name="Posicion" Type="int" />
           <Property Name="Titulo" Type="nvarchar(max)" />
           <Property Name="Contenido" Type="nvarchar(max)" />
           <Property Name="UrlImagen" Type="nvarchar(max)" />
@@ -103,6 +105,7 @@
           <Property Name="UrlImagen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Curso" Relationship="MontesccModel.FK_Modulo_Curso" FromRole="Modulo" ToRole="Curso" />
           <NavigationProperty Name="Seccion" Relationship="MontesccModel.FK_Seccion_Modulo" FromRole="Modulo" ToRole="Seccion" />
+          <Property Name="Posicion" Type="Int32" />
         </EntityType>
         <EntityType Name="Seccion">
           <Key>
@@ -114,6 +117,7 @@
           <Property Name="Contenido" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="UrlImagen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Modulo" Relationship="MontesccModel.FK_Seccion_Modulo" FromRole="Seccion" ToRole="Modulo" />
+          <Property Name="Posicion" Type="Int32" />
         </EntityType>
         <Association Name="FK_Modulo_Curso">
           <End Type="MontesccModel.Curso" Role="Curso" Multiplicity="1" />
@@ -156,6 +160,7 @@
           <EntitySetMapping Name="Modulo">
             <EntityTypeMapping TypeName="MontesccModel.Modulo">
               <MappingFragment StoreEntitySet="Modulo">
+                <ScalarProperty Name="Posicion" ColumnName="Posicion" />
                 <ScalarProperty Name="UrlImagen" ColumnName="UrlImagen" />
                 <ScalarProperty Name="Nombre" ColumnName="Nombre" />
                 <ScalarProperty Name="IdCurso" ColumnName="IdCurso" />
@@ -166,6 +171,7 @@
           <EntitySetMapping Name="Seccion">
             <EntityTypeMapping TypeName="MontesccModel.Seccion">
               <MappingFragment StoreEntitySet="Seccion">
+                <ScalarProperty Name="Posicion" ColumnName="Posicion" />
                 <ScalarProperty Name="UrlImagen" ColumnName="UrlImagen" />
                 <ScalarProperty Name="Contenido" ColumnName="Contenido" />
                 <ScalarProperty Name="Titulo" ColumnName="Titulo" />
