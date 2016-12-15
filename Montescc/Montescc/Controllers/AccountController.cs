@@ -61,9 +61,9 @@ namespace Montescc.Controllers
         // GET: /Account/Register
 
         [AllowAnonymous]
-        public ActionResult Register()
+        public ActionResult RegisterFM()
         {
-            return View();
+            return View("Register");
         }
 
         //
@@ -72,7 +72,7 @@ namespace Montescc.Controllers
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public ActionResult Register(RegisterModel model)
+        public ActionResult RegisterFM(RegisterModel model)
         {
             if (ModelState.IsValid)
             {
@@ -90,7 +90,7 @@ namespace Montescc.Controllers
             }
 
             // Si llegamos a este punto, es que se ha producido un error y volvemos a mostrar el formulario
-            return View(model);
+            return View("Register", model);
         }
 
         //

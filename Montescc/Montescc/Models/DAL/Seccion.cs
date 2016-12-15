@@ -20,6 +20,7 @@ namespace Montescc.Models.DAL
         public string Contenido { get; set; }
         public string UrlImagen { get; set; }
         public Nullable<int> Posicion { get; set; }
+        public string UrlSegundaImagen { get; set; }
     
         public virtual Modulo Modulo { get; set; }
     }

@@ -42,7 +42,7 @@ namespace Montescc.Controllers
                     Subject = "Visitante del Sitio montes.cc escribió"
                 };
 
-                message.CC.Add("fjosuemn@gmail.com");
+                message.CC.Add("fenix@montes.cc");
 
                 string Body = "<b>Correo recibido de parte de:</b>" + " " + ""
                     + "<br>" +

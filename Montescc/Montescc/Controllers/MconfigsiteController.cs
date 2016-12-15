@@ -20,22 +20,22 @@ namespace Montescc.Controllers
         {
             if (!string.IsNullOrWhiteSpace(User.Identity.Name))
             {
-                List<Curso> listaDeCursos = new List<Curso>();
-                listaDeCursos = montesModelo.Curso.ToList();
+                //List<Curso> listaDeCursos = new List<Curso>();
+                //listaDeCursos = montesModelo.Curso.ToList();
 
-                return View(listaDeCursos);
+                return View();//listaDeCursos);
             }
             WebSecurity.Logout();
             return RedirectToAction("Index", "Home");
         }
 
-        [HttpPost]
+        //[HttpPost]
         public ActionResult DetalleCurso(int idCurso)
         {
             if (!string.IsNullOrWhiteSpace(User.Identity.Name))
             {
                 List<Modulo> listaModulos = new List<Modulo>();
-                listaModulos = montesModelo.Modulo.ToList();
+                listaModulos = montesModelo.Modulo.Where(x=>x.IdCurso == idCurso).ToList();
 
                 ViewBag.NombreCurso = montesModelo.Curso.Find(idCurso).Nombre;
                 ViewBag.IdCurso = idCurso;
@@ -76,21 +76,18 @@ namespace Montescc.Controllers
         }
 
         [HttpPost]
-        public ActionResult GuardarModulo(int idDeModuloActual, int posicion, int idDeCursoActual, HttpPostedFileBase nombreImagen, string nombreModulo)
+        public ActionResult GuardarModulo(int idDeModuloActual, int posicion, int idDeCursoActual, string nombreImagen, string nombreModulo)
         {
             if (!string.IsNullOrWhiteSpace(User.Identity.Name))
             {
-                Modulo moduloTemp = new Modulo();
-                string urlImagen = "/Content/Cursos/";
+                Modulo moduloTemp = new Modulo();                
                 string idCursoActual = idDeCursoActual.ToString();
                 string idModuloActual = idDeModuloActual.ToString();
-
-                urlImagen += idCursoActual + "/Modulos/";
-
+                
                 if (idDeModuloActual == 0)
                 {
-                    moduloTemp.UrlImagen = urlImagen;
-                    moduloTemp.IdModulo = idDeModuloActual;
+                    //moduloTemp.IdModulo = idDeModuloActual;
+                    moduloTemp.UrlImagen = nombreImagen;                    
                     moduloTemp.Nombre = nombreModulo;
                     moduloTemp.IdCurso = idDeCursoActual;
                     moduloTemp.Posicion = posicion;
@@ -98,52 +95,17 @@ namespace Montescc.Controllers
                     montesModelo.Modulo.Add(moduloTemp);
                     montesModelo.Entry(moduloTemp).State = System.Data.EntityState.Added;
                     montesModelo.SaveChanges();
-
-                    var rutaImagenTemp = urlImagen + moduloTemp.IdModulo;// idModuloActual;
-                    string physicalPath = Server.MapPath("~" + rutaImagenTemp);
-                    string pathTemporal = Path.Combine(physicalPath);
-                    Directory.CreateDirectory(pathTemporal);
-
-                    urlImagen = urlImagen + moduloTemp.IdModulo + '/' + nombreImagen.FileName;
-
-                    moduloTemp = montesModelo.Modulo.Find(moduloTemp.IdModulo);
-                    moduloTemp.UrlImagen = urlImagen;
-
-                    montesModelo.Modulo.Attach(moduloTemp);
-                    montesModelo.Entry(moduloTemp).State = System.Data.EntityState.Modified;
-                    montesModelo.SaveChanges();
-
-                    var pathImagen = Path.Combine(Server.MapPath(rutaImagenTemp + '/'), nombreImagen.FileName);
-                    nombreImagen.SaveAs(pathImagen);
                 }
                 else
                 {
-                    var rutaImagenTemp = urlImagen + idModuloActual;
-                    string physicalPath = Server.MapPath("~" + rutaImagenTemp);
-                    string pathTemporal = Path.Combine(physicalPath);
-                    Directory.CreateDirectory(pathTemporal);
-
                     moduloTemp = montesModelo.Modulo.Find(idDeModuloActual);
                     moduloTemp.Posicion = posicion;
-
-                    if (nombreImagen != null)
-                    {
-                        urlImagen = urlImagen + idModuloActual + '/' + nombreImagen.FileName;
-                        BorrarImagenRecurso(moduloTemp);
-                        moduloTemp.UrlImagen = urlImagen;
-                    }
-
+                    moduloTemp.UrlImagen = nombreImagen;
                     moduloTemp.Nombre = nombreModulo;
 
                     montesModelo.Modulo.Attach(moduloTemp);
                     montesModelo.Entry(moduloTemp).State = System.Data.EntityState.Modified;
                     montesModelo.SaveChanges();
-
-                    if (nombreImagen != null)
-                    {
-                        var pathImagen = Path.Combine(Server.MapPath(rutaImagenTemp + '/'), nombreImagen.FileName);
-                        nombreImagen.SaveAs(pathImagen);
-                    }
                 }
                 return RedirectToAction("RecargaModulosActual", new { idCurso = idDeCursoActual });
             }
@@ -200,28 +162,24 @@ namespace Montescc.Controllers
                 Seccion seccionActual = new Seccion();
                 seccionActual = montesModelo.Seccion.Find(idSeccionActual);
 
-                return Json(new { IdModulo = seccionActual.IdModulo, Posicion = seccionActual.Posicion, Contenido = seccionActual.Contenido, Imagen = seccionActual.UrlImagen, }, JsonRequestBehavior.AllowGet);
+                return Json(new { IdModulo = seccionActual.IdModulo, Posicion = seccionActual.Posicion, Contenido = seccionActual.Contenido, PrimeraImagen = seccionActual.UrlImagen, SegundaImagen = seccionActual.UrlSegundaImagen }, JsonRequestBehavior.AllowGet);
             }
             WebSecurity.Logout();
             return RedirectToAction("Index", "Home");
         }
 
 
-        [HttpPost]
-        public ActionResult GuardarSeccion(int idDeModuloActual, int idDeSeccionActual, string tituloSeccion, int? posicion, int idDeCursoActual, HttpPostedFileBase nombreImagen, string contenidoSeccion)
+        [HttpPost, ValidateInput(false)]
+        public ActionResult GuardarSeccion(int idDeModuloActual, int idDeSeccionActual, string tituloSeccion, int? posicion, int idDeCursoActual, string nombrePrimerImagen, string nombreSegundaImagen, string contenidoSeccion)
         {
             if (!string.IsNullOrWhiteSpace(User.Identity.Name))
             {
                 Seccion seccioneTemp = new Seccion();
-                string urlImagen = "/Content/Cursos/" + idDeCursoActual;
-                string idCursoActual = idDeCursoActual.ToString();
-                string idModuloActual = idDeModuloActual.ToString();
-
-                urlImagen += idCursoActual + "/Modulos/" + idDeModuloActual + "/Secciones/";
-
+               
                 if (idDeSeccionActual == 0)
                 {
-                    seccioneTemp.UrlImagen = urlImagen;
+                    seccioneTemp.UrlImagen = nombrePrimerImagen;
+                    seccioneTemp.UrlSegundaImagen = nombreSegundaImagen;
                     seccioneTemp.IdModulo = idDeModuloActual;
                     seccioneTemp.Contenido = contenidoSeccion;
                     seccioneTemp.Posicion = posicion;
@@ -229,54 +187,21 @@ namespace Montescc.Controllers
 
                     montesModelo.Seccion.Add(seccioneTemp);
                     montesModelo.Entry(seccioneTemp).State = System.Data.EntityState.Added;
-                    montesModelo.SaveChanges();
-
-                    var rutaImagenTemp = urlImagen + seccioneTemp.IdSeccion;
-                    string physicalPath = Server.MapPath("~" + rutaImagenTemp);
-                    string pathTemporal = Path.Combine(physicalPath);
-                    Directory.CreateDirectory(pathTemporal);
-
-                    urlImagen = urlImagen + seccioneTemp.IdSeccion + '/' + nombreImagen.FileName;
-
-                    seccioneTemp = montesModelo.Seccion.Find(seccioneTemp.IdSeccion);
-                    seccioneTemp.UrlImagen = urlImagen;
-
-                    montesModelo.Seccion.Attach(seccioneTemp);
-                    montesModelo.Entry(seccioneTemp).State = System.Data.EntityState.Modified;
-                    montesModelo.SaveChanges();
-
-                    var pathImagen = Path.Combine(Server.MapPath(rutaImagenTemp + '/'), nombreImagen.FileName);
-                    nombreImagen.SaveAs(pathImagen);
+                    montesModelo.SaveChanges();                    
                 }
                 else
-                {
-                    var rutaImagenTemp = urlImagen + idDeSeccionActual;
-                    string physicalPath = Server.MapPath("~" + rutaImagenTemp);
-                    string pathTemporal = Path.Combine(physicalPath);
-                    Directory.CreateDirectory(pathTemporal);
-
+                {                   
                     seccioneTemp = montesModelo.Seccion.Find(idDeSeccionActual);
                     seccioneTemp.Posicion = posicion;
                     seccioneTemp.Titulo = tituloSeccion;
-
-                    if (nombreImagen != null)
-                    {
-                        urlImagen = urlImagen + seccioneTemp.IdSeccion + '/' + nombreImagen.FileName;
-                        BorrarImagenSeccion(seccioneTemp);
-                        seccioneTemp.UrlImagen = urlImagen;
-                    }
-
+                    seccioneTemp.UrlImagen = nombrePrimerImagen;
+                    seccioneTemp.UrlSegundaImagen = nombreSegundaImagen;
+                 
                     seccioneTemp.Contenido = contenidoSeccion;
 
                     montesModelo.Seccion.Attach(seccioneTemp);
                     montesModelo.Entry(seccioneTemp).State = System.Data.EntityState.Modified;
                     montesModelo.SaveChanges();
-
-                    if (nombreImagen != null)
-                    {
-                        var pathImagen = Path.Combine(Server.MapPath(rutaImagenTemp + '/'), nombreImagen.FileName);
-                        nombreImagen.SaveAs(pathImagen);
-                    }
                 }
                 return RedirectToAction("RecargaSeccionesActual", new { idModuloSecciones = idDeModuloActual });
             }
@@ -290,6 +215,30 @@ namespace Montescc.Controllers
             if (System.IO.File.Exists(fullPath))
             {
                 System.IO.File.Delete(fullPath);
+            }
+        }
+
+        public ActionResult QuitarImagen(int idSeccionActual)
+        {
+            Seccion seccionActual = montesModelo.Seccion.Find(idSeccionActual);
+            try
+            {
+                string fullPath = Request.MapPath("~" + seccionActual.UrlImagen);
+                if (System.IO.File.Exists(fullPath))
+                {
+                    System.IO.File.Delete(fullPath);
+                }
+
+                seccionActual.UrlImagen = null;
+                montesModelo.Seccion.Attach(seccionActual);
+                montesModelo.Entry(seccionActual).State = System.Data.EntityState.Modified;
+                montesModelo.SaveChanges();
+
+                return RedirectToAction("RecargaSeccionesActual", new { idModuloSecciones = seccionActual.IdModulo });
+            }
+            catch (Exception mensaje)
+            {
+                return RedirectToAction("RecargaSeccionesActual", new { idModuloSecciones = seccionActual.IdModulo });
             }
         }
 

@@ -245,6 +245,6 @@ C:\Matrix\Montescc\Montescc\Montescc\Montescc\bin\ko\System.Spatial.resources.dl
 C:\Matrix\Montescc\Montescc\Montescc\Montescc\bin\ru\System.Spatial.resources.dll
 C:\Matrix\Montescc\Montescc\Montescc\Montescc\bin\zh-Hans\System.Spatial.resources.dll
 C:\Matrix\Montescc\Montescc\Montescc\Montescc\bin\zh-Hant\System.Spatial.resources.dll
+C:\Matrix\Montescc\Montescc\Montescc\Montescc\obj\Debug\Montescc.csprojResolveAssemblyReference.cache
 C:\Matrix\Montescc\Montescc\Montescc\Montescc\obj\Debug\Montescc.dll
 C:\Matrix\Montescc\Montescc\Montescc\Montescc\obj\Debug\Montescc.pdb
-C:\Matrix\Montescc\Montescc\Montescc\Montescc\obj\Debug\Montescc.csprojResolveAssemblyReference.cache

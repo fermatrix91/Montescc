@@ -32,6 +32,7 @@
           <Property Name="Titulo" Type="nvarchar(max)" />
           <Property Name="Contenido" Type="nvarchar(max)" />
           <Property Name="UrlImagen" Type="nvarchar(max)" />
+          <Property Name="UrlSegundaImagen" Type="nvarchar(max)" />
         </EntityType>
         <Association Name="FK_Modulo_Curso">
           <End Role="Curso" Type="Self.Curso" Multiplicity="1" />
@@ -118,6 +119,7 @@
           <Property Name="UrlImagen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Modulo" Relationship="MontesccModel.FK_Seccion_Modulo" FromRole="Seccion" ToRole="Modulo" />
           <Property Name="Posicion" Type="Int32" />
+          <Property Name="UrlSegundaImagen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
         <Association Name="FK_Modulo_Curso">
           <End Type="MontesccModel.Curso" Role="Curso" Multiplicity="1" />
@@ -171,6 +173,7 @@
           <EntitySetMapping Name="Seccion">
             <EntityTypeMapping TypeName="MontesccModel.Seccion">
               <MappingFragment StoreEntitySet="Seccion">
+                <ScalarProperty Name="UrlSegundaImagen" ColumnName="UrlSegundaImagen" />
                 <ScalarProperty Name="Posicion" ColumnName="Posicion" />
                 <ScalarProperty Name="UrlImagen" ColumnName="UrlImagen" />
                 <ScalarProperty Name="Contenido" ColumnName="Contenido" />

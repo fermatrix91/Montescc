@@ -1,0 +1,236 @@
+		 html{
+			background: rgba(245, 245, 245, 0.58);
+		} 
+		
+		.bordeSitio{
+			-webkit-box-shadow: 0px 2px 5px 5px rgba(0,0,0,0.33);
+			-moz-box-shadow: 0px 2px 5px 5px rgba(0,0,0,0.33);
+			box-shadow: 0px 2px 5px 5px rgba(0,0,0,0.33);
+		}
+		
+		.scrollup{
+			width:40px;
+			height:40px;
+			opacity:0.3;
+			position:fixed;
+			bottom:50px;
+			right: 1%;/*50px;*/
+			display:none;
+			text-indent:-9999px;
+			background: url('/imagenes/icon_top.png') no-repeat;
+			z-index: 1000;
+		}
+		
+		.fondoHeader{
+			background: whites;
+			margin: 0;
+			padding: 0;
+			color: white;
+			height: 70px;
+		}
+	
+		.anchuraContenedor{
+			width: 80% !Important;
+			margin: 0 0 0 10% !Important;
+		}
+		
+		.panelesPublicitarios{
+			text-align: center;
+			background:lightblue;
+			/* margin-top: 15%; */
+			/* width: 10%; */
+			/*****height: 100px;*****/
+			/* float: right; */
+			border-radius: 10px;
+			/* position: fixed; */
+			/* margin-left: 89%; */
+			/* margin-top:3%; */
+		}
+		
+		 #piePagina{			
+			background: #333333; 
+			/* right: 0px; */
+			 height: 48px; 
+			 width:100%;
+			 border-top: 2px solid rgb(212, 81, 81); 
+			/* z-index: 5; */
+		 } 
+		
+	 	#menuSuperior{
+			max-height: 48px !Important;
+		} 
+		
+		@media only screen and (max-width: 765px) {
+			body {
+				/*background-color: lightgreen;*/
+			}
+			
+			.anchuraContenedor{
+				width: 100% !Important;
+				margin: 0 !Important;
+			}
+			
+			/* .panelesPublicitarios{
+				position: relative;
+				width: 98%;
+				height: auto;
+				margin: 1% 1% 1% 1%;
+			} */						
+		}		
+		
+		.seccionesIngles{
+			margin: 40px 0px 0px 0px !Important;
+		}
+		
+		.formatoAudio{
+			width: 130px;
+		}
+		
+		.botonPlay{
+			height:28px;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+		
+		.textoPlay{
+			margin-top:1px;
+		}
+		
+		.cuadrosPrincipalesHome:hover{
+			border-style: 1px solid gray !Important;
+			background-color: rgb(153, 116, 116);/*#333333 !Important;*/
+			cursor: pointer;
+			border-radius: 20px;
+			color: white;
+			/* -webkit-box-shadow: 10px 9px 3px -7px rgba(0,0,0,0.75);
+			-moz-box-shadow: 10px 9px 3px -7px rgba(0,0,0,0.75);
+			box-shadow: 10px 9px 3px -7px rgba(0,0,0,0.75); */
+		}		
+		
+		.cuadrosPrincipalesHome{
+			padding:0;
+			padding-left: 1%;
+			padding-right: 1%;
+			margin-top: 1%;
+		}
+		
+		/**Mostrador de imágenes**/
+		
+		.carousel {
+			/* height: 300px; */
+			margin-top: 48px;
+		}
+		/* Since positioning the image, we need to help out the caption */
+		 .carousel-caption {
+			z-index: 10;
+		}
+		/* Declare heights because of positioning of img element */
+		 .carousel .item {
+			width: 100%;
+			height: 300px;
+			/* background-color: #777; */
+		}
+		.carousel-inner > .item > img {
+			display: block;
+			margin: auto;
+			/* 
+			position: absolute;
+			top: 0;
+			left: 0;
+			min-width: 100%;
+			 height: 300px;*/
+			 min-width: 100% !Important;
+		}
+		@media (min-width: 768px) {
+			.carousel-caption p {
+			/* 	margin-bottom: 20px; */
+				font-size: 21px;
+				line-height: 1.4;
+			}
+		}
+		
+		/*Html*/
+		#listaMenuHtml{
+
+		}
+
+		#listaMenuHtml>li>a:hover{
+			cursor: pointer;			
+		}
+
+
+/*Estilos para contenedores de información*/
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: rgb(212, 81, 81);
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+
+
+/*Colores para signos de contenido Html*/
+.signosMenorMayor{
+	color: rgb(212, 81, 81);
+	font-family: Consolas,"courier new";
+}
+
+.palabraClave{
+	color: #5353c3;
+	font-family: Consolas,"courier new";
+}
+
+.atributos{
+	color: #2ca20e;
+	font-family: Consolas,"courier new";
+}
