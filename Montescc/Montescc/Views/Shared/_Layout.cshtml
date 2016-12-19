@@ -27,9 +27,9 @@
                     <ul>
                         <li><a href='/Home/Index'>Inicio</a></li>
                         <li style="z-index:1000;"><a href='/Curso/Ingles'>English - Español</a></li>
-                        <li><a href='/Curso/Ajedrez'>Ajedrez</a></li>
-                        <li><a href='/Home/Index'>Web</a></li>
-                        <li><a href='/Curso/Contabilidad'>Contabilidad</a></li>
+                        <li id="cuadroAjedrez"><a href='/Curso/Ajedrez'>Ajedrez</a></li>
+                        <li id="cuadroWeb"><a href='/Curso/Web'>Web</a></li>
+                        <li id="cuadroContabilidad"><a href='/Curso/Contabilidad'>Contabilidad</a></li>
                         <li><button id="abreFormulario" style="background-color: #333333; border: none; border-style: none;" data-toggle="modal" data-target="#myModal">Contáctanos <span class="glyphicon glyphicon-send"></span></button></li>
                     </ul>
                 </div>
@@ -71,11 +71,36 @@
         </div>
 
     </div>
+
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="width: 100%;">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" style="margin-top: -10px;"><span style="font-weight: bolder; font-size: 40px;" aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <img src="" class="imagepreview" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>	
+
     <script src="~/Content/bootstrap/js/bootstrap.js"></script>
-    @Scripts.Render("~/bundles/jquery")
+    @*@Scripts.Render("~/bundles/jquery")*@
     @RenderSection("scripts", required: false)
 
     <script>
+        if ($("#cursoActual").text() == 1) {
+            $('#cuadroAjedrez').css('background', '#d45151');
+            $('#cuadroAjedrez').css('padding', '1px');
+        }
+        if ($("#cursoActual").text() == 2) {
+            $('#cuadroWeb').css('background', '#d45151');
+            $('#cuadroWeb').css('padding', '1px');
+        }
+        if ($("#cursoActual").text() == 3) {
+            $('#cuadroContabilidad').css('background', '#d45151');
+            $('#cuadroContabilidad').css('padding', '1px');
+        }
+
         $('#abreFormulario').click(function () {
             $('#correoContacto').val(""); $('#contenidoContacto').val("");
         });
@@ -150,6 +175,17 @@
         function habilitaPlayButton() {
             $("button").removeAttr("disabled");
         }
+
+        $(function () {
+            //$('.pop').on('click', function () {
+            $('img').on('click', function () {
+                $('.imagepreview').attr('src', $(this).attr('src')); // here asign the image to the modal when the user click the enlarge link
+                $('#imagemodal').modal('show');
+
+                /*$('.pop').attr('src', $(this).find('img').attr('src'));
+                $('#imagemodal').modal('show');   */
+            });
+        });
 
     </script>
 

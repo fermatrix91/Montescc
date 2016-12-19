@@ -1666,7 +1666,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:44</publishTime>
     </File>
     <File Include="bin/Montescc.dll">
-      <publishTime>12/14/2016 21:28:28</publishTime>
+      <publishTime>12/19/2016 15:21:43</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>11/09/2016 21:07:40</publishTime>
@@ -3367,10 +3367,13 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/13/2016 17:52:38</publishTime>
     </File>
     <File Include="Views/Curso/Modulos.cshtml">
-      <publishTime>12/14/2016 20:38:04</publishTime>
+      <publishTime>12/19/2016 14:23:58</publishTime>
     </File>
     <File Include="Views/Curso/Secciones.cshtml">
-      <publishTime>12/14/2016 21:22:13</publishTime>
+      <publishTime>12/19/2016 14:25:29</publishTime>
+    </File>
+    <File Include="Views/Curso/Web.cshtml">
+      <publishTime>12/19/2016 15:18:37</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>11/13/2016 17:42:42</publishTime>
@@ -3382,16 +3385,16 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/11/2016 19:59:55</publishTime>
     </File>
     <File Include="Views/Mconfigsite/SeccionesPorModulo.cshtml">
-      <publishTime>12/11/2016 21:48:27</publishTime>
+      <publishTime>12/18/2016 20:00:00</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>11/09/2016 21:07:09</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>12/14/2016 21:21:28</publishTime>
+      <publishTime>12/19/2016 15:03:55</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutAdmin.cshtml">
-      <publishTime>12/11/2016 19:36:24</publishTime>
+      <publishTime>12/19/2016 14:46:59</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>12/11/2016 21:59:24</publishTime>

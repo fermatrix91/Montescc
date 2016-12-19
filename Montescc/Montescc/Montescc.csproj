@@ -1273,6 +1273,7 @@
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Views\Mconfigsite\DetalleCurso.cshtml" />
     <Content Include="Views\Mconfigsite\SeccionesPorModulo.cshtml" />
+    <Content Include="Views\Curso\Web.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

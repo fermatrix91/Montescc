@@ -23,7 +23,7 @@
                 Posición
             </th>
             <th></th>
-            <th>Título</th>
+            @*<th>Título</th>*@
             <th><button id="agregaSeccion" style="float: right;" class="btn btn-info" data-toggle="modal" data-target="#modalModulo">Nueva Sección</button></th>
         </tr>
     </thead>
@@ -33,7 +33,7 @@
                 Posición
             </th>
             <th></th>
-            <th>Título</th>
+          @*  <th>Título</th>*@
             <th></th>
         </tr>
     </tfoot>
@@ -45,14 +45,14 @@
                     @Html.DisplayFor(modelItem => item.Posicion)
                 </td>
                 <td>@Html.DisplayFor(modelItem => item.Titulo)</td>
-                <td>
+                @*<td>
                     @if (item.UrlImagen != null)
                     {
                         <form action="QuitarImagen" method="post">
                             <button class="btn btn-danger" name="idSeccionActual" value="@item.IdSeccion">Quitar Imagen</button>
                         </form>
                     }
-                </td>
+                </td>*@
                 <td style="white-space:nowrap !important; width: 1%;">
                     <button class="editarSeccione btn btn-primary" data-idmoduloactual="@item.IdModulo" data-idseccionactual="@item.IdSeccion">Editar</button>
                 </td>

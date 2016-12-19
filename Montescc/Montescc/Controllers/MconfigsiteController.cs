@@ -51,7 +51,7 @@ namespace Montescc.Controllers
             if (!string.IsNullOrWhiteSpace(User.Identity.Name))
             {
                 List<Modulo> listaModulos = new List<Modulo>();
-                listaModulos = montesModelo.Modulo.ToList();
+                listaModulos = montesModelo.Modulo.Where(x => x.IdCurso == idCurso).ToList();
 
                 ViewBag.NombreCurso = montesModelo.Curso.Find(idCurso).Nombre;
                 ViewBag.IdCurso = idCurso;

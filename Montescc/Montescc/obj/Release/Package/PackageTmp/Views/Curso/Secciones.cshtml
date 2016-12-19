@@ -10,13 +10,13 @@
         <article>
             <div style="margin-top: 3%;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
+                    <p style="display: none;" id="cursoActual">@ViewBag.IdDeCurso</p>
                     <div>
 
-                        <a data-toggle="tooltip" title="Anterior" href="/Curso/SeccionesCurso?idModulo=@ViewBag.IdModuloActual&posicion=anterior" class="btn btn-info"><span class="glyphicon glyphicon-arrow-left"></span></a>
+                        <a data-toggle="tooltip" title="Anterior" href="/Curso/SeccionesCurso?idModulo=@ViewBag.IdModuloActual&posicion=anterior&idCurso=@ViewBag.IdDeCurso" class="btn btn-info"><span class="glyphicon glyphicon-arrow-left"></span></a>
 
 
-                        <a data-toggle="tooltip" title="Siguiente" style="float:right;" href="/Curso/SeccionesCurso?idModulo=@ViewBag.IdModuloActual&posicion=siguiente" class="btn btn-info"><span class="glyphicon glyphicon-arrow-right"></span></a>
+                        <a data-toggle="tooltip" title="Siguiente" style="float:right;" href="/Curso/SeccionesCurso?idModulo=@ViewBag.IdModuloActual&posicion=siguiente&idCurso=@ViewBag.IdDeCurso" class="btn btn-info"><span class="glyphicon glyphicon-arrow-right"></span></a>
 
                     </div>
 
@@ -84,8 +84,8 @@
                     }
                     <h2></h2>
                     <div>
-                        <a data-toggle="tooltip" title="Anterior" href="/Curso/SeccionesCurso?idModulo=@ViewBag.IdModuloActual&posicion=anterior" class="btn btn-info"><span class="glyphicon glyphicon-arrow-left"></span></a>
-                        <a data-toggle="tooltip" title="Siguiente" style="float:right;" href="/Curso/SeccionesCurso?idModulo=@ViewBag.IdModuloActual&posicion=siguiente" class="btn btn-info"><span class="glyphicon glyphicon-arrow-right"></span></a>
+                        <a data-toggle="tooltip" title="Anterior" href="/Curso/SeccionesCurso?idModulo=@ViewBag.IdModuloActual&posicion=anterior&idCurso=@ViewBag.IdDeCurso" class="btn btn-info"><span class="glyphicon glyphicon-arrow-left"></span></a>
+                        <a data-toggle="tooltip" title="Siguiente" style="float:right;" href="/Curso/SeccionesCurso?idModulo=@ViewBag.IdModuloActual&posicion=siguiente&idCurso=@ViewBag.IdDeCurso" class="btn btn-info"><span class="glyphicon glyphicon-arrow-right"></span></a>
                     </div>
                 </section>
                 <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
