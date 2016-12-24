@@ -23,6 +23,8 @@
     <EntitySetMapping Name="Seccion">
       <EntityTypeMapping TypeName="MontesccModel.Seccion">
         <MappingFragment StoreEntitySet="Seccion">
+          <ScalarProperty Name="NombreImagenDos" ColumnName="NombreImagenDos" />
+          <ScalarProperty Name="NombreImagenUno" ColumnName="NombreImagenUno" />
           <ScalarProperty Name="UrlSegundaImagen" ColumnName="UrlSegundaImagen" />
           <ScalarProperty Name="Posicion" ColumnName="Posicion" />
           <ScalarProperty Name="UrlImagen" ColumnName="UrlImagen" />

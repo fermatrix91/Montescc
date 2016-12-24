@@ -35,7 +35,7 @@ namespace Montescc.Controllers
             if (!string.IsNullOrWhiteSpace(User.Identity.Name))
             {
                 List<Modulo> listaModulos = new List<Modulo>();
-                listaModulos = montesModelo.Modulo.Where(x=>x.IdCurso == idCurso).ToList();
+                listaModulos = montesModelo.Modulo.Where(x => x.IdCurso == idCurso).ToList();
 
                 ViewBag.NombreCurso = montesModelo.Curso.Find(idCurso).Nombre;
                 ViewBag.IdCurso = idCurso;
@@ -80,14 +80,14 @@ namespace Montescc.Controllers
         {
             if (!string.IsNullOrWhiteSpace(User.Identity.Name))
             {
-                Modulo moduloTemp = new Modulo();                
+                Modulo moduloTemp = new Modulo();
                 string idCursoActual = idDeCursoActual.ToString();
                 string idModuloActual = idDeModuloActual.ToString();
-                
+
                 if (idDeModuloActual == 0)
                 {
                     //moduloTemp.IdModulo = idDeModuloActual;
-                    moduloTemp.UrlImagen = nombreImagen;                    
+                    moduloTemp.UrlImagen = nombreImagen;
                     moduloTemp.Nombre = nombreModulo;
                     moduloTemp.IdCurso = idDeCursoActual;
                     moduloTemp.Posicion = posicion;
@@ -162,7 +162,16 @@ namespace Montescc.Controllers
                 Seccion seccionActual = new Seccion();
                 seccionActual = montesModelo.Seccion.Find(idSeccionActual);
 
-                return Json(new { IdModulo = seccionActual.IdModulo, Posicion = seccionActual.Posicion, Contenido = seccionActual.Contenido, PrimeraImagen = seccionActual.UrlImagen, SegundaImagen = seccionActual.UrlSegundaImagen }, JsonRequestBehavior.AllowGet);
+                return Json(new
+                {
+                    IdModulo = seccionActual.IdModulo,
+                    Posicion = seccionActual.Posicion,
+                    Contenido = seccionActual.Contenido,
+                    PrimeraImagen = seccionActual.UrlImagen,
+                    SegundaImagen = seccionActual.UrlSegundaImagen,
+                    NombrePrimeraImagen = seccionActual.NombreImagenUno,
+                    NombreSegundaImagen = seccionActual.NombreImagenDos
+                }, JsonRequestBehavior.AllowGet);
             }
             WebSecurity.Logout();
             return RedirectToAction("Index", "Home");
@@ -170,16 +179,19 @@ namespace Montescc.Controllers
 
 
         [HttpPost, ValidateInput(false)]
-        public ActionResult GuardarSeccion(int idDeModuloActual, int idDeSeccionActual, string tituloSeccion, int? posicion, int idDeCursoActual, string nombrePrimerImagen, string nombreSegundaImagen, string contenidoSeccion)
+        public ActionResult GuardarSeccion(int idDeModuloActual, int idDeSeccionActual, string tituloSeccion, int? posicion, int idDeCursoActual, string nombrePrimerImagen,
+            string nombreSegundaImagen, string contenidoSeccion, string nombreImagenUno, string nombreImagenDos)
         {
             if (!string.IsNullOrWhiteSpace(User.Identity.Name))
             {
                 Seccion seccioneTemp = new Seccion();
-               
+
                 if (idDeSeccionActual == 0)
                 {
                     seccioneTemp.UrlImagen = nombrePrimerImagen;
+                    seccioneTemp.NombreImagenUno = nombreImagenUno;
                     seccioneTemp.UrlSegundaImagen = nombreSegundaImagen;
+                    seccioneTemp.NombreImagenDos = nombreImagenDos;
                     seccioneTemp.IdModulo = idDeModuloActual;
                     seccioneTemp.Contenido = contenidoSeccion;
                     seccioneTemp.Posicion = posicion;
@@ -187,16 +199,18 @@ namespace Montescc.Controllers
 
                     montesModelo.Seccion.Add(seccioneTemp);
                     montesModelo.Entry(seccioneTemp).State = System.Data.EntityState.Added;
-                    montesModelo.SaveChanges();                    
+                    montesModelo.SaveChanges();
                 }
                 else
-                {                   
+                {
                     seccioneTemp = montesModelo.Seccion.Find(idDeSeccionActual);
                     seccioneTemp.Posicion = posicion;
                     seccioneTemp.Titulo = tituloSeccion;
                     seccioneTemp.UrlImagen = nombrePrimerImagen;
+                    seccioneTemp.NombreImagenUno = nombreImagenUno;
                     seccioneTemp.UrlSegundaImagen = nombreSegundaImagen;
-                 
+                    seccioneTemp.NombreImagenDos = nombreImagenDos;
+
                     seccioneTemp.Contenido = contenidoSeccion;
 
                     montesModelo.Seccion.Attach(seccioneTemp);

@@ -28,6 +28,8 @@
     <Property Name="Contenido" Type="nvarchar(max)" />
     <Property Name="UrlImagen" Type="nvarchar(max)" />
     <Property Name="UrlSegundaImagen" Type="nvarchar(max)" />
+    <Property Name="NombreImagenUno" Type="nvarchar(max)" />
+    <Property Name="NombreImagenDos" Type="nvarchar(max)" />
   </EntityType>
   <Association Name="FK_Modulo_Curso">
     <End Role="Curso" Type="Self.Curso" Multiplicity="1" />

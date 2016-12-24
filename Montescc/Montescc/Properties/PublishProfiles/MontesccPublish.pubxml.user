@@ -1666,7 +1666,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:44</publishTime>
     </File>
     <File Include="bin/Montescc.dll">
-      <publishTime>12/19/2016 15:21:43</publishTime>
+      <publishTime>12/23/2016 19:06:39</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>11/09/2016 21:07:40</publishTime>
@@ -3370,13 +3370,13 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/19/2016 14:23:58</publishTime>
     </File>
     <File Include="Views/Curso/Secciones.cshtml">
-      <publishTime>12/19/2016 14:25:29</publishTime>
+      <publishTime>12/23/2016 19:21:27</publishTime>
     </File>
     <File Include="Views/Curso/Web.cshtml">
       <publishTime>12/19/2016 15:18:37</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>11/13/2016 17:42:42</publishTime>
+      <publishTime>12/23/2016 17:50:55</publishTime>
     </File>
     <File Include="Views/Mconfigsite/DetalleCurso.cshtml">
       <publishTime>12/11/2016 22:07:10</publishTime>
@@ -3385,7 +3385,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/11/2016 19:59:55</publishTime>
     </File>
     <File Include="Views/Mconfigsite/SeccionesPorModulo.cshtml">
-      <publishTime>12/18/2016 20:00:00</publishTime>
+      <publishTime>12/23/2016 18:14:32</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>11/09/2016 21:07:09</publishTime>

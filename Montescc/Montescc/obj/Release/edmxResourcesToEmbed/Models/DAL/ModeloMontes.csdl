@@ -45,6 +45,8 @@
     <NavigationProperty Name="Modulo" Relationship="MontesccModel.FK_Seccion_Modulo" FromRole="Seccion" ToRole="Modulo" />
     <Property Name="Posicion" Type="Int32" />
     <Property Name="UrlSegundaImagen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NombreImagenUno" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NombreImagenDos" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
   </EntityType>
   <Association Name="FK_Modulo_Curso">
     <End Type="MontesccModel.Curso" Role="Curso" Multiplicity="1" />
