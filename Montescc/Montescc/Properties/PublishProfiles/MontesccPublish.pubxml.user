@@ -9,6 +9,606 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     <_PublishTargetUrl>C:\Matrix\MontesccPublish</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="audio/nivelDos/02001AcaboDeLlegarACasa.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02002AgradezcoTuAyuda.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02003AlguienMeEstaLlamando.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02004AquiEsDeNoche.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02005AquiEsMedianoche.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02006AquiEstare.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02007AquiTienes.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02008BajaElVolumen.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02009ConNadieEstoy.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02010DimeCuandoEstesListo.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02011DimeMas.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02012DimeSiNecesitasAyuda.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02013DormiComoBebe.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02014ElEsMiEsposo.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02015ElInglesEsDificil.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02016ElInglesEsFacil.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02017ElTelefonoEstaSonando.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02018EllaEsMiEsposa.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02019EresUnBuenMaestro.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02020EsAlgoImportante.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02021EsCierto.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02022EsEmocionante.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02023EsGraciosoPorqueEsCierto.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02024EsHoraDeAlistarme.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02025EsHoraDeCenar.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02026EsHoraDeIr.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02027EsImpresionante.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02028EsInspirador.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02029EsInteresante.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02030EsMio.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02031EsMuyUtil.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02032EsNormal.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02033EsRuidoso.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02034EsTerrible.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02035EsUnBuenTrabajo.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02036EsUnError.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02037EsUnMilagro.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02038EsUnSecreto.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02039Esperame.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02040EsperoVertePronto.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02041EstaCallado.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02042EstaFuncionando.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02043EstaMejor.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02044EstaOscuro.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02045EstaPeor.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02046EstabaPensandoEnTi.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02047EstanTodosCallados.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02048EstonSonMisHijos.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02049EstoyAburrido.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02050EstoyAqui.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02051EstoyAquiParaAyudar.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02052EstoyCasado.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02053EstoyCerca.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02054EstoyComprometido.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02055EstoyEnElCamino.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02056EstoyEnMiCama.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02057EstoyEnMiCarro.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02058EstoyEnProblemas.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02059EstoyEstudiandoEnEsteMomento.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02060EstoyFelizDeVerte.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02061EstoyFelizPorTi.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02062EstoyHaciendoLoMismo.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02063EstoyHaciendoPlanes.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02064EstoyLejos.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02065EstoyLibreEsteFinDeSemana.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02066EstoyListo.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02067EstoyOcupadoConLaEscuela.mp3">
+      <publishTime>12/28/2016 21:27:32</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02068EstoyPracticandoIngles.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02069EstoySeguro.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02070EstoySoloEnCasa.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02071ExplicaEsto.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02072Felicidades.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02073FueUnAccidente.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02074GraciasPorTuApoyo.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02075GraciasPorTuHospitalidad.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02076HoraDeDormir.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02077HoyEstoyLibre.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02078HoyFueUnDiaDeLocura.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02079LaCenaCasiEstaLista.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02080LePasaATodoMundo.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02081MeEncantaAprenderIdiomas.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02082MeGustaAprenderSobreDiferentesCulturas.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02083MeGustaComoPiensas.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02084MeGustaEsteLugar.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02085MeLevantoTarde.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02086MeLevantoTemprano.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02087MiBandaFavoritaEs.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02088MiCantanteFavoritoEs.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02089MiInternetEsLenta.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02090MiPronunciacionNecesitaPractica.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02091NadaPaso.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02092NadieEra.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02093NecesitoAyudaConElIngles.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02094NecesitoDescansar.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02095NoEstaFuncionando.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02096NoPuedoEnEsteMomento.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02097NoPuedoEncontrarte.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02098NoPuedoIrHoy.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02099NoTePreocupes.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02100NoTengoDinero.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02101NoTengoTiempo.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02102OdioLevantarmeTemprano.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02103PongaseComodo.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02104PracticoCuandoEstoyLibre.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02105PracticoEscuchando.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02106Preguntame.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02107PuedoEscucharte.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02108PuedoEsperar.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02109PuedoExplicar.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02110PuedoVerte.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02111QuieroViajar.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02112SiempreDuermoTarde.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02113SiempreDuermoTemprano.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02114SiempreLlaman.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02115SoyElMasJoven.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02116SoyEstudianteUniversitario.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02117SoySoltero.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02118SoyTimido.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02119SubeElVolumen.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02120TeGustara.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02121TeLoDireMasTarde.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02122TeVoyAEsperar.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02123TenemosUnaFiesta.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02124TengoBuenasNoticias.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02125TengoConfianza.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02126TengoDinero.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02127TengoProblemasConLaPronunciacion.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02128TengoQuePedirPermiso.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02129TengoTiempo.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02130TengoUnNegocio.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02131TengoUnaFamiliaGrande.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02132TengoUnaFamiliaPequeña.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02133TiempoParaCelebrar.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02134TienesMiApoyo.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02135TienesUnaHermosaCasa.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02136TienesUnaHermosaFamilia.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02137TienesUnosHijosHermosos.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02138TomareUnaDucha.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02139TomateTuTiempo.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02140TuveUnSueño.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02141UstedEsBienvenido.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02142VenMasTarde.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02143Visitame.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02144VivoConMiFamilia.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02145VivoEnUnApartamento.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02146VivoEnUnaCasa.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02147VivoSolo.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02148YoLoEscribire.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02149AQueHoraDespiertas.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02150AQueHoraEstasLibre.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02151AQueHoraVasADormir.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02152BuscasAlgo.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02153ComoAprendes.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02154ComoEsPosible.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02155ComoEstaTuPronunciacion.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02156ComoEstuvoTuFinDeSemana.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02157ComoFue.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02158ComoHaOcurrido.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02159ComoLoHaces.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02160ConQuienEstas.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02161CualEsTuBandaFavorita.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02162CualEs.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02163CualesSonLasOpciones.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02164CuandoEsLaBoda.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02165DeQuienEs.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02166DondeFuiste.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02167EresElMasJoven.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02168EresEstudianteUniversitario.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02169EresSoltero.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02170EsCierto.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02171EsFalso.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02172EstaListaLaCena.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02173EstasAprendiendoInglesTambien.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02174EstasListo.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02175EstasSeguro.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02176HasAprendidoAlgo.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02177HasOidoLasNoticias.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02178HayBuenasPeliculasExtranjerasParaVer.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02179MePuedesAyudarConEsto.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02180PuedesDarmeEso.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02181PuedesRecogerme.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02182PuedoHacerteUnaPregunta.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02183PuedoTenerTuAtencion.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02184PuedoTenerUno.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02185QueBuscas.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02186QueEsEseRuido.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02187QueEstanHaciendoEllos.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02188QueEstasComprando.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02189QueEstudiaste.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02190QueHarasMañana.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02191QueEsLoNuevo.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02192QueHoraEsAhi.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02193QueNecesitas.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02194QuienEsTuCantanteFavorito.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02195QuienEstaAqui.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02196QuienNecesitaAyuda.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02197QuieresHablar.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02198SiguesAhi.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02199TeEnterasteDeLoQuePaso.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
+    <File Include="audio/nivelDos/02200TienesDinero.mp3">
+      <publishTime>12/28/2016 21:27:34</publishTime>
+    </File>
     <File Include="audio/nivelUno/adios.mp3">
       <publishTime>11/09/2016 22:33:26</publishTime>
     </File>
@@ -1666,7 +2266,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:44</publishTime>
     </File>
     <File Include="bin/Montescc.dll">
-      <publishTime>12/23/2016 19:06:39</publishTime>
+      <publishTime>12/28/2016 23:23:51</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>11/09/2016 21:07:40</publishTime>
@@ -3322,7 +3922,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:51</publishTime>
     </File>
     <File Include="Scripts/LeccionesIngles.js">
-      <publishTime>11/13/2016 17:49:17</publishTime>
+      <publishTime>12/28/2016 23:22:46</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.6.2.js">
       <publishTime>11/09/2016 21:07:39</publishTime>
@@ -3361,10 +3961,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:09</publishTime>
     </File>
     <File Include="Views/Curso/Ingles.cshtml">
-      <publishTime>11/13/2016 17:50:33</publishTime>
+      <publishTime>12/26/2016 17:26:48</publishTime>
     </File>
     <File Include="Views/Curso/LeccionIngles.cshtml">
-      <publishTime>11/13/2016 17:52:38</publishTime>
+      <publishTime>12/28/2016 22:26:45</publishTime>
     </File>
     <File Include="Views/Curso/Modulos.cshtml">
       <publishTime>12/19/2016 14:23:58</publishTime>
@@ -3376,7 +3976,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/19/2016 15:18:37</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>12/23/2016 17:50:55</publishTime>
+      <publishTime>12/24/2016 15:35:37</publishTime>
     </File>
     <File Include="Views/Mconfigsite/DetalleCurso.cshtml">
       <publishTime>12/11/2016 22:07:10</publishTime>
@@ -3391,7 +3991,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:09</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>12/19/2016 15:03:55</publishTime>
+      <publishTime>12/28/2016 22:23:04</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutAdmin.cshtml">
       <publishTime>12/19/2016 14:46:59</publishTime>

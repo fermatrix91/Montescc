@@ -9,28 +9,99 @@
 <p id="nivelActual">@ViewBag.NivelIngles</p>
 
 <div ng-app="inglesApp" ng-controller="inglesController">
-    <div style="margin-top: 50px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <aside style="margin: 1% 0 0 0;" class="panelesPublicitarios col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="/imagenes/anunciateAqui.png" style="width: 100%; height: auto;">
-        </aside>
+    @*<div style="margin-top: 50px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <aside style="margin: 1% 0 0 0;" class="panelesPublicitarios col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img src="/imagenes/anunciateAqui.png" style="width: 100%; height: auto;">
+            </aside>
+        </div>*@
+
+    <div style="margin-top: 30px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h1 style="text-align:center;">INGLÉS - SPANISH</h1>
+
+        <p>
+            Learning Spanish will expand your universe; it will allow you to better appreciate Hispanic cultural contributions. Learning Spanish is rapidly becoming a business necessity. Knowing how to speak Spanish will enable you to help others.
+        </p>
+        <p>
+            Inglés es el idioma universal; es necesario en cualquier lugar del mundo que usted vaya y es indispensable para ser exitoso en cualquier profesión que usted elija (los empresarios prefieren contratar empleados que dominen este idioma). Le resultará placentero estudiarlo; verá películas sin doblajes ni sub-títulos, navegará sin necesitad de un traductor, disfrutará canciones que ahora no entiende.
+        </p>
+        <p>
+            La repetición es el método más efectivo para aprender; leyendo, escuchando y hablando una, otra, otra y otra vez. Use audífonos para evitar distracciones mientras dedica unos cuantos minutos diarios a estudiarlo.
+        </p>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div style="display: block; margin: 0 auto; width: 100%;">
+            <img src="http://montes.cc/imagenes/ingles00.jpg" style="display:block;margin:0 auto;width: 80%; height: auto;" />
+        </div>
     </div>
 
     <div style="margin-top: 1%;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-        <div style="float: left; text-align: center;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <a id="unoBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=1">1</a>
-            <a id="dosBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=2">2</a>
-            <a id="tresBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=3">3</a>
-            <a id="cuatroBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=4">4</a>
-            <a id="cincoBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=5">5</a>
-            <a id="seisBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=6">6</a>
-            <a id="sieteBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=7">7</a>
+        <div style="float: left; " class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#paginaUno"> 1 </a></li>
+                <li><a data-toggle="tab" href="#paginaDos"> 2 </a></li>
+                <li><a data-toggle="tab" href="#paginaTres"> 3 </a></li>
+                <li><a data-toggle="tab" href="#paginaCuatro"> 4 </a></li>
+                <li><a data-toggle="tab" href="#paginaCinco"> 5 </a></li>
+                <li><a data-toggle="tab" href="#paginaSeis"> 6 </a></li>
+                <li><a data-toggle="tab" href="#paginaSiete"> 7 </a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="paginaUno" class="tab-pane fade in active">
+
+                    <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div id="divTablaUno">
+                        </div>
+                    </section>
+
+                </div>
+                <div id="paginaDos" class="tab-pane fade">
+                    <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div id="divTablaDos">
+                        </div>
+                    </section>
+                </div>
+                <div id="paginaTres" class="tab-pane fade">
+                    <h2>...próximamente</h2>
+                    <h2>...coming soon</h2>
+                </div>
+                <div id="paginaCuatro" class="tab-pane fade">
+                    <h2>...próximamente</h2>
+                    <h2>...coming soon</h2>
+                </div>
+                <div id="paginaCinco" class="tab-pane fade">
+                    <h2>...próximamente</h2>
+                    <h2>...coming soon</h2>
+                </div>
+                <div id="paginaSeis" class="tab-pane fade">
+                    <h2>...próximamente</h2>
+                    <h2>...coming soon</h2>
+                </div>
+                <div id="paginaSiete" class="tab-pane fade">
+                    <h2>...próximamente</h2>
+                    <h2>...coming soon</h2>
+                </div>
+            </div>
+
+
+
+
+            @*<a id="unoBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=1">1</a>
+                <a id="dosBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=2">2</a>
+                <a id="tresBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=3">3</a>
+                <a id="cuatroBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=4">4</a>
+                <a id="cincoBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=5">5</a>
+                <a id="seisBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=6">6</a>
+                <a id="sieteBTN" class="btn btn-info" href="/Curso/LeccionIngles/?nivel=7">7</a>*@
         </div>
 
-        <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div id="divTabla">
-            </div>
-        </section>
+        @*<section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="divTabla">
+                </div>
+            </section>*@
 
         <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <p></p>
