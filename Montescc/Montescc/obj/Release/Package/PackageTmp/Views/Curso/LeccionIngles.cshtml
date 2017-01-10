@@ -1,9 +1,10 @@
 ﻿@{
     ViewBag.Title = "LeccionIngles";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_LayoutIngles.cshtml";
 }
 
 <script src="~/Scripts/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.6.1/angular-sanitize.min.js"></script>
 <script src="~/Scripts/LeccionesIngles.js"></script>
 
 <p id="nivelActual">@ViewBag.NivelIngles</p>
@@ -22,16 +23,22 @@
             Learning Spanish will expand your universe; it will allow you to better appreciate Hispanic cultural contributions. Learning Spanish is rapidly becoming a business necessity. Knowing how to speak Spanish will enable you to help others.
         </p>
         <p>
-            Inglés es el idioma universal; es necesario en cualquier lugar del mundo que usted vaya y es indispensable para ser exitoso en cualquier profesión que usted elija (los empresarios prefieren contratar empleados que dominen este idioma). Le resultará placentero estudiarlo; verá películas sin doblajes ni sub-títulos, navegará sin necesitad de un traductor, disfrutará canciones que ahora no entiende.
+            Inglés, es el idioma universal; es necesario en todo el planeta e indispensable para alcanzar el éxito en cualquier profesión (los empresarios prefieren contratar empleados que dominen este idioma).
         </p>
-        <p>
-            La repetición es el método más efectivo para aprender; leyendo, escuchando y hablando una, otra, otra y otra vez. Use audífonos para evitar distracciones mientras dedica unos cuantos minutos diarios a estudiarlo.
-        </p>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div style="display: block; margin: 0 auto; width: 100%;">
+            <img src="http://montes.cc/imagenes/ingles00.jpg" style="display:block;margin:0 auto;width: 80%; height: auto;" />
+        </div>
     </div>
 
     <div style="margin-top: 1%;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
         <div style="float: left; " class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            Buscar - Search: <input type="text" ng-model="filtroBuscador" class="form-control" style="max-width: 600px;" placeholder="Type a phrase - Escribe una frase" />
+            <br />
 
             <ul class="nav nav-tabs">
                 <li class="active"><a data-toggle="tab" href="#paginaUno"> 1 </a></li>
@@ -47,14 +54,20 @@
                 <div id="paginaUno" class="tab-pane fade in active">
 
                     <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <div id="divTablaUno">
+                        <div id="divTablaUnoo" ng-repeat="tabla in registroUnoInglesA | filter: filtroBuscador">
+                            
+                            <p ng-bind-html="tabla.sape"></p>
+
                         </div>
                     </section>
 
                 </div>
                 <div id="paginaDos" class="tab-pane fade">
                     <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <div id="divTablaDos">
+                        <div id="divTablaDoss" ng-repeat="tabla in registroUnoInglesB | filter: filtroBuscador">
+
+                            <p ng-bind-html="tabla.sape"></p>
+
                         </div>
                     </section>
                 </div>

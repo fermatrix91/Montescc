@@ -2,7 +2,22 @@
 
 @{
     ViewBag.Title = "Modulos";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    if (Model.Select(y => y.IdCurso).FirstOrDefault() == 1)
+    {
+        Layout = "~/Views/Shared/_LayoutAjedrez.cshtml";
+    }
+    if (Model.Select(y => y.IdCurso).FirstOrDefault() == 2)
+    {
+        Layout = "~/Views/Shared/_LayoutProgramacionWeb.cshtml";
+    }
+    if (Model.Select(y => y.IdCurso).FirstOrDefault() == 3)
+    {
+        Layout = "~/Views/Shared/_LayoutContabilidad.cshtml";
+    }
+    if (Model.Select(y => y.IdCurso).FirstOrDefault() == 4)
+    {
+        Layout = "~/Views/Shared/_LayoutIngles.cshtml";
+    }
 }
 
 <div>

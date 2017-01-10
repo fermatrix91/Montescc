@@ -1,12 +1,12 @@
 ﻿<!DOCTYPE HTML STYLE="zoom: reset;">
 
-<html lang="es">
- @*oncontextmenu="return false">*@  
+<html lang="es"
+      oncontextmenu="return false">
 <head>
-    <title>Lecciones Gratis Online</title>
+    <title>Lecciones GRATIS de Ajedrez - Lecciones GRATIS de Contabilidad - Lecciones GRATIS de Inglés - Lecciones GRATIS de Español - Lecciones GRATIS de Programación Web</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lecciones GRATIS de Ajedrez, Contabilidad, Inglés-Españól, Programación Web" />
+    <meta name="description" content="Lecciones GRATIS de Ajedrez - Lecciones GRATIS de Contabilidad - Lecciones GRATIS de Inglés - Lecciones GRATIS de Español - Lecciones GRATIS de Programación Web" />
 
     <script src="~/Scripts/jquery-2.2.3.js"></script>
     <script src="~/Scripts/jquery-ui-1.8.24.js"></script>
@@ -18,8 +18,8 @@
     @Scripts.Render("/Scripts/bloquear.js")
 </head>
 
-<body onkeydown="checkKey(event)">
-     @*oncontextmenu="return false">*@ 
+<body onkeydown="checkKey(event)"
+      oncontextmenu="return false">
 
     <div id="contenedorSitio" class="anchuraContenedor bordeSitio" style="background:white; position: absolute;">
         <header id="menuSuperior" class="anchuraContenedor navbar-fixed-top" style="border-bottom: 2px solid rgb(212, 81, 81);">
@@ -82,7 +82,7 @@
                 </div>
             </div>
         </div>
-    </div>	
+    </div>
 
     <script src="~/Content/bootstrap/js/bootstrap.js"></script>
     @*@Scripts.Render("~/bundles/jquery")*@
@@ -100,164 +100,5 @@
         }]
         }
     </script>
-
-    <script>
-        if ($("#cursoActual").text() == 1) {
-            $('#cuadroAjedrez').css('background', '#d45151');
-            $('#cuadroAjedrez').css('padding', '1px');
-        }
-        if ($("#cursoActual").text() == 2) {
-            $('#cuadroWeb').css('background', '#d45151');
-            $('#cuadroWeb').css('padding', '1px');
-        }
-        if ($("#cursoActual").text() == 3) {
-            $('#cuadroContabilidad').css('background', '#d45151');
-            $('#cuadroContabilidad').css('padding', '1px');
-        }
-
-        $('#abreFormulario').click(function () {
-            $('#correoContacto').val(""); $('#contenidoContacto').val("");
-        });
-
-        $('#botonContactanos').click(function () {
-            if ($('#correoContacto').val().trim() != "" && $('#contenidoContacto').val().trim() != "") {
-                $.ajax({
-                    type: "POST",
-                    async: true,
-                    cache: false,
-                    url: '/Home/CorreoContactanos',
-                    context: document.body,
-                    data: { correoVisita: $('#correoContacto').val(), contenidoCorreo: $('#contenidoContacto').val() },
-                    dataType: "json",
-                    beforeSend: function (objeto) {
-                        ventanaBloquearCorreoVisita();
-                    },
-                    complete: function () {
-                        $.unblockUI();
-                    },
-                    success: function (result) {
-                        if (result.Exito) {
-                            alert("Gracias por escribirnos")
-                            window.location.reload();
-                        }
-                        else {
-                            alert("Inténtalo luego")
-                            window.location.reload();
-                        }
-                    }
-                });
-            }
-            else alert('Escriba los datos solicitados')
-        });
-
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 100) {
-                $('.scrollup').fadeIn();
-            } else {
-                $('.scrollup').fadeOut();
-            }
-        });
-
-        $('.scrollup').click(function () {
-            $("html, body").animate({ scrollTop: 0 }, 600);
-            return false;
-        });
-
-        function checkKey(evt) {
-            if (evt.ctrlKey) {
-                switch (String.fromCharCode(evt.which).toLowerCase()) {
-                    case 's':
-                        //alert('sape')
-                        evt.preventDefault();
-                        evt.stopPropagation();
-                        return false;
-
-                        // aqui puede poner todas las tecla de combinacion que tiene programado el ie, para anularlo.
-
-                    default:
-                        break;
-                }
-            }
-        }
-
-        /*Reproducción de Audios*/
-        function playAudioGo(urlAudio) {
-            document.getElementById(urlAudio).play();
-            $("button").attr("disabled", "disable");
-        }
-
-        function habilitaPlayButton() {
-            $("button").removeAttr("disabled");
-        }
-
-        $(function () {
-            //$('.pop').on('click', function () {
-            $('img').on('click', function () {
-                $('.imagepreview').attr('src', $(this).attr('src')); // here asign the image to the modal when the user click the enlarge link
-                $('#imagemodal').modal('show');
-
-                /*$('.pop').attr('src', $(this).find('img').attr('src'));
-                $('#imagemodal').modal('show');   */
-            });
-        });
-
-    </script>
-
 </body>
 </html>
-
-
-
-
-
-
-
-@*<!DOCTYPE HTML>
-    <html lang="es">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta charset="utf-8" />
-        <title>@ViewBag.Title - Mi aplicación ASP.NET MVC</title>
-        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <meta name="viewport" content="width=device-width" />
-        @Styles.Render("~/Content/css")
-        @Scripts.Render("~/bundles/modernizr")
-    </head>
-    <body>
-        <header>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <p class="site-title">@Html.ActionLink("su logotipo aquí", "Index", "Home")</p>
-                </div>
-                <div class="float-right">
-                    <section id="login">
-                        @Html.Partial("_LoginPartial")
-                    </section>
-                    <nav>
-                        <ul id="menu">
-                            <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
-                            <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
-                            <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <div id="body">
-            @RenderSection("featured", required: false)
-            <section class="content-wrapper main-content clear-fix">
-                @RenderBody()
-            </section>
-        </div>
-        <footer>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET MVC</p>
-                </div>
-            </div>
-        </footer>
-
-        @Scripts.Render("~/bundles/jquery")
-        @RenderSection("scripts", required: false)
-    </body>
-    </html>*@

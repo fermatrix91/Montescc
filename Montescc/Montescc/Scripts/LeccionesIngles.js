@@ -1,15 +1,15 @@
 ﻿var appModulo = angular.module('inglesApp', []);
 
-appModulo.controller('inglesController', ['$scope', function ($scope) {
+appModulo.controller('inglesController', ['$scope', '$sce', function ($scope, $sce) {
     $scope.NivelActual = $('#nivelActual').text();
 
     $('#cuadroInglesEspanol').css('background', '#d45151');
     $('#cuadroInglesEspanol').css('padding', '1px');
 
     //if ($scope.NivelActual == 1)
-        NivelUno();
+    NivelUno();
     //if ($scope.NivelActual == 2)
-        NivelDos();
+    NivelDos();
     if ($scope.NivelActual == 3)
         NivelTres();
     if ($scope.NivelActual == 4)
@@ -233,43 +233,44 @@ appModulo.controller('inglesController', ['$scope', function ($scope) {
         $('#divTablaUno').append('<section class="table" ng-controller="inglesUnoController" class=""></section>');
         var tabla = $('#divTablaUno').children();
 
+        $scope.registroUnoInglesA = [];
+
         for (var i = 0 ; i < $scope.registroUnoIngles.length ; i++) {
             var color = "white";
             if (i % 2 == 0)
                 color = "#f5f5f5";
 
-            //alert(angular.toJson($scope.registroUnoIngles[i].Espanol));
-            tabla.append('<article style="background:' + color + ' ;margin:10px 0 0 0;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 seccionesIngles>' +
-                            '<div>' +
+            $scope.registroUnoInglesA.push({
+                sape: $sce.trustAsHtml('<article style="background:' + color + ' ;margin:10px 0 0 0;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 seccionesIngles>' +
+                                '<div>' +
 
-                                '<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">' +
-                                    '<audio onended="habilitaPlayButton();" src="' + $scope.registroUnoIngles[i].AudioEspanol + '" id="' + $scope.registroUnoIngles[i].AudioEspanol + '" style="display: none;" class="formatoAudio" controls>browser does not support the <code>audio</code> element</audio>' +
-                                '	<button onclick="playAudioGo(\'' + $scope.registroUnoIngles[i].AudioEspanol + '\');" class="btn btn-success botonPlay"><span class="glyphicon glyphicon-play"></span></button> ' +
-                                '</div>' +
+                                    '<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">' +
+                                        '<audio onended="habilitaPlayButton();" src="' + $scope.registroUnoIngles[i].AudioEspanol + '" id="' + $scope.registroUnoIngles[i].AudioEspanol + '" style="display: none;" class="formatoAudio" controls>browser does not support the <code>audio</code> element</audio>' +
+                                    '	<button onclick="playAudioGo(\'' + $scope.registroUnoIngles[i].AudioEspanol + '\');" class="btn btn-success botonPlay"><span class="glyphicon glyphicon-play"></span></button> ' +
+                                    '</div>' +
 
-                                '<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">' +
-                                    $scope.registroUnoIngles[i].Espanol
-                                + '</div>' +
+                                    '<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">' +
+                                        $scope.registroUnoIngles[i].Espanol
+                                    + '</div>' +
 
-                            '</div>		' +
-                        '</article>' +
+                                '</div>		' +
+                            '</article>' +
 
-                        '<article style="background:' + color + ' ;margin:10px 0 0 0;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 seccionesIngles>' +
-                            '<div>' +
+                            '<article style="background:' + color + ' ;margin:10px 0 0 0;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 seccionesIngles>' +
+                                '<div>' +
 
-                                '<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">' +
-                                    '<audio onended="habilitaPlayButton();" src="' + $scope.registroUnoIngles[i].AudioIngles + '" id="' + $scope.registroUnoIngles[i].AudioIngles + '" style="display: none;" class="formatoAudio" controls>browser does not support the <code>audio</code> element</audio>' +
-                                '	<button onclick="playAudioGo(\'' + $scope.registroUnoIngles[i].AudioIngles + '\');" class="btn btn-success botonPlay"><span class="glyphicon glyphicon-play"></span></button> ' +
-                                '</div>' +
+                                    '<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">' +
+                                        '<audio onended="habilitaPlayButton();" src="' + $scope.registroUnoIngles[i].AudioIngles + '" id="' + $scope.registroUnoIngles[i].AudioIngles + '" style="display: none;" class="formatoAudio" controls>browser does not support the <code>audio</code> element</audio>' +
+                                    '	<button onclick="playAudioGo(\'' + $scope.registroUnoIngles[i].AudioIngles + '\');" class="btn btn-success botonPlay"><span class="glyphicon glyphicon-play"></span></button> ' +
+                                    '</div>' +
 
-                                '<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">' +
-                                    $scope.registroUnoIngles[i].Ingles
-                                + '</div>' +
+                                    '<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">' +
+                                        $scope.registroUnoIngles[i].Ingles
+                                    + '</div>' +
 
-                            '</div>		' +
-                        '</article>'
-
-                    );
+                                '</div>		' +
+                            '</article>')
+            });
         }
     }
 
@@ -483,46 +484,45 @@ appModulo.controller('inglesController', ['$scope', function ($scope) {
         $('#divTablaDos').append('<section class="table" ng-controller="inglesDosController" class=""></section>');
         var tabla = $('#divTablaDos').children();
 
+        $scope.registroUnoInglesB = [];
+
         for (var i = 0 ; i < $scope.registroUnoIngles.length ; i++) {
             var color = "white";
             if (i % 2 == 0)
                 color = "#f5f5f5";
 
-            //alert(angular.toJson($scope.registroUnoIngles[i].Espanol));
-            tabla.append('<article style="background:' + color + ' ;margin:10px 0 0 0;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 seccionesIngles>' +
-                            '<div>' +
+            $scope.registroUnoInglesB.push({
+                sape: $sce.trustAsHtml('<article style="background:' + color + ' ;margin:10px 0 0 0;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 seccionesIngles>' +
+                                '<div>' +
 
-                                '<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">' +
-                                    '<audio onended="habilitaPlayButton();" src="' + $scope.registroUnoIngles[i].AudioEspanol + '" id="' + $scope.registroUnoIngles[i].AudioEspanol + '" style="display: none;" class="formatoAudio" controls>browser does not support the <code>audio</code> element</audio>' +
-                                '	<button onclick="playAudioGo(\'' + $scope.registroUnoIngles[i].AudioEspanol + '\');" class="btn btn-success botonPlay"><span class="glyphicon glyphicon-play"></span></button> ' +
-                                '</div>' +
+                                    '<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">' +
+                                        '<audio onended="habilitaPlayButton();" src="' + $scope.registroUnoIngles[i].AudioEspanol + '" id="' + $scope.registroUnoIngles[i].AudioEspanol + '" style="display: none;" class="formatoAudio" controls>browser does not support the <code>audio</code> element</audio>' +
+                                    '	<button onclick="playAudioGo(\'' + $scope.registroUnoIngles[i].AudioEspanol + '\');" class="btn btn-success botonPlay"><span class="glyphicon glyphicon-play"></span></button> ' +
+                                    '</div>' +
 
-                                '<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">' +
-                                    $scope.registroUnoIngles[i].Espanol
-                                + '</div>' +
+                                    '<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">' +
+                                        $scope.registroUnoIngles[i].Espanol
+                                    + '</div>' +
 
-                            '</div>		' +
-                        '</article>' +
+                                '</div>		' +
+                            '</article>' +
 
-                        '<article style="background:' + color + ' ;margin:10px 0 0 0;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 seccionesIngles>' +
-                            '<div>' +
+                            '<article style="background:' + color + ' ;margin:10px 0 0 0;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 seccionesIngles>' +
+                                '<div>' +
 
-                                '<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">' +
-                                    '<audio onended="habilitaPlayButton();" src="' + $scope.registroUnoIngles[i].AudioIngles + '" id="' + $scope.registroUnoIngles[i].AudioIngles + '" style="display: none;" class="formatoAudio" controls>browser does not support the <code>audio</code> element</audio>' +
-                                '	<button onclick="playAudioGo(\'' + $scope.registroUnoIngles[i].AudioIngles + '\');" class="btn btn-success botonPlay"><span class="glyphicon glyphicon-play"></span></button> ' +
-                                '</div>' +
+                                    '<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">' +
+                                        '<audio onended="habilitaPlayButton();" src="' + $scope.registroUnoIngles[i].AudioIngles + '" id="' + $scope.registroUnoIngles[i].AudioIngles + '" style="display: none;" class="formatoAudio" controls>browser does not support the <code>audio</code> element</audio>' +
+                                    '	<button onclick="playAudioGo(\'' + $scope.registroUnoIngles[i].AudioIngles + '\');" class="btn btn-success botonPlay"><span class="glyphicon glyphicon-play"></span></button> ' +
+                                    '</div>' +
 
-                                '<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">' +
-                                    $scope.registroUnoIngles[i].Ingles
-                                + '</div>' +
+                                    '<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">' +
+                                        $scope.registroUnoIngles[i].Ingles
+                                    + '</div>' +
 
-                            '</div>		' +
-                        '</article>'
-
-                    );
+                                '</div>		' +
+                            '</article>')
+            });
         }
-
-
     }
 
     function NivelTres()
