@@ -3994,22 +3994,22 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:09</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/09/2017 21:41:35</publishTime>
+      <publishTime>01/09/2017 22:14:39</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutAdmin.cshtml">
       <publishTime>12/19/2016 14:46:59</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutAjedrez.cshtml">
-      <publishTime>01/09/2017 22:03:45</publishTime>
+      <publishTime>01/09/2017 22:15:07</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutContabilidad.cshtml">
-      <publishTime>01/09/2017 22:02:57</publishTime>
+      <publishTime>01/09/2017 22:15:12</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutIngles.cshtml">
-      <publishTime>01/09/2017 22:04:45</publishTime>
+      <publishTime>01/09/2017 22:15:02</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutProgramacionWeb.cshtml">
-      <publishTime>01/09/2017 22:02:09</publishTime>
+      <publishTime>01/09/2017 22:15:23</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>12/11/2016 21:59:24</publishTime>
