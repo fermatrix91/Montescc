@@ -81,6 +81,7 @@ namespace Montescc.Controllers
             ViewBag.TituloModulo = moduloAMostrar.Nombre;
             ViewBag.IdModuloActual = moduloAMostrar.IdModulo;
             ViewBag.IdDeCurso = idCurso;
+            ViewBag.ListaModulos = modeloMontes.Modulo.Where(x=>x.IdCurso == idCurso).ToList();
 
             return View("Secciones", listaDeSecciones);
         }

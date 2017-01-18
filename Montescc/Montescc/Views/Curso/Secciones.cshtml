@@ -8,21 +8,29 @@
 <div>
     <section style="margin-top: 48px;">
         <article>
-            <div style="margin-top: 3%;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div style="margin-top: 3%; padding: 0;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <p style="display: none;" id="cursoActual">@ViewBag.IdDeCurso</p>
                     <div>
-
                         <a data-toggle="tooltip" title="Anterior" href="/Curso/SeccionesCurso?idModulo=@ViewBag.IdModuloActual&posicion=anterior&idCurso=@ViewBag.IdDeCurso" class="btn btn-info"><span class="glyphicon glyphicon-arrow-left"></span></a>
-
-
                         <a data-toggle="tooltip" title="Siguiente" style="float:right;" href="/Curso/SeccionesCurso?idModulo=@ViewBag.IdModuloActual&posicion=siguiente&idCurso=@ViewBag.IdDeCurso" class="btn btn-info"><span class="glyphicon glyphicon-arrow-right"></span></a>
+                    </div>
 
+                    <div id="botonMenuModulos" style="position: fixed; z-index: 100;">
+                        <div class="btn-group">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-list"></span></button>
+                            <ul style="max-height:400px !important; overflow:auto;" class="dropdown-menu">
+                                @foreach (var modulo in (List<Montescc.Models.DAL.Modulo>)ViewBag.ListaModulos)
+                                {
+                                    <li><a href="/Curso/SeccionesCurso?idModulo=@modulo.IdModulo&posicion=actual&idCurso=@ViewBag.IdDeCurso">@modulo.Nombre</a></li>
+                                }
+                            </ul>
+                        </div>
                     </div>
 
                     <h1 style="text-align: center;">@ViewBag.TituloModulo</h1>
 
-                    @foreach (Montescc.Models.DAL.Seccion seccion in Model.OrderBy(x=>x.Posicion).ToList())
+                    @foreach (Montescc.Models.DAL.Seccion seccion in Model.OrderBy(x => x.Posicion).ToList())
                     {
                         if (!string.IsNullOrWhiteSpace(seccion.Titulo))
                         {

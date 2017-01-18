@@ -23,17 +23,49 @@
 <div>
     <p style="display: none;" id="cursoActual">@ViewBag.IdDeCurso</p>
     <section style="text-align: center; margin-top: 48px;">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            @if (Model.Select(y => y.IdCurso).FirstOrDefault() == 1)
+            {
+                <h1 style="text-align: center;">LECCIONES DE AJEDREZ</h1>
+                <h2 style="text-align: left;"><b>El maravilloso juego-ciencia.</b></h2>
+
+                <p style="text-align: left;">
+                    Tan fascinante es el ajedrez que en cada juego se presentan miles de alternativas para desarrollar la partida, y usted no necesita ser profesional para disfrutarlo. Gracias a las bondades de nuestra época, encontramos en internet partidas animadas de grandes genios del ajedrez (Capablanca, Kasparov, Carlsen, etc.), y podemos disfrutar en vivo (gratis – vía internet) torneos de la élite y campeonatos mundiales.
+                </p>
+                <p style="text-align: left;">
+                    Miles de ejercicios para desarrollar habilidades ajedrecísticas. Aperturas, finales, jugadas de legendarios ajedrecistas. Enlaces a los mejores sitios para desafiar a miles de jugadores de ajedrez en todo el mundo. Lecciones de ajedrez gratis.
+                </p>
+            }
+            @if (Model.Select(y => y.IdCurso).FirstOrDefault() == 3)
+            {
+                <h1 style="text-align: center;">LECCIONES DE CONTABILIDAD</h1>
+                <h2 style="text-align: left;"><b>Llevar bien las cuentas es un arte.</b></h2>
+
+                <p style="text-align: left;">
+                    La contabilidad establece controles y procedimientos adecuados, registra operaciones de tal manera que los reportes hablen por sí mismos, presenta la rentabilidad (utilidad o pérdida) de la institución y es una exigencia del gobierno en cada país. Contabilidad es el nervio y centro de la empresa; la única manera de llevarla es haciéndolo bien.
+                </p>
+                <p style="text-align: left;">
+                    Para llevar bien las cuentas es indispensable respetar las normas establecidas por esta ciencia, considerándolas en cada operación a realizar.
+                </p>
+                <p style="text-align: left;">
+                    Principales reportes contables; Balance General, Estado de Resultados, Conciliación Bancaria. Normas internacionales de contabilidad. Miles de ejercicios contables básicos. Lecciones de contabilidad gratis.
+                </p>
+            }
+        </div>
         <article>
-            <div style="margin-top: 3%;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div style="margin-top: 0% !important;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
                 @foreach (Montescc.Models.DAL.Modulo modulo in Model)
                 {
-                    <a style="text-decoration:none; color: black;" href="/Curso/SeccionesCurso?idModulo=@modulo.IdModulo&posicion=actual&idCurso=@ViewBag.IdDeCurso">
-                        <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <img src="@modulo.UrlImagen" style="height: auto; width: 40%; margin-top: 3%; max-width: 90px;" />
-                            <p>@modulo.Nombre</p>
-                        </div>
-                    </a>
+                    if (modulo.Posicion != 0)
+                    {
+                        <a style="text-decoration:none; color: black;" href="/Curso/SeccionesCurso?idModulo=@modulo.IdModulo&posicion=actual&idCurso=@ViewBag.IdDeCurso">
+                            <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <img src="@modulo.UrlImagen" style="height: auto; width: 40%; margin-top: 3%; max-width: 90px;" />
+                                <p>@modulo.Nombre</p>
+                            </div>
+                        </a>
+                    }
                 }
             </div>
         </article>

@@ -97,7 +97,7 @@
         </aside>
     </section>
 
-    <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="excedente" style="height: 48px; margin: 0; padding:0;">
+    <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="excedente" style="margin-top: 3% !important;height: 48px; margin: 0; padding:0;">
         <footer id="piePagina">
             <h4 style="color:white; text-align: center;">
                 montes.cc Managua, Nicaragua 2016
@@ -108,16 +108,15 @@
 </div>
 <script>
 
-	$(document).keydown(function(event){
-		if(event.ctrlKey == true && (event.which == '61' || event.which == '107' || event.which == '173' || event.which == '109'))
-		{
-			event.preventDefault();
-		}
-	});
+    $(document).keydown(function (event) {
+        if (event.ctrlKey == true && (event.which == '61' || event.which == '107' || event.which == '173' || event.which == '109')) {
+            event.preventDefault();
+        }
+    });
 
-	$(window).bind('mousewheel DOMMouseScroll', function (event) {
-       if (event.ctrlKey == true) {
-			event.preventDefault();
-       }
-	});
+    $(window).bind('mousewheel DOMMouseScroll', function (event) {
+        if (event.ctrlKey == true) {
+            event.preventDefault();
+        }
+    });
 </script>
