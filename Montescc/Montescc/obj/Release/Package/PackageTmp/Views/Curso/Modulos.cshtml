@@ -36,6 +36,19 @@
                     Miles de ejercicios para desarrollar habilidades ajedrecísticas. Aperturas, finales, jugadas de legendarios ajedrecistas. Enlaces a los mejores sitios para desafiar a miles de jugadores de ajedrez en todo el mundo. Lecciones de ajedrez gratis.
                 </p>
             }
+            @if (Model.Select(y => y.IdCurso).FirstOrDefault() == 2)
+            {
+                <h1 style="text-align: center;">Desarrollo de Aplicaciones ASP.NET-MVC</h1>
+                
+                <p style="text-align: left;">
+                    Aprende a crear aplicaciones Web utilizando el marco de trabajo Asp.net MVC. 
+                </p>
+                <p style="text-align: left;">
+                    Conozca tecnologías que se ejecutan del lado del cliente (FrontEnd), las cuales son necesarias para crear sitios (y aplicaciones) web: HTML, CSS, JQUERY, entre otras.                     
+                    <br />Para administrar el BackEnd (código del lado del servidor) de nuestras aplicaciones Web utilizaremos el lenguaje de programación C#. Código que nos ayuda a realizar las operaciones invisibles al usuario como comunicarnos a la base de datos, las cuales irán acompañadas de la tecnología Entity Framework.
+                    <br /><br />El único programa que necesita es <a href="https://www.visualstudio.com/downloads/">Visual Studio Community</a> (en su versión 2015 ó 2017), el cual es proporcionado por Microsoft de manera gratuita.
+                </p>
+            }
             @if (Model.Select(y => y.IdCurso).FirstOrDefault() == 3)
             {
                 <h1 style="text-align: center;">LECCIONES DE CONTABILIDAD</h1>
@@ -53,9 +66,9 @@
             }
         </div>
         <article>
-            <div style="margin-top: 0% !important;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div style="margin-bottom: 3% !important;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-                @foreach (Montescc.Models.DAL.Modulo modulo in Model)
+                @foreach (Montescc.Models.DAL.Modulo modulo in Model.OrderBy(x=>x.Posicion))
                 {
                     if (modulo.Posicion != 0)
                     {

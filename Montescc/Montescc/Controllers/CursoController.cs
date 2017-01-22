@@ -32,11 +32,11 @@ namespace Montescc.Controllers
             return View("Modulos", listaDeModulos);
         }
 
-        public ActionResult Html()
+        public ActionResult AspNetMvc()
         {
             List<Modulo> listaDeModulos = new List<Modulo>();
-            listaDeModulos = modeloMontes.Modulo.Where(x => x.IdCurso == (int)Cursos.Html).ToList();
-            ViewBag.IdDeCurso = (int)Cursos.Html;
+            listaDeModulos = modeloMontes.Modulo.Where(x => x.IdCurso == (int)Cursos.AspNetMvc).ToList();
+            ViewBag.IdDeCurso = (int)Cursos.AspNetMvc;
 
             return View("Modulos", listaDeModulos);
         }
@@ -91,7 +91,7 @@ namespace Montescc.Controllers
             switch (idCurso)
             {
                 case (int)Cursos.Ajedrez: return "Ajedrez";
-                case (int)Cursos.Html: return "Html";
+                case (int)Cursos.AspNetMvc: return "AspNetMvc";
                 case (int)Cursos.Contabilidad: return "Contabilidad";
 
                 default: return "Ajedrez";
@@ -107,7 +107,7 @@ namespace Montescc.Controllers
     public enum Cursos
     {
         Ajedrez = 1,
-        Html = 2,
+        AspNetMvc = 2,
         Contabilidad = 3,
         Inglés = 4
     }
