@@ -2,7 +2,23 @@
 
 @{
     ViewBag.Title = "Secciones";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    if (ViewBag.IdDeCurso == 1)
+    {
+        Layout = "~/Views/Shared/_LayoutAjedrez.cshtml";
+    }
+    if (ViewBag.IdDeCurso == 2)
+    {
+        Layout = "~/Views/Shared/_LayoutProgramacionWeb.cshtml";
+    }
+    if (ViewBag.IdDeCurso == 3)
+    {
+        Layout = "~/Views/Shared/_LayoutContabilidad.cshtml";
+    }
+    if (ViewBag.IdDeCurso == 4)
+    {
+        Layout = "~/Views/Shared/_LayoutIngles.cshtml";
+    }
 }
 
 <div>
