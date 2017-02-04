@@ -78,8 +78,13 @@
                     </section>
                 </div>
                 <div id="paginaTres" class="tab-pane fade">
-                    <h2>...próximamente</h2>
-                    <h2>...coming soon</h2>
+                    <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div id="divTablaTress" ng-repeat="tabla in registroUnoInglesC | filter: filtroBuscador">
+
+                            <p ng-bind-html="tabla.sape"></p>
+
+                        </div>
+                    </section>
                 </div>
                 <div id="paginaCuatro" class="tab-pane fade">
                     <h2>...próximamente</h2>

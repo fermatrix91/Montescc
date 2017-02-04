@@ -7,6 +7,7 @@ using Montescc.Models.DAL;
 
 namespace Montescc.Controllers
 {
+    [HandleError]
     public class CursoController : Controller
     {
         //
@@ -54,7 +55,10 @@ namespace Montescc.Controllers
         public ActionResult SeccionesCurso(int idModulo, string posicion, int idCurso)
         {
             Modulo moduloAMostrar = new Modulo();
+            Modulo moduloActualTemporal = new Modulo();
             List<Seccion> listaDeSecciones = new List<Seccion>();
+
+            moduloActualTemporal = modeloMontes.Modulo.Find(idModulo);
 
             if (posicion == "actual")
             {
@@ -64,14 +68,14 @@ namespace Montescc.Controllers
             else
                 if (posicion == "anterior")
                 {
-                    moduloAMostrar = modeloMontes.Modulo.Where(x => x.IdModulo < idModulo && x.IdCurso == idCurso).OrderByDescending(x => x.IdModulo).FirstOrDefault();
+                    moduloAMostrar = modeloMontes.Modulo.Where(x => x.Posicion < moduloActualTemporal.Posicion && x.IdCurso == idCurso).FirstOrDefault();
                     if (moduloAMostrar != null)
                         listaDeSecciones = modeloMontes.Seccion.Where(x => x.IdModulo == moduloAMostrar.IdModulo).ToList();
                 }
                 else
                     if (posicion == "siguiente")
                     {
-                        moduloAMostrar = modeloMontes.Modulo.Where(x => x.IdModulo > idModulo && x.IdCurso == idCurso).OrderBy(x => x.IdModulo).FirstOrDefault();
+                        moduloAMostrar = modeloMontes.Modulo.Where(x => x.Posicion > moduloActualTemporal.Posicion && x.IdCurso == idCurso).FirstOrDefault();
                         if (moduloAMostrar != null)
                             listaDeSecciones = modeloMontes.Seccion.Where(x => x.IdModulo == moduloAMostrar.IdModulo && x.Modulo.IdCurso == idCurso).ToList();
                     }
@@ -81,7 +85,7 @@ namespace Montescc.Controllers
             ViewBag.TituloModulo = moduloAMostrar.Nombre;
             ViewBag.IdModuloActual = moduloAMostrar.IdModulo;
             ViewBag.IdDeCurso = idCurso;
-            ViewBag.ListaModulos = modeloMontes.Modulo.Where(x=>x.IdCurso == idCurso).OrderBy(x=>x.Posicion).ToList();
+            ViewBag.ListaModulos = modeloMontes.Modulo.Where(x => x.IdCurso == idCurso).OrderBy(x => x.Posicion).ToList();
 
             return View("Secciones", listaDeSecciones);
         }

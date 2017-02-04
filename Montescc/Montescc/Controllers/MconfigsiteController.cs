@@ -9,6 +9,7 @@ using System.IO;
 
 namespace Montescc.Controllers
 {
+    [HandleError]
     [Authorize]
     public class MconfigsiteController : Controller
     {
