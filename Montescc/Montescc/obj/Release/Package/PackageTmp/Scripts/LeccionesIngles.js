@@ -284,7 +284,7 @@ appModulo.controller('inglesController', ['$scope', '$sce', function ($scope, $s
             { Espanol: "Aquí es de noche", AudioEspanol: "/audio/nivelDos/02004AquiEsDeNoche.mp3", Ingles: "It´s night here", AudioIngles: "/audio/videoTres/itsNightHere.mp3" },
             { Espanol: "Aquí es medianoche", AudioEspanol: "/audio/nivelDos/02005AquiEsMedianoche.mp3", Ingles: "It´s midnight here", AudioIngles: "/audio/videoTres/itsMidNightHere.mp3" },
             { Espanol: "Aquí estaré", AudioEspanol: "/audio/nivelDos/02006AquiEstare.mp3", Ingles: "I will be here", AudioIngles: "/audio/videoTres/iWillBeHere.mp3" },
-            { Espanol: "Aquí tienes", AudioEspanol: "/audio/nivelDos/02007AquiTienes.mp3", Ingles: "Here you go", AudioIngles: "/audio/videoDos/hereYouGo.mp3" },
+            { Espanol: "Aquí tienes", AudioEspanol: "/audio/nivelDos/02007AquiTienes.mp3", Ingles: "Here you go", AudioIngles: "/audio/videoTres/hereYouGo.mp3" },
             { Espanol: "Baja el volumen", AudioEspanol: "/audio/nivelDos/02008BajaElVolumen.mp3", Ingles: "Turn the volume down", AudioIngles: "/audio/videoDos/turnthevolumedown.mp3" },
             { Espanol: "Con nadie estoy", AudioEspanol: "/audio/nivelDos/02009ConNadieEstoy.mp3", Ingles: "I´m with nobody", AudioIngles: "/audio/videoTres/amWithNobody.mp3" },
             { Espanol: "Dime cuando estés listo(a)", AudioEspanol: "/audio/nivelDos/02010DimeCuandoEstesListo.mp3", Ingles: "Tell me when you´re ready", AudioIngles: "/audio/videoDos/tellmewhenureready.mp3" },

@@ -234,3 +234,7 @@
 	color: #2ca20e;
 	font-family: Consolas,"courier new";
 }
+
+img:hover {
+    cursor: pointer;
+}

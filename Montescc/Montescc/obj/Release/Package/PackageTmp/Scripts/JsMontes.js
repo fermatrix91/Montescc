@@ -96,3 +96,7 @@ $(function () {
         $('#imagemodal').modal('show');   */
     });
 });
+
+//$("img").hover(function () {
+//    $('selector').css('cursor', 'pointer');
+//});
