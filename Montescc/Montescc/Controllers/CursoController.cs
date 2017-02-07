@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Montescc.Models.DAL;
+using System.Text.RegularExpressions;
 
 namespace Montescc.Controllers
 {
@@ -86,6 +87,8 @@ namespace Montescc.Controllers
             ViewBag.IdModuloActual = moduloAMostrar.IdModulo;
             ViewBag.IdDeCurso = idCurso;
             ViewBag.ListaModulos = modeloMontes.Modulo.Where(x => x.IdCurso == idCurso).OrderBy(x => x.Posicion).ToList();
+
+            ViewBag.DescripcionContenido = Regex.Replace(listaDeSecciones.Select(y => y.Contenido).FirstOrDefault(), "<.*?>", String.Empty);
 
             return View("Secciones", listaDeSecciones);
         }

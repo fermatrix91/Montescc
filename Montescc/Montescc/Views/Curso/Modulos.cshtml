@@ -5,14 +5,26 @@
     if (Model.Select(y => y.IdCurso).FirstOrDefault() == 1)
     {
         Layout = "~/Views/Shared/_LayoutAjedrez.cshtml";
+
+        ViewBag.TituloContenido = "Lecciones GRATIS de Ajedrez";
+        ViewBag.DescripcionContenido = "Lecciones de ajedrez gratis - Miles de ejercicios para desarrollar habilidades ajedrecíscticas - Enlaces a los mejores sitios para desafiar a miles de jugadores de ajedrez en todo el mundo - Aperturas, finales y jugadas de leyendas de todos los tiempos.";
+        ViewBag.UrlImagenPrincipal = Model.Select(y => y.UrlImagen).FirstOrDefault();
     }
     if (Model.Select(y => y.IdCurso).FirstOrDefault() == 2)
     {
         Layout = "~/Views/Shared/_LayoutProgramacionWeb.cshtml";
+
+        ViewBag.TituloContenido = "Lecciones GRATIS de Programación Web";
+        ViewBag.DescripcionContenido = "Aprende a crear aplicaciones web utilizando Html, JQuery, Asp.net MVC. Múltiples ejemplos para que puedas crear tus propios sitios web, completamente GRATIS.";
+        ViewBag.UrlImagenPrincipal = Model.Select(y => y.UrlImagen).FirstOrDefault();
     }
     if (Model.Select(y => y.IdCurso).FirstOrDefault() == 3)
     {
         Layout = "~/Views/Shared/_LayoutContabilidad.cshtml";
+
+        ViewBag.TituloContenido = "Lecciones GRATIS de Contabilidad";
+        ViewBag.DescripcionContenido = "Lecciones de contabilidad gratis - Teoría y práctica - Miles de ejercicios básicos - Principales reportes contables; Balance General, Estado de Resultados, Conciliación Bancaria - Normas internacionales de contabilidad.";
+        ViewBag.UrlImagenPrincipal = Model.Select(y => y.UrlImagen).FirstOrDefault();
     }
     if (Model.Select(y => y.IdCurso).FirstOrDefault() == 4)
     {

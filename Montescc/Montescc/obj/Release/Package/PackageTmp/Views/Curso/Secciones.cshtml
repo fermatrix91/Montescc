@@ -2,7 +2,12 @@
 
 @{
     ViewBag.Title = "Secciones";
-
+    if (Model.Count != 0)
+    {
+        ViewBag.TituloContenido = Model.Select(y => y.Modulo.Nombre).FirstOrDefault();
+        //ViewBag.DescripcionContenido = Model.Select(y => y.Contenido).FirstOrDefault();
+        ViewBag.UrlImagenPrincipal = Model.Select(y => y.Modulo.UrlImagen).FirstOrDefault();
+    }
     if (ViewBag.IdDeCurso == 1)
     {
         Layout = "~/Views/Shared/_LayoutAjedrez.cshtml";

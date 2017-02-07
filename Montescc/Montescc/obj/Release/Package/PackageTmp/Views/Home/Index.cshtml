@@ -100,12 +100,71 @@
     <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="excedente" style="margin-top: 3% !important;height: 48px; margin: 0; padding:0;">
         <footer id="piePagina">
             <h4 style="color:white; text-align: center;">
-                montes.cc 2017
+                <div class="wrapper">
+                    <a href="https://www.facebook.com/montes.cc"><div class="social face">&#62220;</div></a>
+                    <a href="https://www.twitter.com/FFmontesM"><div class="social twit">&#62217;</div></a>
+                    <a href="https://plus.google.com/101066407022950447545"><div class="social plus">&#62223;</div></a>
+                </div>
             </h4>
         </footer>
     </section>
 
 </div>
+
+<style>
+    @@import url('http://weloveiconfonts.com/api/?family=entypo');
+
+    .social:hover {
+        width: 50px;
+        height: 50px;
+        border-radius: 3.6rem;
+        <!-- background-color: lightblue; -->
+        <!-- margin: -1.8rem; -->
+    }
+
+    .face:hover {
+        color: white;
+        background-color: #3b579d;
+    }
+
+    .twit:hover {
+        color: white;
+        background-color: #00b6f1;
+    }
+
+    .plus:hover {
+        color: white;
+        background-color: #d74e42;
+    }
+
+    .social {
+        margin-top: 5px !Important;
+    }
+
+    .wrapper {
+        <!-- padding: 120px 0 0; -->
+        text-align: center;
+        <!-- width: 70px; -->
+        <!-- position: fixed; -->
+    }
+
+    .social {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+        line-height: 50px;
+        font-family: Entypo;
+        font-size: 28px;
+        text-align: center;
+        color: #555;
+        border-radius: 10px;
+        background: #eee;
+        overflow: hidden;
+        cursor: pointer;
+    }
+</style>
+
 <script>
 
     $(document).keydown(function (event) {

@@ -50,7 +50,7 @@
 		 #piePagina{			
 			background: #333333; 
 			/* right: 0px; */
-			 height: 48px; 
+			 height: 80px !important; 
 			 width:100%;
 			 border-top: 2px solid rgb(212, 81, 81); 
 			/* z-index: 5; */

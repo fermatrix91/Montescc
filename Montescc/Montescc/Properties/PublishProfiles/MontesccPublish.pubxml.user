@@ -2266,7 +2266,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:44</publishTime>
     </File>
     <File Include="bin/Montescc.dll">
-      <publishTime>02/04/2017 12:10:06</publishTime>
+      <publishTime>02/06/2017 22:20:16</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>11/09/2016 21:07:40</publishTime>
@@ -2413,7 +2413,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:47</publishTime>
     </File>
     <File Include="Content/app.css">
-      <publishTime>02/05/2017 21:21:10</publishTime>
+      <publishTime>02/06/2017 20:34:46</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
       <publishTime>11/12/2016 20:43:40</publishTime>
@@ -3973,16 +3973,16 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/28/2017 18:41:16</publishTime>
     </File>
     <File Include="Views/Curso/Modulos.cshtml">
-      <publishTime>01/21/2017 22:12:30</publishTime>
+      <publishTime>02/06/2017 21:23:51</publishTime>
     </File>
     <File Include="Views/Curso/Secciones.cshtml">
-      <publishTime>02/04/2017 12:45:38</publishTime>
+      <publishTime>02/06/2017 22:20:00</publishTime>
     </File>
     <File Include="Views/Curso/Web.cshtml">
       <publishTime>12/19/2016 15:18:37</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>01/21/2017 22:39:25</publishTime>
+      <publishTime>02/06/2017 21:29:22</publishTime>
     </File>
     <File Include="Views/Mconfigsite/DetalleCurso.cshtml">
       <publishTime>12/11/2016 22:07:10</publishTime>
@@ -3997,22 +3997,22 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:09</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/22/2017 22:36:18</publishTime>
+      <publishTime>02/06/2017 21:13:00</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutAdmin.cshtml">
       <publishTime>01/21/2017 21:09:22</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutAjedrez.cshtml">
-      <publishTime>01/22/2017 22:36:18</publishTime>
+      <publishTime>02/06/2017 22:19:52</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutContabilidad.cshtml">
-      <publishTime>01/22/2017 22:36:16</publishTime>
+      <publishTime>02/06/2017 21:26:41</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutIngles.cshtml">
       <publishTime>01/22/2017 22:36:18</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutProgramacionWeb.cshtml">
-      <publishTime>01/22/2017 22:32:16</publishTime>
+      <publishTime>02/06/2017 21:26:37</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>12/11/2016 21:59:24</publishTime>
