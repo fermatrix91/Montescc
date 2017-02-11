@@ -69,14 +69,14 @@ namespace Montescc.Controllers
             else
                 if (posicion == "anterior")
                 {
-                    moduloAMostrar = modeloMontes.Modulo.Where(x => x.Posicion < moduloActualTemporal.Posicion && x.IdCurso == idCurso).FirstOrDefault();
+                    moduloAMostrar = modeloMontes.Modulo.OrderBy(y => y.Posicion).ToList().Where(x => x.Posicion < moduloActualTemporal.Posicion && x.IdCurso == idCurso).LastOrDefault();
                     if (moduloAMostrar != null)
                         listaDeSecciones = modeloMontes.Seccion.Where(x => x.IdModulo == moduloAMostrar.IdModulo).ToList();
                 }
                 else
                     if (posicion == "siguiente")
                     {
-                        moduloAMostrar = modeloMontes.Modulo.Where(x => x.Posicion > moduloActualTemporal.Posicion && x.IdCurso == idCurso).FirstOrDefault();
+                        moduloAMostrar = modeloMontes.Modulo.OrderBy(y => y.Posicion).ToList().Where(x => x.Posicion > moduloActualTemporal.Posicion && x.IdCurso == idCurso).FirstOrDefault();
                         if (moduloAMostrar != null)
                             listaDeSecciones = modeloMontes.Seccion.Where(x => x.IdModulo == moduloAMostrar.IdModulo && x.Modulo.IdCurso == idCurso).ToList();
                     }
