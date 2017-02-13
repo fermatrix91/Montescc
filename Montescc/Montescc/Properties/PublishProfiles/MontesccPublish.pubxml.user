@@ -4003,10 +4003,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/21/2017 21:09:22</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutAjedrez.cshtml">
-      <publishTime>02/06/2017 22:19:52</publishTime>
+      <publishTime>02/12/2017 23:49:58</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutContabilidad.cshtml">
-      <publishTime>02/06/2017 21:26:41</publishTime>
+      <publishTime>02/12/2017 23:50:07</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutIngles.cshtml">
       <publishTime>01/22/2017 22:36:18</publishTime>
