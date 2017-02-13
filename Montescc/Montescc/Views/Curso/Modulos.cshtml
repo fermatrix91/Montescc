@@ -85,8 +85,8 @@
                     if (modulo.Posicion != 0)
                     {
                         <a style="text-decoration:none; color: black;" href="/Curso/SeccionesCurso?idModulo=@modulo.IdModulo&posicion=actual&idCurso=@ViewBag.IdDeCurso">
-                            <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                                <img src="@modulo.UrlImagen" style="height: auto; width: 40%; margin-top: 3%; max-width: 90px;" />
+                            <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4" style="height: 130px !important;">
+                                <img src="@modulo.UrlImagen" style="min-height: 80px; height: auto; width: 40%; margin-top: 3%; max-width: 90px;" />
                                 <p>@modulo.Nombre</p>
                             </div>
                         </a>
