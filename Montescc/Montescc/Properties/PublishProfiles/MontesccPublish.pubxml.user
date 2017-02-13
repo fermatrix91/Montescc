@@ -3973,7 +3973,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/28/2017 18:41:16</publishTime>
     </File>
     <File Include="Views/Curso/Modulos.cshtml">
-      <publishTime>02/06/2017 21:23:51</publishTime>
+      <publishTime>02/12/2017 23:42:08</publishTime>
     </File>
     <File Include="Views/Curso/Secciones.cshtml">
       <publishTime>02/06/2017 22:20:00</publishTime>
