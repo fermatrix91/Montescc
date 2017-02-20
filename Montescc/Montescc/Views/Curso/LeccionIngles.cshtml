@@ -1,11 +1,42 @@
-﻿@{
+﻿@model int
+@{
     ViewBag.Title = "LeccionIngles";
     Layout = "~/Views/Shared/_LayoutIngles.cshtml";
 }
 
 <script src="~/Scripts/angular.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.6.1/angular-sanitize.min.js"></script>
-<script src="~/Scripts/LeccionesIngles.js"></script>
+
+@switch (Model)
+{
+    case 1:
+        <script src="~/Scripts/LeccionesIngles_1.js"></script>
+        break;
+        
+    case 2:
+        <script src="~/Scripts/LeccionesIngles_2.js"></script>
+        break;
+        
+    case 3:
+        <script src="~/Scripts/LeccionesIngles_3.js"></script>
+        break;
+        
+    case 4:
+        <script src="~/Scripts/LeccionesIngles_4.js"></script>
+        break;
+        
+    case 5:
+        <script src="~/Scripts/LeccionesIngles_5.js"></script>
+        break;
+        
+    case 6:
+        <script src="~/Scripts/LeccionesIngles_6.js"></script>
+        break;
+        
+    default:
+        <script src="~/Scripts/LeccionesIngles_1.js"></script>
+        break;
+}
 
 <p id="nivelActual">@ViewBag.NivelIngles</p>
 
@@ -47,13 +78,13 @@
             <br />
 
             <ul class="nav nav-tabs">
-                <li class="active"><a data-toggle="tab" href="#paginaUno"> 1 </a></li>
-                <li><a data-toggle="tab" href="#paginaDos"> 2 </a></li>
-                <li><a data-toggle="tab" href="#paginaTres"> 3 </a></li>
-                <li><a data-toggle="tab" href="#paginaCuatro"> 4 </a></li>
-                <li><a data-toggle="tab" href="#paginaCinco"> 5 </a></li>
-                <li><a data-toggle="tab" href="#paginaSeis"> 6 </a></li>
-                <li><a data-toggle="tab" href="#paginaSiete"> 7 </a></li>
+                <li id="tabUno" class="active"><a href="/Curso/Ingles/?idPagina=1"> 1 </a></li>
+                <li id="tabDos"><a href="/Curso/Ingles/?idPagina=2"> 2 </a></li>
+                <li id="tabTres"><a href="/Curso/Ingles/?idPagina=3"> 3 </a></li>
+                <li id="tabCuatro"><a href="/Curso/Ingles/?idPagina=4"> 4 </a></li>
+                <li id="tabCinco"><a href="/Curso/Ingles/?idPagina=5"> 5 </a></li>
+                <li id="tabSeis"><a href="/Curso/Ingles/?idPagina=6"> 6 </a></li>
+                <li id="tabSiete"><a href="/Curso/Ingles/?idPagina=7"> 7 </a></li>
             </ul>
 
             <div class="tab-content">
@@ -61,7 +92,7 @@
 
                     <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div id="divTablaUnoo" ng-repeat="tabla in registroUnoInglesA | filter: filtroBuscador">
-                            
+
                             <p ng-bind-html="tabla.sape"></p>
 
                         </div>
@@ -87,16 +118,31 @@
                     </section>
                 </div>
                 <div id="paginaCuatro" class="tab-pane fade">
-                    <h2>...próximamente</h2>
-                    <h2>...coming soon</h2>
+                    <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div id="divTablaCuatroo" ng-repeat="tabla in registroUnoInglesD | filter: filtroBuscador">
+
+                            <p ng-bind-html="tabla.sape"></p>
+
+                        </div>
+                    </section>
                 </div>
                 <div id="paginaCinco" class="tab-pane fade">
-                    <h2>...próximamente</h2>
-                    <h2>...coming soon</h2>
+                    <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div id="divTablaCincoo" ng-repeat="tabla in registroUnoInglesE | filter: filtroBuscador">
+
+                            <p ng-bind-html="tabla.sape"></p>
+
+                        </div>
+                    </section>
                 </div>
                 <div id="paginaSeis" class="tab-pane fade">
-                    <h2>...próximamente</h2>
-                    <h2>...coming soon</h2>
+                    <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div id="divTablaSeiss" ng-repeat="tabla in registroUnoInglesF | filter: filtroBuscador">
+
+                            <p ng-bind-html="tabla.sape"></p>
+
+                        </div>
+                    </section>
                 </div>
                 <div id="paginaSiete" class="tab-pane fade">
                     <h2>...próximamente</h2>

@@ -1428,6 +1428,12 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\LeccionesIngles.js" />
+    <Content Include="Scripts\LeccionesIngles_1.js" />
+    <Content Include="Scripts\LeccionesIngles_2.js" />
+    <Content Include="Scripts\LeccionesIngles_3.js" />
+    <Content Include="Scripts\LeccionesIngles_4.js" />
+    <Content Include="Scripts\LeccionesIngles_5.js" />
+    <Content Include="Scripts\LeccionesIngles_6.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Web.config" />

@@ -78,8 +78,12 @@ function checkKey(evt) {
 
 /*Reproducción de Audios*/
 function playAudioGo(urlAudio) {
+    $.each($('audio'), function () {
+        this.pause(); // Stop playing
+        this.currentTime = 0; // Reset time
+    });
     document.getElementById(urlAudio).play();
-    $("button").attr("disabled", "disable");
+    //$("button").attr("disabled", "disable");
 }
 
 function habilitaPlayButton() {

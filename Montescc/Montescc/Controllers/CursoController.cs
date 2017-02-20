@@ -48,9 +48,9 @@ namespace Montescc.Controllers
             return View();
         }
 
-        public ActionResult Ingles()
+        public ActionResult Ingles(int idPagina)
         {
-            return View("LeccionIngles");
+            return View("LeccionIngles", idPagina);
         }
 
         public ActionResult SeccionesCurso(int idModulo, string posicion, int idCurso)
