@@ -1206,6 +1206,3594 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     <File Include="audio/nivelUno/_ytu.mp3">
       <publishTime>11/09/2016 22:33:30</publishTime>
     </File>
+    <File Include="audio/ParteCinco/03001AcaboDeTomarUnaDucha.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03002AquiEstoyParaTi.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03003ConfioEnTi.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03004DameTuOpinion.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03005DimeAlgoInteresante.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03006DimeComoTeSientes.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03007DimeLaVerdad.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03008DimeSiNecesitasAlgo.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03009EllosSonAmables.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03010EnSerio.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03011EncontreElProblema.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03012EntiendoLoQueDijiste.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03013EresMiMejorAmigo.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03014EsComprensible.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03015EsImposible.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03016EsMiCulpa.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03017EsMiResponsabilidad.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03018EsMiTurno.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03019EsMisterioso.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03020EsMuyHermoso.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03021EsPosible.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03022EsUnaBuenaHistoria.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03023EsUnaDecisionDificil.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03024EsUnaHermosaNoche.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03025EsUnaMalaIdea.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03026EsUnaMentira.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03027EsUnaOportunidad.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03028EsUnaPena.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03029EstaBloqueado.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03030EstaEsBuenaInformacion.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03031EstaHumedo.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03032EstaLloviendo.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03033EstaOcupado.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03034EstaPorComenzar.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03035EstaTomandoMuchoTiempo.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03036EstasLoco.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03037EsteLugarEsCaro.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03038EstoyAhorrandoDinero.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03039EstoyCansadoDeTenerlo.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03040EstoyDeVacaciones.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03041EstoyDecidido.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03042EstoyDesayunando.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03043EstoyEnElAeropuerto.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03044EstoyEnElBano.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03045EstoyEnUnaSituacionDificil.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03046EstoyEnVacacionesDeVerano.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03047EstoyEstudiandoParaUnExamen.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03048EstoyFelizDeEstarAqui.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03049EstoyHaciendoLoQuePuedo.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03050EstoyLeyendoLasNoticias.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03051EstoyLibreEnLaTarde.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03052EstoyTomandoUnDescanso.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03053EstoyTrabajandoDuro.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03054EstoyTrabajandoEnUnProyecto.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03055EstoyViendoElJuego.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03056EstoyViendoUnDocumental.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03057EstoyViendoUnVideo.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03058EstoyVisitandoAmigos.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03059EstuveAqui.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03060EstuveEnfermo.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03061HaceTantoCalorHoy.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03062HaceTantoFrioHoy.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03063HareUnaLlamada.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03064HayTrafico.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03065HeEstadoOcupado.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03066LlegareTarde.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03067MeEstoyPreparando.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03068MeEstoyQuedandoEnUnApartamento.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03069MeGustaTuHonestidad.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03070MeHicisteSentirMejor.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03071MeInteresa.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03072MeOlvide.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03073MiCabelloEstaDesordenado.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03074MiCabelloEstaMojado.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03075MisPadresEstanAqui.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03076MisPadresEstanDurmiendo.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03077NaciAqui.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03078NadieSabe.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03079NecesitoDinero.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03080NecesitoEspacio.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03081NecesitoMasInformacion.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03082NecesitoTomarUnaDucha.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03083NoEsNecesarioPreocuparse.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03084NoEstamosSeguros.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03085NoEstoyListo.mp3">
+      <publishTime>02/26/2017 18:47:51</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03086NoFuiAfueraHoy.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03087NoHayComida.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03088NoPuedoDecidir.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03089NoPuedoIrManana.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03090NoQuieroHacerlo.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03091NoSoyDeAqui.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03092NoTeConozco.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03093NoTengoSueno.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03094Pagare.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03095PodemosHacerEsto.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03096PorFavorAyudenme.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03097PorSupuesto.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03098PracticoInglesTodosLosDias.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03099Prometeme.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/03100QueDesafortunado.mp3">
+      <publishTime>02/26/2017 18:47:50</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amAtTheAirport.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amDetermined.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amDoingWhatICan.mp3">
+      <publishTime>02/26/2017 18:55:05</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amEatingBreakfast.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amFreeInTheEvening.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amGettingReady.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amGoingToBeLate.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amHappyToBeHere.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amHereForYou.mp3">
+      <publishTime>02/26/2017 18:55:05</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amInAToughSituation.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amInTheBathroom.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amNotFromHere.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amNotReady.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amNotSleepy.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amOnSummerVacation.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amOnVacation.mp3">
+      <publishTime>02/26/2017 18:55:05</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amReadingTheNews.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amSavingMoney.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amSerious.mp3">
+      <publishTime>02/26/2017 18:55:05</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amStayingInAnApartment.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amStudyingForAnExam.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amTakingARest.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amTiredOfHavingIt.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amVisitingFriends.mp3">
+      <publishTime>02/26/2017 18:55:05</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amWatchingADocumentary.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amWatchingAVideo.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amWatchingTheGame.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amWorkingHard.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/amWorkingOnAProject.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/giveYourOpinion.mp3">
+      <publishTime>02/26/2017 18:55:05</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/howUnfortuned.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iCantDecide.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iCantGoTomorrow.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iDidnotGoOutsideToday.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iDontKnowYou.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iDontWantToDoIt.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iForgot.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iFoundTheProblem.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iHaveBeenBusy.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iJustTookAShower.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iLikeYourHonesty.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iNeedMoney.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iNeedMoreInformation.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iNeedSpace.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iNeedToTakeAShower.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iPracticeEnglishEveryDay.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itInterestMe.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iTrustYou.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsABadIdea.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsABeautifulNight.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsAboutToStart.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsAGoodStory.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsALie.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsAnOpportunity.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsAShame.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsAToughDecision.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsBlocked.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsHumid.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsImpossible.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsMisterious.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsMyFault.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsMyResponsability.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsMyTurn.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsOccuped.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsPossible.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsraining.mp3">
+      <publishTime>02/26/2017 19:09:12</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsSoColdToday.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsSoHotToday.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsTakingALongTime.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsUnderstandable.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/itsVeryBeautiful.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iUnderstandWhatYouSaid.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iWasBornHere.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iWasHere.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iWasSick.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iWillMakeACall.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/iWillPay.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/myHairIsMessy.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/myHairIsWet.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/myParentsAreHere.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/myParentsAreSleeping.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/nobodyKnows.mp3">
+      <publishTime>02/26/2017 18:55:04</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/noNeedToWorry.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/ofCourse.mp3">
+      <publishTime>02/26/2017 19:08:00</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/pleaseHelpMe.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/promiseMe.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/tellMeHowYouFeel.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/tellMeIfYouNeedSomething.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/tellMeSomethingInteresting.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/tellMeTheThruth.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/thereIsNotFood.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/thereIsTraffic.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/theyAreFriendly.mp3">
+      <publishTime>02/26/2017 18:55:05</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/thisIsGoodInformation.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/thisPlaceIsExpensive.mp3">
+      <publishTime>02/26/2017 19:02:02</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/weAreNotSure.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/weCanDoThis.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/youAreMyBestFriend.mp3">
+      <publishTime>02/26/2017 18:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/youMadeMeFeelBetter.mp3">
+      <publishTime>02/26/2017 19:08:01</publishTime>
+    </File>
+    <File Include="audio/ParteCinco/youreCrazy.mp3">
+      <publishTime>02/26/2017 18:55:05</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02101NoTengoTiempo.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02102OdioLevantarmeTemprano.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02103PongaseComodo.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02104PracticoCuandoEstoyLibre.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02105PracticoEscuchando.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02106Preguntame.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02107PuedoEscucharte.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02108PuedoEsperar.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02109PuedoExplicar.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02110PuedoVerte.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02111QuieroViajar.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02112SiempreDuermoTarde.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02113SiempreDuermoTemprano.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02114SiempreLlaman.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02115SoyElMasJoven.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02116SoyEstudianteUniversitario.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02117SoySoltero.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02118SoyTimido.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02119SubeElVolumen.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02120TeGustara.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02121TeLoDireMasTarde.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02122TeVoyAEsperar.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02123TenemosUnaFiesta.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02124TengoBuenasNoticias.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02125TengoConfianza.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02126TengoDinero.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02127TengoProblemasConLaPronunciacion.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02128TengoQuePedirPermiso.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02129TengoTiempo.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02130TengoUnNegocio.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02131TengoUnaFamiliaGrande.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02132TengoUnaFamiliaPequeña.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02133TiempoParaCelebrar.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02134TienesMiApoyo.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02135TienesUnaHermosaCasa.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02136TienesUnaHermosaFamilia.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02137TienesUnosHijosHermosos.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02138TomareUnaDucha.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02139TomateTuTiempo.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02140TuveUnSueño.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02141UstedEsBienvenido.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02142VenMasTarde.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02143Visitame.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02144VivoConMiFamilia.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02145VivoEnUnApartamento.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02146VivoEnUnaCasa.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02147VivoSolo.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02148YoLoEscribire.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02149AQueHoraDespiertas.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02150AQueHoraEstasLibre.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02151AQueHoraVasADormir.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02152BuscasAlgo.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02153ComoAprendes.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02154ComoEsPosible.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02155ComoEstaTuPronunciacion.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02156ComoEstuvoTuFinDeSemana.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02157ComoFue.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02158ComoHaOcurrido.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02159ComoLoHaces.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02160ConQuienEstas.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02161CualEsTuBandaFavorita.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02162CualEs.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02163CualesSonLasOpciones.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02164CuandoEsLaBoda.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02165DeQuienEs.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02166DondeFuiste.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02167EresElMasJoven.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02168EresEstudianteUniversitario.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02169EresSoltero.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02170EsCierto.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02171EsFalso.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02172EstaListaLaCena.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02173EstasAprendiendoInglesTambien.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02174EstasListo.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02175EstasSeguro.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02176HasAprendidoAlgo.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02177HasOidoLasNoticias.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02178HayBuenasPeliculasExtranjerasParaVer.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02179MePuedesAyudarConEsto.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02180PuedesDarmeEso.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02181PuedesRecogerme.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02182PuedoHacerteUnaPregunta.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02183PuedoTenerTuAtencion.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02184PuedoTenerUno.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02185QueBuscas.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02186QueEsEseRuido.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02187QueEstanHaciendoEllos.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02188QueEstasComprando.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02189QueEstudiaste.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02190QueHarasMañana.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02191QueEsLoNuevo.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02192QueHoraEsAhi.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02193QueNecesitas.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02194QuienEsTuCantanteFavorito.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02195QuienEstaAqui.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02196QuienNecesitaAyuda.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02197QuieresHablar.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02198SiguesAhi.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02199TeEnterasteDeLoQuePaso.mp3">
+      <publishTime>02/25/2017 22:44:28</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/02200TienesDinero.mp3">
+      <publishTime>02/25/2017 22:44:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/amAnUniversityStudent.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/amconfident.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/amShy.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/amSingle.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/amTheYoungest.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/areulearningenglishtoo.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/areulookingforsomething.mp3">
+      <publishTime>02/25/2017 22:53:34</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/areuready.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/areusure.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/areYouAnUniversityStudent.mp3">
+      <publishTime>02/25/2017 23:03:17</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/areYouSingle.mp3">
+      <publishTime>02/25/2017 23:03:17</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/areYouStillThere.mp3">
+      <publishTime>02/25/2017 23:04:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/areYouTheYoungest.mp3">
+      <publishTime>02/25/2017 23:03:17</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/askMe.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/canIAskYouAQuestion.mp3">
+      <publishTime>02/25/2017 23:03:17</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/canihaveone.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/canIHaverYourAttention.mp3">
+      <publishTime>02/25/2017 23:03:17</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/canYouGiveMeThat.mp3">
+      <publishTime>02/25/2017 23:03:17</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/canYouHelpMeWithThis.mp3">
+      <publishTime>02/25/2017 23:03:17</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/canYouPickMeUp.mp3">
+      <publishTime>02/25/2017 23:03:17</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/comeLater.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/diduhearaboutwhathappen.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/diduhearthenews.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/didulearnsomething.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/douhavemoney.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/douwanttotalk.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/howdidithappen.mp3">
+      <publishTime>02/25/2017 22:53:34</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/howdoulearn.mp3">
+      <publishTime>02/25/2017 22:53:34</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/howdoyoudoit.mp3">
+      <publishTime>02/25/2017 22:53:34</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/howisitpossible.mp3">
+      <publishTime>02/25/2017 22:53:34</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/howIsYourPronunciation.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/howwasit.mp3">
+      <publishTime>02/25/2017 22:53:34</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/howwasyourweekend.mp3">
+      <publishTime>02/25/2017 22:53:34</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/iAlwaysSleepEarly.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/iAlwaysSleepLate.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/icanexplain.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/icanhearyou.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/icanseeyou.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/iCantWait.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/idonthavetime.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/ihadadream.mp3">
+      <publishTime>02/25/2017 22:53:34</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/iHateWakingUpEarly.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/iHaveABigFamily.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/iHaveABusiness.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/iHaveASmallFamily.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/ihavegoodnews.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/ihavemoney.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/ihaveproblemswiththepronunciation.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/ihavetime.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/iHaveToAskForPermission.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/iLiveAlone.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/iLiveInAHouse.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/iLiveInAnApartment.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/iLiveWithMyFamily.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/illtakeashower.mp3">
+      <publishTime>02/25/2017 22:53:35</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/illtellyoulater.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/illwaitforu.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/illwriteitdown.mp3">
+      <publishTime>02/25/2017 22:53:35</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/ipracticebylistening.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/ipracticewhenamfree.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/isDinnerReady.mp3">
+      <publishTime>02/25/2017 23:03:17</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/isItFalse.mp3">
+      <publishTime>02/25/2017 23:03:17</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/isItTrue.mp3">
+      <publishTime>02/25/2017 23:03:17</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/iWantToTravel.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/makeyourselfcomfortable.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/takeyourtime.mp3">
+      <publishTime>02/25/2017 22:53:35</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/theyAlwaysCall.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/timetocelebrate.mp3">
+      <publishTime>02/25/2017 22:53:35</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/turnthevolumeup.mp3">
+      <publishTime>02/25/2017 22:50:57</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/uhavemysupport.mp3">
+      <publishTime>02/25/2017 22:53:35</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/visitMe.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/weAreHavingAParty.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whaAreYouBuying.mp3">
+      <publishTime>02/25/2017 23:04:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whataregoodforeignfilmstowatch.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whataretheoptions.mp3">
+      <publishTime>02/25/2017 22:53:34</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whatAreTheyDoing.mp3">
+      <publishTime>02/25/2017 23:04:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whatAreYouDoingTomorrow.mp3">
+      <publishTime>02/25/2017 23:04:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whatAreYouLookingFor.mp3">
+      <publishTime>02/25/2017 23:04:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whatDidYouStudy.mp3">
+      <publishTime>02/25/2017 23:04:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whatdouneed.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whatIsThatNoice.mp3">
+      <publishTime>02/25/2017 23:04:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whatsnew.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whattimeareyoufree.mp3">
+      <publishTime>02/25/2017 22:53:34</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whatTimeAreYouGoingToSleep.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whatTimeDoYouWakeUp.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whatTimeIsItThere.mp3">
+      <publishTime>02/25/2017 23:04:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whenIsTheWedding.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whereDidYouGo.mp3">
+      <publishTime>02/25/2017 23:03:17</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whichIsIt.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whoAreYouWith.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whoIsHere.mp3">
+      <publishTime>02/25/2017 23:04:27</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whoneedshelp.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whosIsIt.mp3">
+      <publishTime>02/25/2017 23:03:17</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whosyourfavoritesinger.mp3">
+      <publishTime>02/25/2017 22:56:02</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/whosyourfavorteband.mp3">
+      <publishTime>02/25/2017 22:53:34</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/youAreWelcomeToCome.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/youHaveABeautifulFamily.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/youhaveabeautifulhouse.mp3">
+      <publishTime>02/25/2017 22:53:34</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/youHaveBeautifulChildren.mp3">
+      <publishTime>02/25/2017 23:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteCuatro/youWillLikeIt.mp3">
+      <publishTime>02/25/2017 22:59:48</publishTime>
+    </File>
+    <File Include="audio/ParteDos/amfrom.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/amgoingtosleep.mp3">
+      <publishTime>02/24/2017 21:22:04</publishTime>
+    </File>
+    <File Include="audio/ParteDos/amhungry.mp3">
+      <publishTime>02/24/2017 21:20:36</publishTime>
+    </File>
+    <File Include="audio/ParteDos/amsleepy.mp3">
+      <publishTime>02/24/2017 21:20:36</publishTime>
+    </File>
+    <File Include="audio/ParteDos/amthirsty.mp3">
+      <publishTime>02/24/2017 21:20:36</publishTime>
+    </File>
+    <File Include="audio/ParteDos/andyou.mp3">
+      <publishTime>02/24/2017 21:31:22</publishTime>
+    </File>
+    <File Include="audio/ParteDos/areuhome.mp3">
+      <publishTime>02/24/2017 21:28:07</publishTime>
+    </File>
+    <File Include="audio/ParteDos/areyoubusy.mp3">
+      <publishTime>02/24/2017 21:29:02</publishTime>
+    </File>
+    <File Include="audio/ParteDos/areyoufree.mp3">
+      <publishTime>02/24/2017 21:29:02</publishTime>
+    </File>
+    <File Include="audio/ParteDos/canicallulater.mp3">
+      <publishTime>02/24/2017 21:29:09</publishTime>
+    </File>
+    <File Include="audio/ParteDos/canubelieveit.mp3">
+      <publishTime>02/24/2017 21:29:02</publishTime>
+    </File>
+    <File Include="audio/ParteDos/canuwritedownplease.mp3">
+      <publishTime>02/24/2017 21:29:01</publishTime>
+    </File>
+    <File Include="audio/ParteDos/canyouhelpme.mp3">
+      <publishTime>02/24/2017 21:29:01</publishTime>
+    </File>
+    <File Include="audio/ParteDos/comehere.mp3">
+      <publishTime>02/24/2017 21:22:04</publishTime>
+    </File>
+    <File Include="audio/ParteDos/didulikeit.mp3">
+      <publishTime>02/24/2017 21:31:58</publishTime>
+    </File>
+    <File Include="audio/ParteDos/didusleepwell.mp3">
+      <publishTime>02/24/2017 21:27:02</publishTime>
+    </File>
+    <File Include="audio/ParteDos/douhaveaquestion.mp3">
+      <publishTime>02/24/2017 21:31:36</publishTime>
+    </File>
+    <File Include="audio/ParteDos/douspeakenglish.mp3">
+      <publishTime>02/24/2017 21:29:01</publishTime>
+    </File>
+    <File Include="audio/ParteDos/douspeakspanish.mp3">
+      <publishTime>02/24/2017 21:29:01</publishTime>
+    </File>
+    <File Include="audio/ParteDos/douunderstand.mp3">
+      <publishTime>02/24/2017 21:27:38</publishTime>
+    </File>
+    <File Include="audio/ParteDos/douwantsome.mp3">
+      <publishTime>02/24/2017 21:32:21</publishTime>
+    </File>
+    <File Include="audio/ParteDos/douwantsomethingtodrink.mp3">
+      <publishTime>02/24/2017 21:32:45</publishTime>
+    </File>
+    <File Include="audio/ParteDos/douwantsomethingtoeat.mp3">
+      <publishTime>02/24/2017 21:32:45</publishTime>
+    </File>
+    <File Include="audio/ParteDos/doyouwanttoeat.mp3">
+      <publishTime>02/24/2017 21:32:21</publishTime>
+    </File>
+    <File Include="audio/ParteDos/early.mp3">
+      <publishTime>02/24/2017 21:20:36</publishTime>
+    </File>
+    <File Include="audio/ParteDos/haveaniceday.mp3">
+      <publishTime>02/24/2017 21:17:35</publishTime>
+    </File>
+    <File Include="audio/ParteDos/how.mp3">
+      <publishTime>02/24/2017 21:23:19</publishTime>
+    </File>
+    <File Include="audio/ParteDos/howareyou.mp3">
+      <publishTime>02/24/2017 21:22:58</publishTime>
+    </File>
+    <File Include="audio/ParteDos/howbeautiful.mp3">
+      <publishTime>02/24/2017 21:17:03</publishTime>
+    </File>
+    <File Include="audio/ParteDos/howdoufeel.mp3">
+      <publishTime>02/24/2017 21:23:07</publishTime>
+    </File>
+    <File Include="audio/ParteDos/howlucky.mp3">
+      <publishTime>02/24/2017 21:17:23</publishTime>
+    </File>
+    <File Include="audio/ParteDos/howmanysiblingsuhave.mp3">
+      <publishTime>02/24/2017 21:25:35</publishTime>
+    </File>
+    <File Include="audio/ParteDos/howmayihelpu.mp3">
+      <publishTime>02/24/2017 21:27:18</publishTime>
+    </File>
+    <File Include="audio/ParteDos/howmuchisit.mp3">
+      <publishTime>02/24/2017 21:25:35</publishTime>
+    </File>
+    <File Include="audio/ParteDos/howsad.mp3">
+      <publishTime>02/24/2017 21:17:47</publishTime>
+    </File>
+    <File Include="audio/ParteDos/howsyourfamily.mp3">
+      <publishTime>02/24/2017 21:22:58</publishTime>
+    </File>
+    <File Include="audio/ParteDos/howusayinenglish.mp3">
+      <publishTime>02/24/2017 21:22:58</publishTime>
+    </File>
+    <File Include="audio/ParteDos/howwasyourday.mp3">
+      <publishTime>02/24/2017 21:22:58</publishTime>
+    </File>
+    <File Include="audio/ParteDos/ihadabusyday.mp3">
+      <publishTime>02/24/2017 21:21:39</publishTime>
+    </File>
+    <File Include="audio/ParteDos/ihadafunday.mp3">
+      <publishTime>02/24/2017 21:21:39</publishTime>
+    </File>
+    <File Include="audio/ParteDos/ihaveaquestion.mp3">
+      <publishTime>02/24/2017 21:20:56</publishTime>
+    </File>
+    <File Include="audio/ParteDos/ihavehomework.mp3">
+      <publishTime>02/24/2017 21:20:36</publishTime>
+    </File>
+    <File Include="audio/ParteDos/illcallyou.mp3">
+      <publishTime>02/24/2017 21:20:36</publishTime>
+    </File>
+    <File Include="audio/ParteDos/illhelpyou.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/imissyou.mp3">
+      <publishTime>02/24/2017 21:20:36</publishTime>
+    </File>
+    <File Include="audio/ParteDos/ineedtogo.mp3">
+      <publishTime>02/24/2017 21:20:36</publishTime>
+    </File>
+    <File Include="audio/ParteDos/isitdifficult.mp3">
+      <publishTime>02/24/2017 21:27:47</publishTime>
+    </File>
+    <File Include="audio/ParteDos/isiteasy.mp3">
+      <publishTime>02/24/2017 21:27:58</publishTime>
+    </File>
+    <File Include="audio/ParteDos/isitfinished.mp3">
+      <publishTime>02/24/2017 21:32:07</publishTime>
+    </File>
+    <File Include="audio/ParteDos/iwantless.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/iwantmore.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/iwanttogothere.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/iwaswaitingforu.mp3">
+      <publishTime>02/24/2017 21:19:21</publishTime>
+    </File>
+    <File Include="audio/ParteDos/iwasworried.mp3">
+      <publishTime>02/24/2017 21:22:16</publishTime>
+    </File>
+    <File Include="audio/ParteDos/late.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/letseat.mp3">
+      <publishTime>02/24/2017 21:22:04</publishTime>
+    </File>
+    <File Include="audio/ParteDos/letsgoout.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/mayihelpyou.mp3">
+      <publishTime>02/24/2017 21:31:49</publishTime>
+    </File>
+    <File Include="audio/ParteDos/meetoo.mp3">
+      <publishTime>02/24/2017 21:22:26</publishTime>
+    </File>
+    <File Include="audio/ParteDos/quehermoso.mp3">
+      <publishTime>02/24/2017 21:04:15</publishTime>
+    </File>
+    <File Include="audio/ParteDos/quesorpresa.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/quesuerte.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/quetengasunbuendia.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/quetriste.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/quieroirahi.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/quieromas.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/quieromenos.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/salgamos.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/si.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/siestoylibre.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/siestoyocupado.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/sihabloespanol.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/sihabloingles.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/siporfavor.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/siunpoco.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/soyde.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/tarde.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/teayudare.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/teestabaesperando.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/teextrano.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/tellamare.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/temprano.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/tengohambre.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/tengoqueir.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/tengosed.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/tengosueno.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/tengotarea.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/tengounapregunta.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/tutambien.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/tuveundiaincreible.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/tuveundiaocupado.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/vamosacomer.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/venaqui.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/voyadormir.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/what.mp3">
+      <publishTime>02/24/2017 21:32:52</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatareusaying.mp3">
+      <publishTime>02/24/2017 21:29:38</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatareyoudoing.mp3">
+      <publishTime>02/24/2017 21:29:38</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatareyoustudying.mp3">
+      <publishTime>02/24/2017 21:29:38</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatasurprise.mp3">
+      <publishTime>02/24/2017 21:17:03</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatdidudotoday.mp3">
+      <publishTime>02/24/2017 21:30:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatdidudoyesterday.mp3">
+      <publishTime>02/24/2017 21:30:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatdiduduthismorning.mp3">
+      <publishTime>02/24/2017 21:30:47</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatdouliketodoinurfreetime.mp3">
+      <publishTime>02/24/2017 21:33:17</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whathappend.mp3">
+      <publishTime>02/24/2017 21:33:46</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatstheretodrink.mp3">
+      <publishTime>02/24/2017 21:30:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatstheretoeat.mp3">
+      <publishTime>02/24/2017 21:30:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatsyourfavoritesubject.mp3">
+      <publishTime>02/24/2017 21:23:32</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatsyourname.mp3">
+      <publishTime>02/24/2017 21:23:52</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatsyourphonenumber.mp3">
+      <publishTime>02/24/2017 21:24:42</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whattypeofmusicdoulike.mp3">
+      <publishTime>02/24/2017 21:33:03</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatuwantodo.mp3">
+      <publishTime>02/24/2017 21:33:49</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whatwilludolater.mp3">
+      <publishTime>02/24/2017 21:29:52</publishTime>
+    </File>
+    <File Include="audio/ParteDos/when.mp3">
+      <publishTime>02/24/2017 21:24:42</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whenareufree.mp3">
+      <publishTime>02/24/2017 21:25:01</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whenisyourbirthday.mp3">
+      <publishTime>02/24/2017 21:24:52</publishTime>
+    </File>
+    <File Include="audio/ParteDos/where.mp3">
+      <publishTime>02/24/2017 21:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whereareyoufrom.mp3">
+      <publishTime>02/24/2017 21:25:35</publishTime>
+    </File>
+    <File Include="audio/ParteDos/wheredidugetit.mp3">
+      <publishTime>02/24/2017 21:26:21</publishTime>
+    </File>
+    <File Include="audio/ParteDos/wheredouwork.mp3">
+      <publishTime>02/24/2017 21:26:28</publishTime>
+    </File>
+    <File Include="audio/ParteDos/wheredoyoulive.mp3">
+      <publishTime>02/24/2017 21:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whereisthisplace.mp3">
+      <publishTime>02/24/2017 21:25:47</publishTime>
+    </File>
+    <File Include="audio/ParteDos/wherestherestroom.mp3">
+      <publishTime>02/24/2017 21:26:09</publishTime>
+    </File>
+    <File Include="audio/ParteDos/who.mp3">
+      <publishTime>02/24/2017 21:32:45</publishTime>
+    </File>
+    <File Include="audio/ParteDos/whodoulike.mp3">
+      <publishTime>02/24/2017 21:32:45</publishTime>
+    </File>
+    <File Include="audio/ParteDos/why.mp3">
+      <publishTime>02/24/2017 21:29:02</publishTime>
+    </File>
+    <File Include="audio/ParteDos/yes.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/yesalittle.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/yesambusy.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/yesamfree.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/yesispeakenglish.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/yesispeakspanish.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/yesplease.mp3">
+      <publishTime>02/24/2017 21:19:05</publishTime>
+    </File>
+    <File Include="audio/ParteDos/yoestabapreocupado.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/yotambien.mp3">
+      <publishTime>02/24/2017 21:06:37</publishTime>
+    </File>
+    <File Include="audio/ParteDos/youtoo.mp3">
+      <publishTime>02/24/2017 21:21:24</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_como.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_comodiceseningles.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_comoestas.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_comoestatufamilia.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_comoestuvotudia.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_comotesientes.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_cualestumateria.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_cualestunombre.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_cualestunumero.mp3">
+      <publishTime>02/24/2017 21:15:00</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_cuando.mp3">
+      <publishTime>02/24/2017 21:15:00</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_cuandoestaslibre.mp3">
+      <publishTime>02/24/2017 21:15:00</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_cuandoestucumple.mp3">
+      <publishTime>02/24/2017 21:15:00</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_cuantocuesta.mp3">
+      <publishTime>02/24/2017 21:15:00</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_cuantoshermanostienes.mp3">
+      <publishTime>02/24/2017 21:15:00</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_dedondeeres.mp3">
+      <publishTime>02/24/2017 21:15:00</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_donde.mp3">
+      <publishTime>02/24/2017 21:15:00</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_dondeesestelugar.mp3">
+      <publishTime>02/24/2017 21:15:00</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_dondeestaelbano.mp3">
+      <publishTime>02/24/2017 21:15:00</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_dondeloconseguiste.mp3">
+      <publishTime>02/24/2017 21:15:00</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_dondetrabajas.mp3">
+      <publishTime>02/24/2017 21:15:00</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_dondevives.mp3">
+      <publishTime>02/24/2017 21:15:00</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_dormistebien.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_enquepuedoayudarte.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_entiendes.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_esdificil.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_esfacil.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_estasencasa.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_estaslibre.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_estasocupado.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_hablasespanol.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_hablasingles.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_mepuedesayudar.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_porque.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_puedescreerlo.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_puedesescribirloporfavor.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_puedollamartemastarde.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_que.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_queestapasando.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_queestasdiciendo.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_queestasestudiando.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_queestashaciendo.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_queestaspensando.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_queharasdespues.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quehayparabeber.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quehayparacomer.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quehicisteayer.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quehicisteestamanana.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quehicistehoy.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quepaso.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quequiereshacer.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quetegustahacer.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quetipodemusica.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quien.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quientegusta.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quieresalgodebeber.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quieresalgodecomer.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quierescomer.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_quieresunpoco.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_seacabo.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_tegusto.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_tepuedoayudar.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_tienesunapregunta.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteDos/_ytu.mp3">
+      <publishTime>02/24/2017 21:14:59</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03101QuieroAtencion.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03102QuieroIniciarUnNegocio.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03103QuieroPracticarContigo.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03104QuieroQuedarmeAqui.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03105QuieroVenderlo.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03106SeEstaHaciendoTarde.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03107SeVeDelicioso.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03108SomosComoUnaFamilia.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03109SoyUnEstudianteExtranjero.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03110TeEsperoAfuera.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03111TePerdono.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03112TePrometo.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03113TenemosQuePracticarTambien.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03114TengoPrisa.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03115TengoUnProblema.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03116TomareUnaDecision.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03117TuPronunciacionEsBuena.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03118TuveUnBuenDia.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03119VamosAPracticarPronto.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03120VivoConUnAmigo.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03121AQueHoraAbren.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03122AQuienApoyas.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03123AQuienLeToca.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03124AceptasTarjetasDeCredito.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03125CasiEstasAqui.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03126ComoDebemosHacerlo.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03127ComoTermino.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03128CualEsElNombreDelBebe.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03129CualEsElPlan.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03130CualEsElProblema.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03131CualEsLaRespuesta.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03132CualEsMejor.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03133CualEsTuComidaFavorita.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03134CualEsTuDecision.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03135CualEsTuDireccion.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03136CualEsTuOpinion.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03137CualesPaisesQuieresVisitar.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03138CualesSonTusLibrosFavoritos.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03139CualesSonTusPlanesParaHoy.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03140CuandoEsLaMejorHoraParaVisitar.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03141CuandoNosVamos.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03142CuandoTermina.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03143CuantoMides.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03144CuantoTiempoTengo.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03145DeQueColorSonTusOjos.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03146DondeEsEso.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03147DondeEstaElMaestro.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03148DondeEstaMiTelefono.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03149DondeEstanMisCosas.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03150DondeEstoy.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03151EstaAbiertaLaTienda.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03152EstaPasandoAlgo.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03153EstasEnApuro.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03154EstasMintiendo.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03155EstasTrabajando.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03156EstoEsApropiado.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03157EstoEstaBien.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03158Estudiaste.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03159HasDecidido.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03160HasDejadoUnMensaje.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03161HasEstadoAhi.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03162HayAlgoQueTeMolesta.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03163HayHabitacionesDisponibles.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03164LoEstoyHaciendoBien.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03165MePerdonas.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03166MePuedesDarUnConsejo.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03167MePuedesHacerUnFavor.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03168MeRecuerdas.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03169PorQueLoHiciste.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03170PuedoEnviarAlgo.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03171PuedoSentarmeAqui.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03172PuedoVerteManana.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03173QueDeboElegir.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03174QueDeportesJuegas.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03175QueEstasDibujando.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03176QueEstasEnviando.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03177QueEstasLeyendo.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03178QueEstasVendiendo.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03179QueEstasViendo.mp3">
+      <publishTime>02/26/2017 18:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03180QueHayParaDesayunar.mp3">
+      <publishTime>02/26/2017 18:48:06</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03181QueMePongo.mp3">
+      <publishTime>02/26/2017 18:48:06</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03182QueQuiereDecir.mp3">
+      <publishTime>02/26/2017 18:48:06</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03183QuienDijoEso.mp3">
+      <publishTime>02/26/2017 18:48:06</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03184QuienEsResponsable.mp3">
+      <publishTime>02/26/2017 18:48:06</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03185QuienEs.mp3">
+      <publishTime>02/26/2017 18:48:06</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03186QuienGano.mp3">
+      <publishTime>02/26/2017 18:48:06</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03187QuienHaceEso.mp3">
+      <publishTime>02/26/2017 18:48:06</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03188QuienHizoEsto.mp3">
+      <publishTime>02/26/2017 18:48:06</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03189QuienPerdio.mp3">
+      <publishTime>02/26/2017 18:48:06</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03190QuienTeLoDijo.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03191QuieresJugar.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03192QuieresVivirAqui.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03193SabesLaRespuesta.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03194Sabes.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03195TeEstoyMolestando.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03196TeGustaBailar.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03197TePreocupa.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03198TenemosPermiso.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03199TengoQueEsperar.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/03200TienesSueno.mp3">
+      <publishTime>02/26/2017 18:48:07</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/amAForentStudent.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/amIBotheringYou.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/amIDoingThisRight.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/amInAHurry.mp3">
+      <publishTime>02/26/2017 19:48:21</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/areTheRoomsAvaliable.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/areYouAlmostHere.mp3">
+      <publishTime>02/26/2017 19:33:37</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/areYouInAHurry.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/areYouLying.mp3">
+      <publishTime>02/26/2017 19:33:37</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/areYouSleepy.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/areYouWorking.mp3">
+      <publishTime>02/26/2017 19:33:37</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/atWhatTimeDoesItOpen.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/canISeeYouTomorrow.mp3">
+      <publishTime>02/26/2017 19:36:33</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/canISendYouSomething.mp3">
+      <publishTime>02/26/2017 19:36:33</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/canISitHere.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/canYouDoMeAFavor.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/canYouGiveMeAdvise.mp3">
+      <publishTime>02/26/2017 19:33:37</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/didYouLeaveAMessage.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/didYouStudy.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/doIHaveToWait.mp3">
+      <publishTime>02/26/2017 19:36:33</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/doWeHavePermission.mp3">
+      <publishTime>02/26/2017 19:36:33</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/doYouAcceptCreditCards.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/doYouForgiveMe.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/doYouKnow.mp3">
+      <publishTime>02/26/2017 19:24:14</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/doYouKnowTheAnswer.mp3">
+      <publishTime>02/26/2017 19:36:33</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/doYouLikeDancing.mp3">
+      <publishTime>02/26/2017 19:36:33</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/doYouRememberMe.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/doYouWantToLiveHere.mp3">
+      <publishTime>02/26/2017 19:36:33</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/doYouWantToPlayAGame.mp3">
+      <publishTime>02/26/2017 19:36:33</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/doYouWorry.mp3">
+      <publishTime>02/26/2017 19:36:33</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/haveYouBeenThere.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/haveYouDecided.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/howDidItEnd.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/howMuchTimeDoIHave.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/howShoulWeDoThis.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/howTallAreYou.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/iForgiveYou.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/iHadAGoodDay.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/iHaveAProblem.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/iLiveWithAFriend.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/illWaitForYouOutside.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/iPromise.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/isSomethingBotheringYou.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/isSomethingHappening.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/isTheStoreOpen.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/isThisAppropiated.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/isThisOk.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/itLooksDelicious.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/itsGettingLate.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/iWantAttention.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/iWantToPracticeWithYou.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/iWantToSellIt.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/iWantToStartABusiness.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/iWantToStayHere.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/iWillMakeADecision.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/letsPracticeSoon.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/weAreLikeFamily.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/weNeedToPracticeToo.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatAreYouDrawing.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatAreYouReading.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatAreYourPlansForToday.mp3">
+      <publishTime>02/26/2017 19:48:08</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatAreYouSelling.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatAreYouSending.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatAreYouWatching.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatColorAreYourEyes.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatDoesItMean.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatsForBreakfast.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatShouldIChoose.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatShouldIWear.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatSportsDoYouPlay.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatsTheAnswer.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatsTheNameOfTheBaby.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatsThePlan.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatsTheProblem.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatsYourAddress.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatsYourDecision.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatsYourFavoriteFood.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whatsYourOpinion.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whenAreWeLeaving.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whenDoesItEnd.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whenIsTheBestHourToVisit.mp3">
+      <publishTime>02/26/2017 19:45:27</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whereAmI.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whereIsMyPhone.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whereIsMyStuff.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whereIsThat.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whereIsTheTeacher.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whichAreYourFavoriteBooks.mp3">
+      <publishTime>02/26/2017 19:23:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whichCountriesDoYouWantToVisit.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whichIsBetter.mp3">
+      <publishTime>02/26/2017 19:33:36</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whoDidThis.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whoDoYouSupport.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whoIsDoingThat.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whoIsIt.mp3">
+      <publishTime>02/26/2017 19:24:14</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whoLost.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whoSaidThat.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whoseTurnIsIt.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whosResponsable.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whoToldYou.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whoWon.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/whyDidYouDoIt.mp3">
+      <publishTime>02/26/2017 19:36:34</publishTime>
+    </File>
+    <File Include="audio/ParteSeis/yourPronnunciationIsGood.mp3">
+      <publishTime>02/26/2017 19:29:24</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02001AcaboDeLlegarACasa.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02002AgradezcoTuAyuda.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02003AlguienMeEstaLlamando.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02004AquiEsDeNoche.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02005AquiEsMedianoche.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02006AquiEstare.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02007AquiTienes.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02008BajaElVolumen.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02009ConNadieEstoy.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02010DimeCuandoEstesListo.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02011DimeMas.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02012DimeSiNecesitasAyuda.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02013DormiComoBebe.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02014ElEsMiEsposo.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02015ElInglesEsDificil.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02016ElInglesEsFacil.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02017ElTelefonoEstaSonando.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02018EllaEsMiEsposa.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02019EresUnBuenMaestro.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02020EsAlgoImportante.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02021EsCierto.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02022EsEmocionante.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02023EsGraciosoPorqueEsCierto.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02024EsHoraDeAlistarme.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02025EsHoraDeCenar.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02026EsHoraDeIr.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02027EsImpresionante.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02028EsInspirador.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02029EsInteresante.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02030EsMio.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02031EsMuyUtil.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02032EsNormal.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02033EsRuidoso.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02034EsTerrible.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02035EsUnBuenTrabajo.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02036EsUnError.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02037EsUnMilagro.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02038EsUnSecreto.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02039Esperame.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02040EsperoVertePronto.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02041EstaCallado.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02042EstaFuncionando.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02043EstaMejor.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02044EstaOscuro.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02045EstaPeor.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02046EstabaPensandoEnTi.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02047EstanTodosCallados.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02048EstonSonMisHijos.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02049EstoyAburrido.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02050EstoyAqui.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02051EstoyAquiParaAyudar.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02052EstoyCasado.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02053EstoyCerca.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02054EstoyComprometido.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02055EstoyEnElCamino.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02056EstoyEnMiCama.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02057EstoyEnMiCarro.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02058EstoyEnProblemas.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02059EstoyEstudiandoEnEsteMomento.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02060EstoyFelizDeVerte.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02061EstoyFelizPorTi.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02062EstoyHaciendoLoMismo.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02063EstoyHaciendoPlanes.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02064EstoyLejos.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02065EstoyLibreEsteFinDeSemana.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02066EstoyListo.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02067EstoyOcupadoConLaEscuela.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02068EstoyPracticandoIngles.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02069EstoySeguro.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02070EstoySoloEnCasa.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02071ExplicaEsto.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02072Felicidades.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02073FueUnAccidente.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02074GraciasPorTuApoyo.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02075GraciasPorTuHospitalidad.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02076HoraDeDormir.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02077HoyEstoyLibre.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02078HoyFueUnDiaDeLocura.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02079LaCenaCasiEstaLista.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02080LePasaATodoMundo.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02081MeEncantaAprenderIdiomas.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02082MeGustaAprenderSobreDiferentesCulturas.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02083MeGustaComoPiensas.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02084MeGustaEsteLugar.mp3">
+      <publishTime>02/25/2017 21:54:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02085MeLevantoTarde.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02086MeLevantoTemprano.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02087MiBandaFavoritaEs.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02088MiCantanteFavoritoEs.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02089MiInternetEsLenta.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02090MiPronunciacionNecesitaPractica.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02091NadaPaso.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02092NadieEra.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02093NecesitoAyudaConElIngles.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02094NecesitoDescansar.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02095NoEstaFuncionando.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02096NoPuedoEnEsteMomento.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02097NoPuedoEncontrarte.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02098NoPuedoIrHoy.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02099NoTePreocupes.mp3">
+      <publishTime>02/25/2017 21:54:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/02100NoTengoDinero.mp3">
+      <publishTime>02/25/2017 21:54:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amBored.mp3">
+      <publishTime>02/25/2017 22:04:49</publishTime>
+    </File>
+    <File Include="audio/ParteTres/ambusywithschool.mp3">
+      <publishTime>02/25/2017 22:07:36</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amClose.mp3">
+      <publishTime>02/25/2017 22:05:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amdoingthesame.mp3">
+      <publishTime>02/25/2017 22:06:45</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amEngaged.mp3">
+      <publishTime>02/25/2017 22:05:32</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amFar.mp3">
+      <publishTime>02/25/2017 22:07:02</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amfreethisweekend.mp3">
+      <publishTime>02/25/2017 22:07:16</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amFreeToday.mp3">
+      <publishTime>02/25/2017 22:09:11</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amhappyforyou.mp3">
+      <publishTime>02/25/2017 22:06:31</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amHappyToSeeYou.mp3">
+      <publishTime>02/25/2017 22:06:22</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amhere.mp3">
+      <publishTime>02/25/2017 22:05:07</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amheretohelp.mp3">
+      <publishTime>02/25/2017 22:05:11</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amhomealone.mp3">
+      <publishTime>02/25/2017 22:08:07</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amInMyCar.mp3">
+      <publishTime>02/25/2017 22:05:56</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amintrouble.mp3">
+      <publishTime>02/25/2017 22:06:04</publishTime>
+    </File>
+    <File Include="audio/ParteTres/ammakingplans.mp3">
+      <publishTime>02/25/2017 22:06:56</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amMarried.mp3">
+      <publishTime>02/25/2017 22:05:20</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amOnMyBed.mp3">
+      <publishTime>02/25/2017 22:05:51</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amOnTheWay.mp3">
+      <publishTime>02/25/2017 22:05:37</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amPracticingEnglish.mp3">
+      <publishTime>02/25/2017 22:07:45</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amready.mp3">
+      <publishTime>02/25/2017 22:07:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amstudyingrightnow.mp3">
+      <publishTime>02/25/2017 22:06:15</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amsure.mp3">
+      <publishTime>02/25/2017 22:07:57</publishTime>
+    </File>
+    <File Include="audio/ParteTres/amWithNobody.mp3">
+      <publishTime>02/25/2017 21:57:22</publishTime>
+    </File>
+    <File Include="audio/ParteTres/congratulations.mp3">
+      <publishTime>02/25/2017 22:08:20</publishTime>
+    </File>
+    <File Include="audio/ParteTres/dinnerIsAlmostReady.mp3">
+      <publishTime>02/25/2017 22:09:35</publishTime>
+    </File>
+    <File Include="audio/ParteTres/dontWorry.mp3">
+      <publishTime>02/25/2017 22:12:30</publishTime>
+    </File>
+    <File Include="audio/ParteTres/englishisdifficult.mp3">
+      <publishTime>02/25/2017 21:58:52</publishTime>
+    </File>
+    <File Include="audio/ParteTres/englishiseasy.mp3">
+      <publishTime>02/25/2017 21:58:58</publishTime>
+    </File>
+    <File Include="audio/ParteTres/everyoneIsQuiet.mp3">
+      <publishTime>02/25/2017 22:04:41</publishTime>
+    </File>
+    <File Include="audio/ParteTres/explainthis.mp3">
+      <publishTime>02/25/2017 22:08:15</publishTime>
+    </File>
+    <File Include="audio/ParteTres/heIsMyHusband.mp3">
+      <publishTime>02/25/2017 21:58:42</publishTime>
+    </File>
+    <File Include="audio/ParteTres/helpMeIfYouNeedHelp.mp3">
+      <publishTime>02/25/2017 21:58:13</publishTime>
+    </File>
+    <File Include="audio/ParteTres/hereYouGo.mp3">
+      <publishTime>02/25/2017 21:56:56</publishTime>
+    </File>
+    <File Include="audio/ParteTres/iAppreciateYourHelp.mp3">
+      <publishTime>02/25/2017 21:56:20</publishTime>
+    </File>
+    <File Include="audio/ParteTres/iCantFindYou.mp3">
+      <publishTime>02/25/2017 22:12:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/iCantGoToday.mp3">
+      <publishTime>02/25/2017 22:12:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/icantrightnow.mp3">
+      <publishTime>02/25/2017 22:12:10</publishTime>
+    </File>
+    <File Include="audio/ParteTres/idonthavemoney.mp3">
+      <publishTime>02/25/2017 22:12:45</publishTime>
+    </File>
+    <File Include="audio/ParteTres/iHaveSlowInternet.mp3">
+      <publishTime>02/25/2017 22:11:11</publishTime>
+    </File>
+    <File Include="audio/ParteTres/ihopetoseeyousoon.mp3">
+      <publishTime>02/25/2017 22:03:09</publishTime>
+    </File>
+    <File Include="audio/ParteTres/ijustgothome.mp3">
+      <publishTime>02/25/2017 21:56:07</publishTime>
+    </File>
+    <File Include="audio/ParteTres/ilikehowuthink.mp3">
+      <publishTime>02/25/2017 22:10:24</publishTime>
+    </File>
+    <File Include="audio/ParteTres/ilikelearningaboutdifferentcultures.mp3">
+      <publishTime>02/25/2017 22:10:09</publishTime>
+    </File>
+    <File Include="audio/ParteTres/iLikeThisPlace.mp3">
+      <publishTime>02/25/2017 22:10:35</publishTime>
+    </File>
+    <File Include="audio/ParteTres/iLoveLearningLanguages.mp3">
+      <publishTime>02/25/2017 22:09:57</publishTime>
+    </File>
+    <File Include="audio/ParteTres/iNeedHelpWithEnglish.mp3">
+      <publishTime>02/25/2017 22:11:46</publishTime>
+    </File>
+    <File Include="audio/ParteTres/ineedtorest.mp3">
+      <publishTime>02/25/2017 22:11:57</publishTime>
+    </File>
+    <File Include="audio/ParteTres/isleptlikeababy.mp3">
+      <publishTime>02/25/2017 21:58:27</publishTime>
+    </File>
+    <File Include="audio/ParteTres/ithappentoeveryone.mp3">
+      <publishTime>02/25/2017 22:09:46</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsAGoodJob.mp3">
+      <publishTime>02/25/2017 22:02:15</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsamiracle.mp3">
+      <publishTime>02/25/2017 22:02:44</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsamistake.mp3">
+      <publishTime>02/25/2017 22:02:36</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsasecret.mp3">
+      <publishTime>02/25/2017 22:02:52</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsawesome.mp3">
+      <publishTime>02/25/2017 22:01:02</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsbetter.mp3">
+      <publishTime>02/25/2017 22:03:46</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsDark.mp3">
+      <publishTime>02/25/2017 22:03:56</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsexciting.mp3">
+      <publishTime>02/25/2017 21:59:57</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsfunnybecauseitstrue.mp3">
+      <publishTime>02/25/2017 22:00:15</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsinspiring.mp3">
+      <publishTime>02/25/2017 22:01:07</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsinteresting.mp3">
+      <publishTime>02/25/2017 22:01:12</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsMidNightHere.mp3">
+      <publishTime>02/25/2017 21:56:56</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsMine.mp3">
+      <publishTime>02/25/2017 22:01:31</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsNightHere.mp3">
+      <publishTime>02/25/2017 21:56:56</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsnoisy.mp3">
+      <publishTime>02/25/2017 22:01:59</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsnormal.mp3">
+      <publishTime>02/25/2017 22:01:52</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsnotworking.mp3">
+      <publishTime>02/25/2017 22:12:03</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsquiet.mp3">
+      <publishTime>02/25/2017 22:03:25</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsSomethingImportant.mp3">
+      <publishTime>02/25/2017 21:59:34</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsterrible.mp3">
+      <publishTime>02/25/2017 22:02:03</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsTimeForDinner.mp3">
+      <publishTime>02/25/2017 22:00:40</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsTimeForMeToGetReady.mp3">
+      <publishTime>02/25/2017 22:00:28</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsTimeToLeave.mp3">
+      <publishTime>02/25/2017 22:00:46</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itstrue.mp3">
+      <publishTime>02/25/2017 21:59:43</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsveryhelpful.mp3">
+      <publishTime>02/25/2017 22:01:43</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsworking.mp3">
+      <publishTime>02/25/2017 22:03:33</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itsworse.mp3">
+      <publishTime>02/25/2017 22:04:17</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itWasAnAccident.mp3">
+      <publishTime>02/25/2017 22:08:30</publishTime>
+    </File>
+    <File Include="audio/ParteTres/itWasNobody.mp3">
+      <publishTime>02/25/2017 22:11:38</publishTime>
+    </File>
+    <File Include="audio/ParteTres/iWakeUpEarly.mp3">
+      <publishTime>02/25/2017 22:10:46</publishTime>
+    </File>
+    <File Include="audio/ParteTres/iWakeUpLate.mp3">
+      <publishTime>02/25/2017 22:10:46</publishTime>
+    </File>
+    <File Include="audio/ParteTres/iwasthinkingofyou.mp3">
+      <publishTime>02/25/2017 22:04:24</publishTime>
+    </File>
+    <File Include="audio/ParteTres/iWillBeHere.mp3">
+      <publishTime>02/25/2017 21:56:56</publishTime>
+    </File>
+    <File Include="audio/ParteTres/myfavoritebandis.mp3">
+      <publishTime>02/25/2017 22:11:00</publishTime>
+    </File>
+    <File Include="audio/ParteTres/myfavoritesingeris.mp3">
+      <publishTime>02/25/2017 22:11:00</publishTime>
+    </File>
+    <File Include="audio/ParteTres/mypronunciationneedpractice.mp3">
+      <publishTime>02/25/2017 22:11:21</publishTime>
+    </File>
+    <File Include="audio/ParteTres/nothingHappened.mp3">
+      <publishTime>02/25/2017 22:11:30</publishTime>
+    </File>
+    <File Include="audio/ParteTres/sheIsMyWife.mp3">
+      <publishTime>02/25/2017 21:59:34</publishTime>
+    </File>
+    <File Include="audio/ParteTres/someoneIsCallingMe.mp3">
+      <publishTime>02/25/2017 21:56:56</publishTime>
+    </File>
+    <File Include="audio/ParteTres/tellmemore.mp3">
+      <publishTime>02/25/2017 21:57:43</publishTime>
+    </File>
+    <File Include="audio/ParteTres/tellmewhenureready.mp3">
+      <publishTime>02/25/2017 21:57:36</publishTime>
+    </File>
+    <File Include="audio/ParteTres/thanksforyourhospitality.mp3">
+      <publishTime>02/25/2017 22:08:53</publishTime>
+    </File>
+    <File Include="audio/ParteTres/thanksforyoursupport.mp3">
+      <publishTime>02/25/2017 22:08:44</publishTime>
+    </File>
+    <File Include="audio/ParteTres/thePhoneIsRinging.mp3">
+      <publishTime>02/25/2017 21:59:34</publishTime>
+    </File>
+    <File Include="audio/ParteTres/theseAreMyChildren.mp3">
+      <publishTime>02/25/2017 22:04:41</publishTime>
+    </File>
+    <File Include="audio/ParteTres/timeToSleep.mp3">
+      <publishTime>02/25/2017 22:09:03</publishTime>
+    </File>
+    <File Include="audio/ParteTres/todaywasacrazyday.mp3">
+      <publishTime>02/25/2017 22:09:26</publishTime>
+    </File>
+    <File Include="audio/ParteTres/turnthevolumedown.mp3">
+      <publishTime>02/25/2017 21:57:08</publishTime>
+    </File>
+    <File Include="audio/ParteTres/waitforme.mp3">
+      <publishTime>02/25/2017 22:02:58</publishTime>
+    </File>
+    <File Include="audio/ParteTres/youAreAGoodTeacher.mp3">
+      <publishTime>02/25/2017 21:59:34</publishTime>
+    </File>
+    <File Include="audio/ParteUno/adios.mp3">
+      <publishTime>02/24/2017 19:58:35</publishTime>
+    </File>
+    <File Include="audio/ParteUno/afternoon.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/again.mp3">
+      <publishTime>02/24/2017 20:31:45</publishTime>
+    </File>
+    <File Include="audio/ParteUno/amconfused.mp3">
+      <publishTime>02/24/2017 20:24:13</publishTime>
+    </File>
+    <File Include="audio/ParteUno/amcookingdinner.mp3">
+      <publishTime>02/24/2017 20:24:13</publishTime>
+    </File>
+    <File Include="audio/ParteUno/amfine.mp3">
+      <publishTime>02/24/2017 20:22:48</publishTime>
+    </File>
+    <File Include="audio/ParteUno/amlookingforajob.mp3">
+      <publishTime>02/24/2017 20:23:03</publishTime>
+    </File>
+    <File Include="audio/ParteUno/amlost.mp3">
+      <publishTime>02/24/2017 20:24:13</publishTime>
+    </File>
+    <File Include="audio/ParteUno/amsorry.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/amtired.mp3">
+      <publishTime>02/24/2017 20:23:18</publishTime>
+    </File>
+    <File Include="audio/ParteUno/amunemployeed.mp3">
+      <publishTime>02/24/2017 20:31:36</publishTime>
+    </File>
+    <File Include="audio/ParteUno/amwaiting.mp3">
+      <publishTime>02/24/2017 20:24:13</publishTime>
+    </File>
+    <File Include="audio/ParteUno/amwithmyfamily.mp3">
+      <publishTime>02/24/2017 20:24:13</publishTime>
+    </File>
+    <File Include="audio/ParteUno/amwithmyfriends.mp3">
+      <publishTime>02/24/2017 20:24:13</publishTime>
+    </File>
+    <File Include="audio/ParteUno/aqui.mp3">
+      <publishTime>02/24/2017 19:58:57</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ayer.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/bienvenido.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/buenaidea.mp3">
+      <publishTime>02/24/2017 20:08:59</publishTime>
+    </File>
+    <File Include="audio/ParteUno/buenasnoches.mp3">
+      <publishTime>02/24/2017 20:10:39</publishTime>
+    </File>
+    <File Include="audio/ParteUno/buenastardes1.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/buenastardes2.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/buenasuerte.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/buendia.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/buentrabajo.mp3">
+      <publishTime>02/24/2017 20:10:08</publishTime>
+    </File>
+    <File Include="audio/ParteUno/callme.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/comein.mp3">
+      <publishTime>02/24/2017 20:21:02</publishTime>
+    </File>
+    <File Include="audio/ParteUno/creoqueno.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/creoquesi.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/cuantotiempo.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/date.mp3">
+      <publishTime>02/24/2017 20:24:50</publishTime>
+    </File>
+    <File Include="audio/ParteUno/day.mp3">
+      <publishTime>02/24/2017 20:21:02</publishTime>
+    </File>
+    <File Include="audio/ParteUno/denada.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/despuesestarel.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/despuesestareo.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/despuestengo.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/dia.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/entiendo.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/entra.mp3">
+      <publishTime>02/24/2017 20:02:08</publishTime>
+    </File>
+    <File Include="audio/ParteUno/enviameunmensaje.mp3">
+      <publishTime>02/24/2017 20:02:08</publishTime>
+    </File>
+    <File Include="audio/ParteUno/erestanamable.mp3">
+      <publishTime>02/24/2017 20:02:08</publishTime>
+    </File>
+    <File Include="audio/ParteUno/esaburrido.mp3">
+      <publishTime>02/24/2017 20:02:08</publishTime>
+    </File>
+    <File Include="audio/ParteUno/esdelicioso.mp3">
+      <publishTime>02/24/2017 20:02:08</publishTime>
+    </File>
+    <File Include="audio/ParteUno/esdificil.mp3">
+      <publishTime>02/24/2017 20:02:08</publishTime>
+    </File>
+    <File Include="audio/ParteUno/esfacil.mp3">
+      <publishTime>02/24/2017 20:02:08</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estabien.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estalloviendo.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estanevando.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estanublado.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estasoleado.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estoybien.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estoybuscandotrabajo.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estoycansado.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estoyconfundido.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estoyconmifamilia.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estoyconmisamigos.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estoyesperando.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estoyperdido.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/estoypreparandolacena.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/esundialluvioso.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/esunhermosodia.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/esunplacer.mp3">
+      <publishTime>02/24/2017 20:02:07</publishTime>
+    </File>
+    <File Include="audio/ParteUno/evening.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/fecha.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/felizanonuevo.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/felizcumpleanos.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/feliznavidad.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/getwellsoon.mp3">
+      <publishTime>02/24/2017 20:28:02</publishTime>
+    </File>
+    <File Include="audio/ParteUno/goodafternoon.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/goodbye.mp3">
+      <publishTime>02/24/2017 20:16:36</publishTime>
+    </File>
+    <File Include="audio/ParteUno/goodday.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/goodevening.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/goodidea.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/goodjob.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/goodluck.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/goodnight.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/gracias.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/graciasporlacomida.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/graciasporpreguntar.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/graciasportuayuda.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/happybirthday.mp3">
+      <publishTime>02/24/2017 20:24:50</publishTime>
+    </File>
+    <File Include="audio/ParteUno/happynewyear.mp3">
+      <publishTime>02/24/2017 20:24:50</publishTime>
+    </File>
+    <File Include="audio/ParteUno/hastaluego.mp3">
+      <publishTime>02/24/2017 20:04:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/hastamanana.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/hastapronto.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/hello.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/here.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/hola.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/howcool.mp3">
+      <publishTime>02/24/2017 20:32:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/hoy.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/iarrivedearly.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/iarrivedlate.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/icantbelieveit.mp3">
+      <publishTime>02/24/2017 20:31:01</publishTime>
+    </File>
+    <File Include="audio/ParteUno/icantwaitforschooltoend.mp3">
+      <publishTime>02/24/2017 20:31:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/icantwaitforsummer.mp3">
+      <publishTime>02/24/2017 20:31:26</publishTime>
+    </File>
+    <File Include="audio/ParteUno/idontthinkso.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/idontunderstand.mp3">
+      <publishTime>02/24/2017 20:31:01</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ifeellazy.mp3">
+      <publishTime>02/24/2017 20:28:42</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ifeelok.mp3">
+      <publishTime>02/24/2017 20:28:42</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ifeelsick.mp3">
+      <publishTime>02/24/2017 20:28:42</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ifeelweird.mp3">
+      <publishTime>02/24/2017 20:28:42</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ihaveanexamlater.mp3">
+      <publishTime>02/24/2017 20:19:02</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ilikeit.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ilikelisteningtomusic.mp3">
+      <publishTime>02/24/2017 20:27:24</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ilikereadingbooks.mp3">
+      <publishTime>02/24/2017 20:27:24</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ilikeu.mp3">
+      <publishTime>02/24/2017 20:28:02</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ilikewatchingmovies.mp3">
+      <publishTime>02/24/2017 20:27:24</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ilikewatchingtelevision.mp3">
+      <publishTime>02/24/2017 20:27:24</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ilikeyourshirt.mp3">
+      <publishTime>02/24/2017 20:27:24</publishTime>
+    </File>
+    <File Include="audio/ParteUno/illbebusylater.mp3">
+      <publishTime>02/24/2017 20:19:02</publishTime>
+    </File>
+    <File Include="audio/ParteUno/illbefreelater.mp3">
+      <publishTime>02/24/2017 20:19:02</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ineedhelp.mp3">
+      <publishTime>02/24/2017 20:29:35</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ineedtopracticemyenglish.mp3">
+      <publishTime>02/24/2017 20:29:48</publishTime>
+    </File>
+    <File Include="audio/ParteUno/intentalootravez.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/ithinkso.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/itsabeautifulday.mp3">
+      <publishTime>02/24/2017 20:22:48</publishTime>
+    </File>
+    <File Include="audio/ParteUno/itsapleasure.mp3">
+      <publishTime>02/24/2017 20:22:48</publishTime>
+    </File>
+    <File Include="audio/ParteUno/itsarainyday.mp3">
+      <publishTime>02/24/2017 20:22:48</publishTime>
+    </File>
+    <File Include="audio/ParteUno/itsboring.mp3">
+      <publishTime>02/24/2017 20:21:41</publishTime>
+    </File>
+    <File Include="audio/ParteUno/itscloudy.mp3">
+      <publishTime>02/24/2017 20:22:48</publishTime>
+    </File>
+    <File Include="audio/ParteUno/itsdelicious.mp3">
+      <publishTime>02/24/2017 20:22:48</publishTime>
+    </File>
+    <File Include="audio/ParteUno/itsdifficult.mp3">
+      <publishTime>02/24/2017 20:22:48</publishTime>
+    </File>
+    <File Include="audio/ParteUno/itseasy.mp3">
+      <publishTime>02/24/2017 20:22:48</publishTime>
+    </File>
+    <File Include="audio/ParteUno/itsfine.mp3">
+      <publishTime>02/24/2017 20:22:48</publishTime>
+    </File>
+    <File Include="audio/ParteUno/itsraining.mp3">
+      <publishTime>02/24/2017 20:22:48</publishTime>
+    </File>
+    <File Include="audio/ParteUno/itssnowing.mp3">
+      <publishTime>02/24/2017 20:22:48</publishTime>
+    </File>
+    <File Include="audio/ParteUno/itssunny.mp3">
+      <publishTime>02/24/2017 20:22:48</publishTime>
+    </File>
+    <File Include="audio/ParteUno/iunderstand.mp3">
+      <publishTime>02/24/2017 20:21:02</publishTime>
+    </File>
+    <File Include="audio/ParteUno/lamanana.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/latarde1.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/llamame.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/lleguetarde.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/lleguetemprano.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/longtimenosee.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/losiento.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/manana.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/meencantaescuchar.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/megusta.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/megustaleer.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/megustas.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/megustatucamisa.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/megustaverp.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/megustavert.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/mejoratepronto.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/merryChristmas.mp3">
+      <publishTime>02/24/2017 20:24:50</publishTime>
+    </File>
+    <File Include="audio/ParteUno/mesientobien.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/mesientoenfermo.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/mesientoperezoso.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/mesientoraro.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/messagemewhenurefree.mp3">
+      <publishTime>02/24/2017 20:21:41</publishTime>
+    </File>
+    <File Include="audio/ParteUno/midiafuebueno.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/midiafuemalo.mp3">
+      <publishTime>02/24/2017 20:05:55</publishTime>
+    </File>
+    <File Include="audio/ParteUno/minombrees.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/morning.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/muchogusto.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/muybien.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/muymal.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/mydaywasbad.mp3">
+      <publishTime>02/24/2017 20:29:35</publishTime>
+    </File>
+    <File Include="audio/ParteUno/mydaywasgood.mp3">
+      <publishTime>02/24/2017 20:29:35</publishTime>
+    </File>
+    <File Include="audio/ParteUno/mynameis.mp3">
+      <publishTime>02/24/2017 20:29:35</publishTime>
+    </File>
+    <File Include="audio/ParteUno/nada.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/necesitoayuda.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/necesitopracticar.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/nicetomeetyou.mp3">
+      <publishTime>02/24/2017 20:29:35</publishTime>
+    </File>
+    <File Include="audio/ParteUno/night.mp3">
+      <publishTime>02/24/2017 20:30:36</publishTime>
+    </File>
+    <File Include="audio/ParteUno/no.mp3">
+      <publishTime>02/24/2017 20:31:01</publishTime>
+    </File>
+    <File Include="audio/ParteUno/noche.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/noentiendo.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/nogracias.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/nolopuedocreer.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/nopuedoesperarqueacabelae.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/nopuedoesperarqueseav.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/notengoempleo.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/nothanks.mp3">
+      <publishTime>02/24/2017 20:31:01</publishTime>
+    </File>
+    <File Include="audio/ParteUno/nothing.mp3">
+      <publishTime>02/24/2017 20:29:35</publishTime>
+    </File>
+    <File Include="audio/ParteUno/otravez.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/overthere.mp3">
+      <publishTime>02/24/2017 20:31:54</publishTime>
+    </File>
+    <File Include="audio/ParteUno/pleasesitdown.mp3">
+      <publishTime>02/24/2017 20:32:12</publishTime>
+    </File>
+    <File Include="audio/ParteUno/pleasespeakmoreslowly.mp3">
+      <publishTime>02/24/2017 20:32:05</publishTime>
+    </File>
+    <File Include="audio/ParteUno/porahi.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/porfavorhablamasdespacio.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/porfavorsientate.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/quegenial.mp3">
+      <publishTime>02/24/2017 20:07:29</publishTime>
+    </File>
+    <File Include="audio/ParteUno/seeyoulater.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/seeyousoon.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/seeyoutomorrow.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/thanksforasking.mp3">
+      <publishTime>02/24/2017 20:24:57</publishTime>
+    </File>
+    <File Include="audio/ParteUno/thanksforthefood.mp3">
+      <publishTime>02/24/2017 20:24:50</publishTime>
+    </File>
+    <File Include="audio/ParteUno/thanksforyourhelp.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/thankyou.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/today.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/tomorrow.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/tryagain.mp3">
+      <publishTime>02/24/2017 20:26:51</publishTime>
+    </File>
+    <File Include="audio/ParteUno/verybad.mp3">
+      <publishTime>02/24/2017 20:29:35</publishTime>
+    </File>
+    <File Include="audio/ParteUno/verygood.mp3">
+      <publishTime>02/24/2017 20:29:35</publishTime>
+    </File>
+    <File Include="audio/ParteUno/welcome.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/yesterday.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
+    <File Include="audio/ParteUno/youaresonice.mp3">
+      <publishTime>02/24/2017 20:21:41</publishTime>
+    </File>
+    <File Include="audio/ParteUno/yourewelcome.mp3">
+      <publishTime>02/24/2017 20:18:23</publishTime>
+    </File>
     <File Include="audio/videoDos/ambusywithschool.mp3">
       <publishTime>11/09/2016 22:33:30</publishTime>
     </File>
@@ -2266,7 +5854,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:44</publishTime>
     </File>
     <File Include="bin/Montescc.dll">
-      <publishTime>02/11/2017 15:58:27</publishTime>
+      <publishTime>02/26/2017 19:48:37</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>11/09/2016 21:07:40</publishTime>
@@ -3919,7 +7507,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:38</publishTime>
     </File>
     <File Include="Scripts/JsMontes.js">
-      <publishTime>02/05/2017 21:17:53</publishTime>
+      <publishTime>02/25/2017 22:41:07</publishTime>
     </File>
     <File Include="Scripts/knockout-2.2.0.debug.js">
       <publishTime>11/09/2016 21:07:51</publishTime>
@@ -3929,6 +7517,24 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     </File>
     <File Include="Scripts/LeccionesIngles.js">
       <publishTime>02/04/2017 20:31:54</publishTime>
+    </File>
+    <File Include="Scripts/LeccionesIngles_1.js">
+      <publishTime>02/24/2017 20:33:27</publishTime>
+    </File>
+    <File Include="Scripts/LeccionesIngles_2.js">
+      <publishTime>02/24/2017 21:39:56</publishTime>
+    </File>
+    <File Include="Scripts/LeccionesIngles_3.js">
+      <publishTime>02/25/2017 22:13:14</publishTime>
+    </File>
+    <File Include="Scripts/LeccionesIngles_4.js">
+      <publishTime>02/25/2017 23:17:18</publishTime>
+    </File>
+    <File Include="Scripts/LeccionesIngles_5.js">
+      <publishTime>02/26/2017 19:09:16</publishTime>
+    </File>
+    <File Include="Scripts/LeccionesIngles_6.js">
+      <publishTime>02/26/2017 19:38:08</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.6.2.js">
       <publishTime>11/09/2016 21:07:39</publishTime>
@@ -3970,7 +7576,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/26/2016 17:26:48</publishTime>
     </File>
     <File Include="Views/Curso/LeccionIngles.cshtml">
-      <publishTime>01/28/2017 18:41:16</publishTime>
+      <publishTime>02/26/2017 19:19:24</publishTime>
     </File>
     <File Include="Views/Curso/Modulos.cshtml">
       <publishTime>02/12/2017 23:42:08</publishTime>
@@ -3982,7 +7588,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/19/2016 15:18:37</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>02/06/2017 21:29:22</publishTime>
+      <publishTime>02/24/2017 12:39:32</publishTime>
     </File>
     <File Include="Views/Mconfigsite/DetalleCurso.cshtml">
       <publishTime>12/11/2016 22:07:10</publishTime>
@@ -3997,22 +7603,22 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:09</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>02/06/2017 21:13:00</publishTime>
+      <publishTime>02/20/2017 02:35:04</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutAdmin.cshtml">
       <publishTime>01/21/2017 21:09:22</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutAjedrez.cshtml">
-      <publishTime>02/12/2017 23:49:58</publishTime>
+      <publishTime>02/25/2017 23:35:11</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutContabilidad.cshtml">
-      <publishTime>02/12/2017 23:50:07</publishTime>
+      <publishTime>02/25/2017 23:35:17</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutIngles.cshtml">
-      <publishTime>01/22/2017 22:36:18</publishTime>
+      <publishTime>02/25/2017 23:35:26</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutProgramacionWeb.cshtml">
-      <publishTime>02/06/2017 21:26:37</publishTime>
+      <publishTime>02/25/2017 23:35:32</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>12/11/2016 21:59:24</publishTime>

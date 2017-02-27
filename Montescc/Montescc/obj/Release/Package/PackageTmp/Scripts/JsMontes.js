@@ -78,8 +78,26 @@ function checkKey(evt) {
 
 /*Reproducción de Audios*/
 function playAudioGo(urlAudio) {
-    document.getElementById(urlAudio).play();
-    $("button").attr("disabled", "disable");
+
+    $.each($('audio'), function () {
+        this.pause(); // Stop playing
+        this.currentTime = 0; // Reset time
+    });
+
+    setTimeout(function () {
+
+        var audioAReproducir = document.getElementById(urlAudio).play();
+
+        audioAReproducir.then(function () {
+
+        }).catch(function (error) {
+            location.reload(true);
+        });        
+
+    }, 150);
+
+
+    //$("button").attr("disabled", "disable");
 }
 
 function habilitaPlayButton() {
