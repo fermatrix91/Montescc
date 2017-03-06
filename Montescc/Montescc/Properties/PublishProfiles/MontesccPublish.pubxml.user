@@ -5854,7 +5854,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:44</publishTime>
     </File>
     <File Include="bin/Montescc.dll">
-      <publishTime>02/26/2017 19:48:37</publishTime>
+      <publishTime>03/05/2017 00:25:44</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>11/09/2016 21:07:40</publishTime>
@@ -7507,7 +7507,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:38</publishTime>
     </File>
     <File Include="Scripts/JsMontes.js">
-      <publishTime>02/25/2017 22:41:07</publishTime>
+      <publishTime>03/04/2017 22:37:59</publishTime>
     </File>
     <File Include="Scripts/knockout-2.2.0.debug.js">
       <publishTime>11/09/2016 21:07:51</publishTime>
@@ -7579,7 +7579,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>02/26/2017 19:19:24</publishTime>
     </File>
     <File Include="Views/Curso/Modulos.cshtml">
-      <publishTime>02/12/2017 23:42:08</publishTime>
+      <publishTime>03/06/2017 01:56:53</publishTime>
     </File>
     <File Include="Views/Curso/Secciones.cshtml">
       <publishTime>02/06/2017 22:20:00</publishTime>
@@ -7591,7 +7591,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>02/24/2017 12:39:32</publishTime>
     </File>
     <File Include="Views/Mconfigsite/DetalleCurso.cshtml">
-      <publishTime>12/11/2016 22:07:10</publishTime>
+      <publishTime>03/04/2017 22:34:01</publishTime>
     </File>
     <File Include="Views/Mconfigsite/Mcursos.cshtml">
       <publishTime>12/11/2016 19:59:55</publishTime>
@@ -7603,22 +7603,25 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/09/2016 21:07:09</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>02/20/2017 02:35:04</publishTime>
+      <publishTime>03/04/2017 22:39:29</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutAdmin.cshtml">
-      <publishTime>01/21/2017 21:09:22</publishTime>
+      <publishTime>03/04/2017 22:04:23</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutAjedrez.cshtml">
-      <publishTime>02/25/2017 23:35:11</publishTime>
+      <publishTime>03/06/2017 01:42:31</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutContabilidad.cshtml">
-      <publishTime>02/25/2017 23:35:17</publishTime>
+      <publishTime>03/04/2017 22:39:42</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutIngles.cshtml">
-      <publishTime>02/25/2017 23:35:26</publishTime>
+      <publishTime>03/04/2017 22:39:46</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutNoticia.cshtml">
+      <publishTime>03/06/2017 01:41:29</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutProgramacionWeb.cshtml">
-      <publishTime>02/25/2017 23:35:32</publishTime>
+      <publishTime>03/04/2017 22:39:54</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>12/11/2016 21:59:24</publishTime>
@@ -7630,7 +7633,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/12/2016 20:45:26</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>02/04/2017 12:10:19</publishTime>
+      <publishTime>03/05/2017 00:26:31</publishTime>
     </File>
   </ItemGroup>
 </Project>

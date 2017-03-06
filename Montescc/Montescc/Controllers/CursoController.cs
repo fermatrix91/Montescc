@@ -34,6 +34,40 @@ namespace Montescc.Controllers
             return View("Modulos", listaDeModulos);
         }
 
+        public ActionResult Noticia()
+        {
+            List<Modulo> listaDeModulos = new List<Modulo>();
+            listaDeModulos = modeloMontes.Modulo.Where(x => x.IdCurso == (int)Cursos.Noticia).ToList();
+            listaDeModulos = listaDeModulos.OrderByDescending(z => z.Posicion).Take(15).ToList();
+            ViewBag.IdDeCurso = (int)Cursos.Noticia;
+
+            return View("Modulos", listaDeModulos);
+        }
+
+        public JsonResult SiguientesNoticias()
+        {
+            List<SiguienteNoticias> listaSiguientesNoticias = new List<SiguienteNoticias>();
+            
+            listaSiguientesNoticias = (from noticia in modeloMontes.Modulo
+                                      where noticia.IdCurso == (int)Cursos.Noticia
+                                      select new SiguienteNoticias{
+                                          UrlImagen = noticia.UrlImagen,
+                                          NombreSitio = noticia.NombreSitio,
+                                          Nombre = noticia.Nombre
+                                      }).ToList();
+
+            listaSiguientesNoticias = listaSiguientesNoticias.Skip(15).ToList();
+
+            return Json(new { SiguientesNoticias = listaSiguientesNoticias }, JsonRequestBehavior.AllowGet);
+        }
+
+        public class SiguienteNoticias
+        {
+            public string UrlImagen { get; set; }
+            public string NombreSitio { get; set; }
+            public string Nombre { get; set; }
+        }
+
         public ActionResult AspNetMvc()
         {
             List<Modulo> listaDeModulos = new List<Modulo>();
@@ -116,6 +150,7 @@ namespace Montescc.Controllers
         Ajedrez = 1,
         AspNetMvc = 2,
         Contabilidad = 3,
-        Inglés = 4
+        Inglés = 4,
+        Noticia = 5
     }
 }

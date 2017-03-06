@@ -12,6 +12,7 @@
     <EntitySetMapping Name="Modulo">
       <EntityTypeMapping TypeName="MontesccModel.Modulo">
         <MappingFragment StoreEntitySet="Modulo">
+          <ScalarProperty Name="NombreSitio" ColumnName="NombreSitio" />
           <ScalarProperty Name="Posicion" ColumnName="Posicion" />
           <ScalarProperty Name="UrlImagen" ColumnName="UrlImagen" />
           <ScalarProperty Name="Nombre" ColumnName="Nombre" />

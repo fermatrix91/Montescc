@@ -11,6 +11,11 @@ if ($("#cursoActual").text() == 3) {
     $('#cuadroContabilidad').css('padding', '1px');
 }
 
+if ($("#cursoActual").text() == 5) {
+    $('#cuadroNoticias').css('background', '#d45151');
+    $('#cuadroNoticias').css('padding', '1px');
+}
+
 $('#abreFormulario').click(function () {
     $('#correoContacto').val(""); $('#contenidoContacto').val("");
 });

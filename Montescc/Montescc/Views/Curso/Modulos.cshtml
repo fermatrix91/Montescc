@@ -30,6 +30,14 @@
     {
         Layout = "~/Views/Shared/_LayoutIngles.cshtml";
     }
+    if (ViewBag.IdDeCurso == 5)
+    {
+        Layout = "~/Views/Shared/_LayoutNoticia.cshtml";
+
+        ViewBag.TituloContenido = "Noticias internacionales";
+        ViewBag.DescripcionContenido = "Noticias internacionales - Acontecimientos mundiales destacados";
+        //ViewBag.UrlImagenPrincipal = Model.Select(y => y.UrlImagen).FirstOrDefault();
+    }
 }
 
 <div>
@@ -51,12 +59,12 @@
             @if (Model.Select(y => y.IdCurso).FirstOrDefault() == 2)
             {
                 <h1 style="text-align: center;">Desarrollo de Aplicaciones ASP.NET-MVC</h1>
-                
+
                 <p style="text-align: left;">
-                    Aprende a crear aplicaciones Web utilizando el marco de trabajo Asp.net MVC. 
+                    Aprende a crear aplicaciones Web utilizando el marco de trabajo Asp.net MVC.
                 </p>
                 <p style="text-align: left;">
-                    Conozca tecnologías que se ejecutan del lado del cliente (FrontEnd), las cuales son necesarias para crear sitios (y aplicaciones) web: HTML, CSS, JQUERY, entre otras.                     
+                    Conozca tecnologías que se ejecutan del lado del cliente (FrontEnd), las cuales son necesarias para crear sitios (y aplicaciones) web: HTML, CSS, JQUERY, entre otras.
                     <br />Para administrar el BackEnd (código del lado del servidor) de nuestras aplicaciones Web utilizaremos el lenguaje de programación C#. Código que nos ayuda a realizar las operaciones invisibles al usuario como comunicarnos a la base de datos, las cuales irán acompañadas de la tecnología Entity Framework.
                     <br /><br />El único programa que necesita es <a href="https://www.visualstudio.com/downloads/">Visual Studio Community</a> (en su versión 2015 ó 2017), el cual es proporcionado por Microsoft de manera gratuita.
                 </p>
@@ -76,23 +84,82 @@
                     Principales reportes contables; Balance General, Estado de Resultados, Conciliación Bancaria. Normas internacionales de contabilidad. Miles de ejercicios contables básicos. Lecciones de contabilidad gratis.
                 </p>
             }
-        </div>
-        <article>
-            <div style="margin-bottom: 3% !important;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            @if (ViewBag.IdDeCurso == 5)
+            {
+                <h1 style="text-align: center;">NOTICIAS INTERNACIONALES</h1>
+                <h2 style="text-align: center;"><b>Acontecimientos mundiales destacados</b></h2>
+            }
 
-                @foreach (Montescc.Models.DAL.Modulo modulo in Model.OrderBy(x=>x.Posicion))
-                {
-                    if (modulo.Posicion != 0)
+        </div>
+        <article style="height: auto !important;">
+            @if (ViewBag.IdDeCurso != 5)
+            {
+                <div style="margin-bottom: 3% !important;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    @foreach (Montescc.Models.DAL.Modulo modulo in Model.OrderBy(x => x.Posicion))
                     {
-                        <a style="text-decoration:none; color: black;" href="/Curso/SeccionesCurso?idModulo=@modulo.IdModulo&posicion=actual&idCurso=@ViewBag.IdDeCurso">
-                            <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4" style="height: 130px !important;">
-                                <img src="@modulo.UrlImagen" style="min-height: 80px; height: auto; width: 40%; margin-top: 3%; max-width: 90px;" />
-                                <p>@modulo.Nombre</p>
-                            </div>
-                        </a>
+                        if (modulo.Posicion != 0)
+                        {
+                            <a style="text-decoration:none; color: black;" href="/Curso/SeccionesCurso?idModulo=@modulo.IdModulo&posicion=actual&idCurso=@ViewBag.IdDeCurso">
+                                <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4" style="height: 130px !important;">
+                                    <img src="@modulo.UrlImagen" style="min-height: 80px; height: auto; width: 40%; margin-top: 3%; max-width: 90px;" />
+                                    <p>@modulo.Nombre</p>
+                                </div>
+                            </a>
+                        }
                     }
+                </div>
+            }
+            else
+            {
+                <div style="margin-bottom: 3% !important; height: auto !important;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    @foreach (Montescc.Models.DAL.Modulo modulo in Model.OrderByDescending(x => x.Posicion))
+                    {
+                        if (modulo.Posicion != 0)
+                        {
+                            <a style="text-decoration:none; color: black;" href="@modulo.NombreSitio">
+                                <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4" style="height: auto !important;">
+                                    <img src="@modulo.UrlImagen" style="min-height: 80px; height: auto; width: 100%; margin-top: 3%;" />
+                                    <p>@modulo.Nombre</p>
+                                </div>
+                            </a>
+                        }
+                    }
+                </div>
+
+
+                <div id="contieneSiguientesNoticias" style="margin-bottom: 3% !important; height: auto !important;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                </div>
+
+                if (Model.Count == 15)
+                {
+                    <button style="margin-bottom: 3%;" id="muestraSiguientesNoticias" style="text-align: center;" class="btn btn-info">Mostrar Anteriores</button>
                 }
-            </div>
+            }
         </article>
     </section>
 </div>
+
+<script>
+    $('#muestraSiguientesNoticias').click(function () {
+        $.ajax({
+            url: "/Curso/SiguientesNoticias", success: function (result) {
+                var noticias = result.SiguientesNoticias;
+                var noticiasResultantes = [];
+
+                for (var i = 0; i < noticias.length; i++) {
+                    noticiasResultantes.push('<a style="text-decoration:none; color: black;" href="' + noticias[i].NombreSitio + '"><div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4" style="height: auto !important;"><img src="' + noticias[i].UrlImagen + '" style="min-height: 80px; height: auto; width: 100%; margin-top: 3%;" /><p>' + noticias[i].Nombre + '</p></div></a>');
+                }
+                //$each(noticias, function (index, value) {
+                //    noticiasResultantes.push('<a style="text-decoration:none; color: black;" href="' + value.NombreSitio + '"><div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4" style="height: auto !important;"><img src="' + value.UrlImagen + '" style="min-height: 80px; height: auto; width: 100%; margin-top: 3%;" /><p>' + value.Nombre + '</p></div></a>');
+                //});
+
+                $("#contieneSiguientesNoticias").html(noticiasResultantes);
+            }
+        });
+
+
+    });
+</script>

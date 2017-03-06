@@ -16,6 +16,7 @@
     <Property Name="Posicion" Type="int" />
     <Property Name="Nombre" Type="nvarchar(max)" />
     <Property Name="UrlImagen" Type="nvarchar(max)" />
+    <Property Name="NombreSitio" Type="nvarchar" MaxLength="1000" />
   </EntityType>
   <EntityType Name="Seccion">
     <Key>

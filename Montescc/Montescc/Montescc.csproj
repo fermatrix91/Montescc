@@ -2682,6 +2682,7 @@
     <Content Include="Views\Shared\_LayoutAjedrez.cshtml" />
     <Content Include="Views\Shared\_LayoutContabilidad.cshtml" />
     <Content Include="Views\Shared\_LayoutProgramacionWeb.cshtml" />
+    <Content Include="Views\Shared\_LayoutNoticia.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

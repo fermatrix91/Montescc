@@ -32,6 +32,7 @@
     <NavigationProperty Name="Curso" Relationship="MontesccModel.FK_Modulo_Curso" FromRole="Modulo" ToRole="Curso" />
     <NavigationProperty Name="Seccion" Relationship="MontesccModel.FK_Seccion_Modulo" FromRole="Modulo" ToRole="Seccion" />
     <Property Name="Posicion" Type="Int32" />
+    <Property Name="NombreSitio" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="Seccion">
     <Key>

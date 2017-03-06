@@ -70,14 +70,14 @@ namespace Montescc.Controllers
                 Modulo moduloActual = new Modulo();
                 moduloActual = montesModelo.Modulo.Find(idModuloActual);
 
-                return Json(new { IdModulo = moduloActual.IdModulo, Posicion = moduloActual.Posicion, Nombre = moduloActual.Nombre, Imagen = moduloActual.UrlImagen, }, JsonRequestBehavior.AllowGet);
+                return Json(new { IdModulo = moduloActual.IdModulo, Posicion = moduloActual.Posicion, Nombre = moduloActual.Nombre, Imagen = moduloActual.UrlImagen, NombreSitio = moduloActual.NombreSitio }, JsonRequestBehavior.AllowGet);
             }
             WebSecurity.Logout();
             return RedirectToAction("Index", "Home");
         }
 
         [HttpPost]
-        public ActionResult GuardarModulo(int idDeModuloActual, int posicion, int idDeCursoActual, string nombreImagen, string nombreModulo)
+        public ActionResult GuardarModulo(int idDeModuloActual, int posicion, int idDeCursoActual, string nombreImagen, string nombreSitio, string nombreModulo)
         {
             if (!string.IsNullOrWhiteSpace(User.Identity.Name))
             {
@@ -89,6 +89,7 @@ namespace Montescc.Controllers
                 {
                     //moduloTemp.IdModulo = idDeModuloActual;
                     moduloTemp.UrlImagen = nombreImagen;
+                    moduloTemp.NombreSitio = nombreSitio;
                     moduloTemp.Nombre = nombreModulo;
                     moduloTemp.IdCurso = idDeCursoActual;
                     moduloTemp.Posicion = posicion;
@@ -103,6 +104,7 @@ namespace Montescc.Controllers
                     moduloTemp.Posicion = posicion;
                     moduloTemp.UrlImagen = nombreImagen;
                     moduloTemp.Nombre = nombreModulo;
+                    moduloTemp.NombreSitio = nombreSitio;
 
                     montesModelo.Modulo.Attach(moduloTemp);
                     montesModelo.Entry(moduloTemp).State = System.Data.EntityState.Modified;

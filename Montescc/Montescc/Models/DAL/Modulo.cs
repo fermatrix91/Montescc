@@ -24,6 +24,7 @@ namespace Montescc.Models.DAL
         public string Nombre { get; set; }
         public string UrlImagen { get; set; }
         public Nullable<int> Posicion { get; set; }
+        public string NombreSitio { get; set; }
     
         public virtual Curso Curso { get; set; }
         public virtual ICollection<Seccion> Seccion { get; set; }

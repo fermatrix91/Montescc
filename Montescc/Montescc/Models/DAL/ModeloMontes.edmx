@@ -21,6 +21,7 @@
           <Property Name="Posicion" Type="int" />
           <Property Name="Nombre" Type="nvarchar(max)" />
           <Property Name="UrlImagen" Type="nvarchar(max)" />
+          <Property Name="NombreSitio" Type="nvarchar" MaxLength="1000" />
         </EntityType>
         <EntityType Name="Seccion">
           <Key>
@@ -109,6 +110,7 @@
           <NavigationProperty Name="Curso" Relationship="MontesccModel.FK_Modulo_Curso" FromRole="Modulo" ToRole="Curso" />
           <NavigationProperty Name="Seccion" Relationship="MontesccModel.FK_Seccion_Modulo" FromRole="Modulo" ToRole="Seccion" />
           <Property Name="Posicion" Type="Int32" />
+          <Property Name="NombreSitio" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="Seccion">
           <Key>
@@ -166,6 +168,7 @@
           <EntitySetMapping Name="Modulo">
             <EntityTypeMapping TypeName="MontesccModel.Modulo">
               <MappingFragment StoreEntitySet="Modulo">
+                <ScalarProperty Name="NombreSitio" ColumnName="NombreSitio" />
                 <ScalarProperty Name="Posicion" ColumnName="Posicion" />
                 <ScalarProperty Name="UrlImagen" ColumnName="UrlImagen" />
                 <ScalarProperty Name="Nombre" ColumnName="Nombre" />
