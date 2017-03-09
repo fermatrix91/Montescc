@@ -32,6 +32,10 @@
     case 6:
     <script src="~/Scripts/LeccionesIngles_6.js"></script>
         break;
+        
+    case 7:
+    <script src="~/Scripts/LeccionesIngles_7.js"></script>
+        break;
 
     default:
     <script src="~/Scripts/LeccionesIngles_1.js"></script>
@@ -64,11 +68,11 @@
         </p>
     </div>
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    @*<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div style="display: block; margin: 0 auto; width: 100%;">
             <img src="http://montes.cc/imagenes/ingles00.jpg" style="display:block;margin:0 auto;width: 80%; height: auto;" />
         </div>
-    </div>
+    </div>*@
 
     <div style="margin-top: 1%;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
@@ -145,8 +149,13 @@
                     </section>
                 </div>
                 <div id="paginaSiete" class="tab-pane fade">
-                    <h2>...próximamente</h2>
-                    <h2>...coming soon</h2>
+                    <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div id="divTablaSietee" ng-repeat="tabla in registroUnoInglesG | filter: filtroBuscador">
+
+                            <p ng-bind-html="tabla.sape"></p>
+
+                        </div>
+                    </section>
                 </div>
             </div>
 

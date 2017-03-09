@@ -114,49 +114,115 @@
             {
                 <div style="margin-bottom: 3% !important; height: auto !important;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-                    @foreach (Montescc.Models.DAL.Modulo modulo in Model.OrderByDescending(x => x.Posicion))
+
+                    @foreach (Montescc.Controllers.CursoController.FilasConFormatoDeNoticia fila in (List<Montescc.Controllers.CursoController.FilasConFormatoDeNoticia>)ViewBag.FilasDeNoticias)
                     {
-                        if (modulo.Posicion != 0)
-                        {
-                            <a style="text-decoration:none; color: black;" href="@modulo.NombreSitio">
-                                <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4" style="height: auto !important;">
-                                    <img src="@modulo.UrlImagen" style="min-height: 80px; height: auto; width: 100%; margin-top: 3%;" />
-                                    <p>@modulo.Nombre</p>
+                        <div class="row">
+                            @foreach (Montescc.Controllers.CursoController.FormatoNoticia item in fila.ListaNews)
+                            {
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <a target="_blank" style="text-decoration:none; color: black;" href="@item.NombreSitio">
+                                        <div class="cuadrosPrincipalesHome col-xs-12 col-sm-12 col-md-12 col-lg-12" style="height: auto !important;">
+                                            <img src="@item.UrlImagen" style="min-height: 80px; height: auto; width: 100%; margin-top: 3%;" />
+                                            <p>@item.Nombre</p>
+                                        </div>
+                                    </a>
                                 </div>
-                            </a>
-                        }
+                            }
+                        </div>
                     }
+
+
+                    @*<table style="width:100%;">
+                            @foreach (Montescc.Controllers.CursoController.FilasConFormatoDeNoticia fila in (List<Montescc.Controllers.CursoController.FilasConFormatoDeNoticia>)ViewBag.FilasDeNoticias)
+                            {
+                                <tr class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    @foreach (Montescc.Controllers.CursoController.FormatoNoticia item in fila.ListaNews)
+                                    {
+                                        <td class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                            <a target="_blank" style="text-decoration:none; color: black;" href="@item.NombreSitio">
+                                                <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-12 col-lg-12" style="height: auto !important;">
+                                                    <img src="@item.UrlImagen" style="min-height: 80px; height: auto; width: 100%; margin-top: 3%;" />
+                                                    <p>@item.Nombre</p>
+                                                </div>
+                                            </a>
+                                        </td>
+                                    }
+                                </tr>
+                            }
+                        </table>*@
+
+                    @*@foreach (Montescc.Models.DAL.Modulo modulo in Model.OrderByDescending(x => x.Posicion))
+                        {
+                            if (modulo.Posicion != 0)
+                            {
+                                <a target="_blank" style="text-decoration:none; color: black;" href="@modulo.NombreSitio">
+                                    <div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4" style="height: auto !important;">
+                                        <img src="@modulo.UrlImagen" style="min-height: 80px; height: auto; width: 100%; margin-top: 3%;" />
+                                        <p>@modulo.Nombre</p>
+                                    </div>
+                                </a>
+                            }
+                        }*@
                 </div>
 
 
-                <div id="contieneSiguientesNoticias" style="margin-bottom: 3% !important; height: auto !important;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="contieneSiguientesNoticias">
+                    @*style="margin-bottom: 3% !important; height: auto !important;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">*@
 
                 </div>
 
-                if (Model.Count == 15)
-                {
-                    <button style="margin-bottom: 3%;" id="muestraSiguientesNoticias" style="text-align: center;" class="btn btn-info">Mostrar Anteriores</button>
-                }
+                <button style="margin-bottom: 3%;text-align: center;" id="muestraSiguientesNoticias" class="btn btn-info">Mostrar Anteriores</button>
+
             }
         </article>
     </section>
 </div>
 
 <script>
+    var contadorDePaginasNoticias = 1;
+
     $('#muestraSiguientesNoticias').click(function () {
         $.ajax({
-            url: "/Curso/SiguientesNoticias", success: function (result) {
-                var noticias = result.SiguientesNoticias;
-                var noticiasResultantes = [];
+            url: "/Curso/SiguientesNoticias",
+            data: { contadorDePaginasNoticias: contadorDePaginasNoticias },
+            success: function (result) {
 
-                for (var i = 0; i < noticias.length; i++) {
-                    noticiasResultantes.push('<a style="text-decoration:none; color: black;" href="' + noticias[i].NombreSitio + '"><div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4" style="height: auto !important;"><img src="' + noticias[i].UrlImagen + '" style="min-height: 80px; height: auto; width: 100%; margin-top: 3%;" /><p>' + noticias[i].Nombre + '</p></div></a>');
+                if (result.SiguientesNoticias.length > 0) {
+                    var noticias = result.SiguientesNoticias;
+                    var noticiasResultantes = [];
+
+                    //for (var i = 0; i < noticias.length; i++) {
+                    //    noticiasResultantes.push('<a style="text-decoration:none; color: black;" href="' + noticias[i].NombreSitio + '"><div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4" style="height: auto !important;"><img src="' + noticias[i].UrlImagen + '" style="min-height: 80px; height: auto; width: 100%; margin-top: 3%;" /><p>' + noticias[i].Nombre + '</p></div></a>');
+                    //}
+
+                    var noticiaTemporal = '';
+
+                    for (var i = 0; i < noticias.length; i++) {
+                        noticiaTemporal += '<div class="row">'
+
+                        for (j = 0; j < noticias[i].ListaNews.length; j++) {
+                            noticiaTemporal += '<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">';
+                            noticiaTemporal += '<a target="_blank" style="text-decoration:none; color: black;" href="' + noticias[i].ListaNews[j].NombreSitio + '">';
+                            noticiaTemporal += '<div class="cuadrosPrincipalesHome col-xs-12 col-sm-12 col-md-12 col-lg-12" style="height: auto !important;">';
+                            noticiaTemporal += '<img src="' + noticias[i].ListaNews[j].UrlImagen + '" style="min-height: 80px; height: auto; width: 100%; margin-top: 3%;" />';
+                            noticiaTemporal += '<p>' + noticias[i].ListaNews[j].Nombre + '</p></div></a></div>';
+                        }
+                        noticiaTemporal += '</div>';
+
+                        noticiasResultantes.push(noticiaTemporal);
+                        noticiaTemporal = '';
+                    }
+
+
+                    //$each(noticias, function (index, value) {
+                    //    noticiasResultantes.push('<a style="text-decoration:none; color: black;" href="' + value.NombreSitio + '"><div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4" style="height: auto !important;"><img src="' + value.UrlImagen + '" style="min-height: 80px; height: auto; width: 100%; margin-top: 3%;" /><p>' + value.Nombre + '</p></div></a>');
+                    //});
+
+                    $("#contieneSiguientesNoticias").html(noticiasResultantes);
+                    contadorDePaginasNoticias = contadorDePaginasNoticias + 1;
                 }
-                //$each(noticias, function (index, value) {
-                //    noticiasResultantes.push('<a style="text-decoration:none; color: black;" href="' + value.NombreSitio + '"><div class="cuadrosPrincipalesHome col-xs-12 col-sm-6 col-md-4 col-lg-4" style="height: auto !important;"><img src="' + value.UrlImagen + '" style="min-height: 80px; height: auto; width: 100%; margin-top: 3%;" /><p>' + value.Nombre + '</p></div></a>');
-                //});
-
-                $("#contieneSiguientesNoticias").html(noticiasResultantes);
+                else { $('#muestraSiguientesNoticias').hide(); }
             }
         });
 

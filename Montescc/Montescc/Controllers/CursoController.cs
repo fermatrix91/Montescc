@@ -36,29 +36,150 @@ namespace Montescc.Controllers
 
         public ActionResult Noticia()
         {
-            List<Modulo> listaDeModulos = new List<Modulo>();
-            listaDeModulos = modeloMontes.Modulo.Where(x => x.IdCurso == (int)Cursos.Noticia).ToList();
-            listaDeModulos = listaDeModulos.OrderByDescending(z => z.Posicion).Take(15).ToList();
+            List<FormatoNoticia> listaDeModulos = new List<FormatoNoticia>();
+            List<FormatoNoticia> listaTemporal = new List<FormatoNoticia>();
+
+            listaDeModulos = (from noticia in modeloMontes.Modulo
+                              where noticia.IdCurso == (int)Cursos.Noticia
+                              select new FormatoNoticia
+                              {
+                                  UrlImagen = noticia.UrlImagen,
+                                  NombreSitio = noticia.NombreSitio,
+                                  Nombre = noticia.Nombre,
+                                  posicion = noticia.Posicion
+                              }).OrderByDescending(y => y.posicion).Take(15).ToList();
+
+            List<FilasConFormatoDeNoticia> filasConFormato = new List<FilasConFormatoDeNoticia>();
+
+            int numeroFila = 0;
+            for (int i = 0; i < listaDeModulos.Count; i++)
+            {
+                if (i % 3 == 0 && listaDeModulos[i] != null && i != 0)
+                {
+                    numeroFila += 1;
+
+                    filasConFormato.Add(new FilasConFormatoDeNoticia
+                    {
+                        Fila = numeroFila,
+                        ListaNews = listaTemporal
+                    });
+
+                    listaTemporal = new List<FormatoNoticia>();
+                }
+
+                listaTemporal.Add(listaDeModulos[i]);
+
+                if (i == listaDeModulos.Count - 1)
+                {
+                    numeroFila += 1;
+
+                    filasConFormato.Add(new FilasConFormatoDeNoticia
+                    {
+                        Fila = numeroFila,
+                        ListaNews = listaTemporal
+                    });
+                }
+            }
+
+            //                     .Modulo.Where(x => x.IdCurso == (int)Cursos.Noticia).ToList();
+            //listaDeModulos = listaDeModulos.OrderByDescending(z => z.Posicion).Take(15).ToList();
+            //ViewBag.IdDeCurso = (int)Cursos.Noticia;
+            ViewBag.FilasDeNoticias = filasConFormato;
+            List<Modulo> listaDeModulosXD = new List<Modulo>();
             ViewBag.IdDeCurso = (int)Cursos.Noticia;
 
-            return View("Modulos", listaDeModulos);
+            return View("Modulos", listaDeModulosXD);
+
+            //List<Modulo> listaDeModulos = new List<Modulo>();
+            //listaDeModulos = modeloMontes.Modulo.Where(x => x.IdCurso == (int)Cursos.Noticia).ToList();
+            //listaDeModulos = listaDeModulos.OrderByDescending(z => z.Posicion).Take(15).ToList();
+            //ViewBag.IdDeCurso = (int)Cursos.Noticia;
+
+            //return View("Modulos", listaDeModulos);
         }
 
-        public JsonResult SiguientesNoticias()
+        public JsonResult SiguientesNoticias(int contadorDePaginasNoticias)
         {
-            List<SiguienteNoticias> listaSiguientesNoticias = new List<SiguienteNoticias>();
-            
-            listaSiguientesNoticias = (from noticia in modeloMontes.Modulo
-                                      where noticia.IdCurso == (int)Cursos.Noticia
-                                      select new SiguienteNoticias{
-                                          UrlImagen = noticia.UrlImagen,
-                                          NombreSitio = noticia.NombreSitio,
-                                          Nombre = noticia.Nombre
-                                      }).ToList();
+            List<FormatoNoticia> listaDeModulos = new List<FormatoNoticia>();
+            List<FormatoNoticia> listaTemporal = new List<FormatoNoticia>();
 
-            listaSiguientesNoticias = listaSiguientesNoticias.Skip(15).ToList();
+            listaDeModulos = (from noticia in modeloMontes.Modulo
+                              where noticia.IdCurso == (int)Cursos.Noticia
+                              select new FormatoNoticia
+                              {
+                                  UrlImagen = noticia.UrlImagen,
+                                  NombreSitio = noticia.NombreSitio,
+                                  Nombre = noticia.Nombre,
+                                  posicion = noticia.Posicion
+                              }).OrderByDescending(y => y.posicion).ToList();
 
-            return Json(new { SiguientesNoticias = listaSiguientesNoticias }, JsonRequestBehavior.AllowGet);
+            listaDeModulos = listaDeModulos.Skip(15 * contadorDePaginasNoticias).ToList();
+            listaDeModulos = listaDeModulos.Take(15).ToList();
+
+            List<FilasConFormatoDeNoticia> filasConFormato = new List<FilasConFormatoDeNoticia>();
+
+            int numeroFila = 0;
+            for (int i = 0; i < listaDeModulos.Count; i++)
+            {
+                if (i % 3 == 0 && listaDeModulos[i] != null)
+                {
+                    numeroFila += 1;
+
+                    filasConFormato.Add(new FilasConFormatoDeNoticia
+                    {
+                        Fila = numeroFila,
+                        ListaNews = listaTemporal
+                    });
+
+                    listaTemporal = new List<FormatoNoticia>();
+                }
+
+                listaTemporal.Add(listaDeModulos[i]);
+
+                if (i == listaDeModulos.Count - 1)
+                {
+                    numeroFila += 1;
+
+                    filasConFormato.Add(new FilasConFormatoDeNoticia
+                    {
+                        Fila = numeroFila,
+                        ListaNews = listaTemporal
+                    });
+                }
+            }
+
+            return Json(new { SiguientesNoticias = filasConFormato }, JsonRequestBehavior.AllowGet);
+
+            //List<SiguienteNoticias> listaSiguientesNoticias = new List<SiguienteNoticias>();
+
+            //listaSiguientesNoticias = (from noticia in modeloMontes.Modulo
+            //                           where noticia.IdCurso == (int)Cursos.Noticia
+            //                           select new SiguienteNoticias
+            //                           {
+            //                               UrlImagen = noticia.UrlImagen,
+            //                               NombreSitio = noticia.NombreSitio,
+            //                               Nombre = noticia.Nombre,
+            //                               posicion = noticia.Posicion
+            //                           }).OrderByDescending(y => y.posicion).ToList();
+
+            //listaSiguientesNoticias = listaSiguientesNoticias.Skip(15 * contadorDePaginasNoticias).ToList();
+            //listaSiguientesNoticias = listaSiguientesNoticias.Take(15).ToList();
+
+            //return Json(new { SiguientesNoticias = listaSiguientesNoticias }, JsonRequestBehavior.AllowGet);
+        }
+
+        public class FilasConFormatoDeNoticia
+        {
+            public int Fila { get; set; }
+            public List<FormatoNoticia> ListaNews { get; set; }
+        }
+
+        public class FormatoNoticia
+        {
+            public string UrlImagen { get; set; }
+            public string NombreSitio { get; set; }
+            public string Nombre { get; set; }
+            public int? posicion { get; set; }
         }
 
         public class SiguienteNoticias
@@ -66,6 +187,7 @@ namespace Montescc.Controllers
             public string UrlImagen { get; set; }
             public string NombreSitio { get; set; }
             public string Nombre { get; set; }
+            public int? posicion { get; set; }
         }
 
         public ActionResult AspNetMvc()
